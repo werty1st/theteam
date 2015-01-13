@@ -1,6 +1,6 @@
 <?php
 
-$db_name = "diebruecke";
+$db_name = "theteam";
 $db_host = "http://localhost:5984";
 
 # Additional site configuration settings. Allows to override global settings.
@@ -16,7 +16,7 @@ switch ($options["f"]) {
 		td(false);
 		break;
 	case 'tdm':
-		echo "execute funtion transform_data()\n";
+		echo "execute funtion transform_data() with media\n";
 		td(true);
 		break;
 	case 'gc':
@@ -24,7 +24,7 @@ switch ($options["f"]) {
 		gc(false);
 		break;	
 	case 'gcm':
-		echo "execute funtion garbage_collector()\n";
+		echo "execute funtion garbage_collector() with media\n";
 		gc(true);
 		break;	
 	default:
@@ -35,13 +35,14 @@ switch ($options["f"]) {
 exit;
 
 function gc($m){
-	//curl -X GET http://localhost:5984/diebruecke/_design/b2/_view/allslugs	
+	global $db_host;
+	//curl -X GET http://localhost:5984/theteam/_design/b2/_view/allslugs	
 
 	// create curl resource 
 	$ch = curl_init(); 
 
 	// set url 
-	curl_setopt($ch, CURLOPT_URL, "localhost:5984/diebruecke/_all_docs?include_docs=true"); 
+	curl_setopt($ch, CURLOPT_URL, $db_host."/theteam/_all_docs?include_docs=true"); 
 
 	//return the transfer as a string 
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
@@ -59,7 +60,7 @@ function gc($m){
 	$postdata = json_encode($docsout);
 
 	// set url 
-	curl_setopt($ch, CURLOPT_URL, "localhost:5984/diebruecke/_bulk_docs"); 
+	curl_setopt($ch, CURLOPT_URL, $db_host."/theteam/_bulk_docs"); 
 	curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");                                                                     
 	curl_setopt($ch, CURLOPT_POSTFIELDS, $postdata);                                                                  
 	curl_setopt($ch, CURLOPT_HTTPHEADER, array(                                                                          
@@ -154,6 +155,7 @@ function delete_garbage($jsdata,$m){
 
 
 function td($m) {
+	global $db_host;
 
 	$personJson = array();
 	$personJson2 = array();
@@ -265,7 +267,7 @@ function td($m) {
 	  "data_split.json data_split_ids.json";
 
 	system($cmd);
-	system("kanso upload data_split_ids.json ");
+	system("kanso upload data_split_ids.json ".$db_host."/theteam");
 
 	
 
@@ -395,8 +397,8 @@ function uploadMediaDoc($person){
 		_id: "55dad1faeacb63600c10ad663ae6d966"
 		ownerslug: "alexander"
 		freischaltepisode: 0
-		image: "/diebruecke/55dad1faeacb63600c10ad663ae6d966/image.png"
-		thumbnail: "/diebruecke/55dad1faeacb63600c10ad663ae6d966/thumbnail.png"
+		image: "/theteam/55dad1faeacb63600c10ad663ae6d966/image.png"
+		thumbnail: "/theteam/55dad1faeacb63600c10ad663ae6d966/thumbnail.png"
 		type: "image",
 
 	    "_attachments": {
