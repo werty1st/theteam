@@ -1,0 +1,24 @@
+body{
+	background-color: #696d7a !important;
+	color: #fff !important;
+	font-size: 16px !important;
+	font-weight: bold;
+}
+
+.vframe{
+	display:none !important;
+}
+
+#broen-gallery-container{
+	display: none !important;
+}
+
+#unsupported{
+	display: block !important;
+	background-color: #696d7a !important;
+	color: #fff !important;
+	font-size: 16px !important;
+	font-weight: bold;	
+	height: 100%;
+	width: 100%;
+}

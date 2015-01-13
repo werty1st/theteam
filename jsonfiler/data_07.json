@@ -1,0 +1,2218 @@
+{
+    
+  "saga": {
+
+    "name": "Saga Norén",
+    "slug": "saga",
+    "text" : " Kriminalkommisær.",
+    "longText": "Saga arbejder hos kriminalpolitiet i Malmø og til hendes store glæde er Hans tilbage som hendes chef. Martin har hun ikke haft kontakt med siden August’s ( Martins søn) begravelse. Privat har Saga et forhold til Jacob Sandberg, en fyr hun mødte på en bar for lidt over 7 måneder siden. Han elsker hende som hun er, og de er lige flyttet samme. Saga forsøger at forstå, hvordan man skal opføre sig, når man lever i et parforhold, og hun læser en masse bøger om det. Men Saga er fokuseret på sit arbejde, og bryder alle de uskrevne regler der er i et parforhold. Ringer ikke når hun kommer senere hjem, og har allerede spist ude, selvom Jacob venter med maden.",
+    "image": "saga.jpg",
+	
+	"voteId":5,
+
+    "relations": [
+      {
+        "slug": "martin",
+        "name": "Martin",
+        "text": "Sagas politimakker i Danmark."
+      },
+      {
+        "slug": "pernille",
+        "name": "Pernille",
+        "text": "Saga’s danske kollega på sagen."
+      },
+      {
+        "slug": "rasmus",
+        "name": "Rasmus",
+        "text": "Svensk kollega til Saga."
+      },
+      
+      {
+        "slug": "hans",
+        "name": "Hans",
+        "text": "Hans er Sagas chef i Malmø"
+      },
+      
+      {
+        "slug": "lillian",
+        "name": "Lillian",
+        "text": "Lillian er chefen i København, som også kender Saga"
+      },
+	  {
+        "slug": "jakob",
+        "name": "Jakob",
+        "text": "Jakob er Sagas kæreste."
+      }
+    ],
+
+    "media": [
+      {
+        "type": "video",
+        "resourceId": 1576003,
+        "image": "/tjenester/Broen2/Foto_video/AFS1/1_Saga.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1581450,
+        "image": "/tjenester/Broen2/Foto_video/AFS1/1_saga_kommer_hjem.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1581454,
+        "image": "/tjenester/Broen2/Foto_video/AFS1/1_Lilian_saga.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1590039,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_saga_film.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1590313,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_Saga_jakob.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1599755,
+        "image": "/tjenester/Broen2/Foto_video/AFS3/3_saga_martin_bil.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1603738,
+        "image": "/tjenester/Broen2/Foto_video/AFS4/4_saga_lig.jpg"
+      },
+	   {
+        "type": "video",
+        "resourceId": 1615956,
+        "image": "/tjenester/Broen2/Foto_video/AFS6/6_saga_overfald.jpg"
+      },
+	   {
+        "type": "video",
+        "resourceId": 1616259,
+        "image": "/tjenester/Broen2/Foto_video/AFS6/6_saga_martin_lig.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/saga/saga_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/saga/saga_afs1_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/saga/saga_afs2_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/saga/saga_afs2_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/saga/saga_afs3_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/saga/saga_afs3_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/saga/saga_afs4_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/saga/saga_afs4_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/saga/saga_afs5_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/saga/saga_afs5_2.jpg"
+      },
+	   {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/saga/saga_afs6_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/saga/saga_afs6_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/saga/saga_afs7_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/saga/saga_afs7_2.jpg"
+      }
+    ]
+  },
+
+
+  "martin": {
+
+    "name": "Martin Rhode",
+    "slug": "martin",
+    "text" : "Kriminalkommisær.",
+    "longText": "Martin arbejder hos Københavns politi – og han er stærkt traumatiseret efter August’s død. Han er ikke deprimeret og apatisk – mere rastløs og frustreret. Han humør svinger meget og nogle gange vælter vreden frem. Han arbejder næste 24 timer i døgnet og forsøger at flygte fra sorgen. Da Saga kontakter ham, for at få hjælp til at opklare en ny sag der vedrører både Danmark og Sverige, bliver han glad. Martin og Mette er flyttet fra hinanden, og Martin bor midlertidigt på et motel. Mette bor i et nyt hus uden for København med alle 5 børn, og hun har ansat en barnepige, Anna-Dea, som hjælper hende.",
+    "image": "martin.jpg",
+	
+	"voteId":6,
+
+    "relations": [
+      {
+        "slug": "saga",
+        "name": "Saga",
+        "text": "Martins politimakker i Sverige."
+      },
+      {
+        "slug": "lillian",
+        "name": "Lillian",
+        "text": "Martins chef i København."
+      },
+      {
+        "slug": "pernille",
+        "name": "Pernille",
+        "text": "Martins danske kollega."
+      },
+      {
+        "slug": "rasmus",
+        "name": "Rasmus",
+        "text": "Svensk kollega til Martin."
+      },
+	  {
+        "slug": "mette",
+        "name": "Mette",
+        "text": "Mette er Martins kone."
+      },
+      {
+        "slug": "hans",
+        "name": "Hans",
+        "text": "Chefen i Malmø hvor Martin arbejder med på sagen."
+      },
+	  {
+        "slug": "jens",
+        "name": "Jens",
+        "text": "Jens har slået Martins søn ihjel."
+      },
+	  {
+        "slug": "annadea",
+        "name": "Anna-Dea",
+        "text": "Anna-Dea er barnepige for Martins børn."
+      }
+    ],
+
+    "media": [ {
+        "type": "video",
+        "resourceId": 1581452,
+        "image": "/tjenester/Broen2/Foto_video/AFS1/1_martin_1møde_med_saga.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1581444,
+        "image": "/tjenester/Broen2/Foto_video/AFS1/1_martin_og_saga_i_bil.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1590053,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_martin_parkering.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1605272,
+        "image": "/tjenester/Broen2/Foto_video/AFS4/4_jens_martin.jpg"
+      },
+	   {
+        "type": "video",
+        "resourceId": 1616270,
+        "image": "/tjenester/Broen2/Foto_video/AFS6/6_saga_martin_broen.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/martin/martin_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/martin/martin_afs1_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/martin/martin_afs2_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/martin/martin_afs2_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/martin/martin_afs3_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/martin/martin_afs3_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/martin/martin_afs4_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/martin/martin_afs4_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/martin/martin_afs5_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/martin/martin_afs6_1.jpg"
+      }
+	 ,
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/martin/martin_afs6_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/martin/martin_afs7_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/martin/martin_afs7_2.jpg"
+      }
+	  
+    
+   ]
+  },
+  
+  "rasmus": {
+    
+    "name": "Rasmus Larsson",
+    "slug": "rasmus",
+    "text" : "Efterforsker.",
+    "longText": "Rasmus er lige blevet færdig på politiskolen med topkarakterer – og det er ingen hemmelighed, at han ser den igangværende sag som et springbræt i sin karriere. Han er ambitiøs og grundig. For Rasmus er det vigtigt at få anerkendelse for det han gør – at blive set og bekræftet. Han er vant til det, og har svært ved at forstå hvorfor Saga ikke værdsætter hans indsats. Det er en af grundene til at han bliver irriteret på hende. Han tager sig primært af opklaringsarbejdet på den svenske side, men vil gerne ud i marken. Rasmus er cool og vil helst gå klædt i T-shirt og jeans. Han er miljøbevidst og er omhyggelig med at sortere affald og handle økologisk. Han bor sammen med en pige. ",
+    "image": "rasmus.jpg",
+	
+	"voteId":9,
+
+    "relations": [
+      {
+        "slug": "saga",
+        "name": "Saga",
+        "text": "Rasmus overordnede i Sverige."
+      },
+      
+      {
+        "slug": "pernille",
+        "name": "Pernille",
+        "text": "Kollega fra Danmark der også arbejder på sagen."
+      },
+      {
+        "slug": "martin",
+        "name": "Martin",
+        "text": "Kollega fra Danmark på linie med Saga."
+      },
+      {
+        "slug": "hans",
+        "name": "Hans",
+        "text": "Chefen i Malmø, hvor Rasmus arbejder."
+      }
+    ],
+
+    "media": [ 
+      {
+        "type": "video",
+        "resourceId": 1590022,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_rasmus_saga.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1603743,
+        "image": "/tjenester/Broen2/Foto_video/AFS4/4_rasmus_linus.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1599762,
+        "image": "/tjenester/Broen2/Foto_video/AFS3/3_rasmus_saga_martin.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/rasmus/rasmus_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/rasmus/rasmus_afs1_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/rasmus/rasmus_afs3_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/rasmus/rasmus_afs6_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/rasmus/rasmus_afs7_1.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  "pernille": {
+
+    "name": "Pernille Lindegaard",
+    "slug": "pernille",
+    "text" : "Efterforsker.",
+    "longText": "Pernille er en dygtig og effektiv efterforsker ved Københavns politi. Hun kan opfange meget information på kort tid og sortere det fra som er vigtigst. Hun udstråler naturlig selvsikkerhed, er varm og glad, betænksom og omsorgsfuld, og vil gerne have at alle føler sig godt tilpas. Hun stiller altid op for andre, og hun er meget fysisk, står ofte tæt på den hun snakker med, og har fysisk kontakt til personer tæt på hende. Pernille tænker over hvordan hun går klædt, men har sin egen tøjstil, og den er afslappet. Hun er single, har mange venner, og vil gerne finde en at dele livet med. Hun tager sig primært af opklaringen på den danske side. ",
+    "image": "pernille.jpg",
+	
+	"voteId":8,
+
+    "relations": [
+      {
+        "slug": "saga",
+        "name": "Saga",
+        "text": "Pernilles overordnede i Sverige."
+      },
+      {
+        "slug": "rasmus",
+        "name": "Rasmus",
+        "text": "Svensk kollega der også arbejder på sagen."
+      },
+      {
+        "slug": "hans",
+        "name": "Hans",
+        "text": "Chefen i Malmø hvor Pernille lige nu arbejder."
+      },
+    {
+        "slug": "martin",
+        "name": "Martin",
+        "text": "Kollega fra Danmark."
+      }
+    ],
+
+    "media": [ 
+      {
+        "type": "video",
+        "resourceId": 1590027,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_pernille_saga.jpg"
+      },
+	   {
+        "type": "video",
+        "resourceId": 1605270,
+        "image": "/tjenester/Broen2/Foto_video/AFS4/4_pernille_martin.jpg"
+      },
+	  
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/pernille/pernille_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/pernille/pernille_afs1_2.jpg"
+      },
+	   {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/pernille/pernille_afs3_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/pernille/pernille_afs6_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/pernille/pernille_afs7_1.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  "john": {
+
+    "name": "John Lundqvist",
+    "slug": "john",
+    "text" : "Politidataekspert.",
+    "longText": "John er den eneste ( udover Saga og Hans) på stationen i Malmø vi genkender fra sidste sæson af Broen.",
+    "image": "john.jpg",
+	
+	"voteId":7,
+
+    "relations": [
+      {
+        "slug": "saga",
+        "name": "Saga",
+        "text": "Saga er Johns kollega, og de arbejder tæt sammen."
+      },
+    {
+        "slug": "hans",
+        "name": "Hans",
+        "text": "Politidirektøren i Malmø, Johns kollega."
+      },
+    {
+        "slug": "martin",
+        "name": "Martin",
+        "text": "Kriminalkommisær fra København, der er med i efterforskningen i Sverige."
+      }
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/john/john_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/john/john_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  "hans": {
+
+    "name": "Hans Pettersson",
+    "slug": "hans",
+    "text" : "Politidirektør i Malmø.",
+    "longText": "Hans er stadigvæk Sagas chef. Han skulle egentlig være flyttet til Göteborg med sin kone, for at komme tættere på børn og børnebørn. Men deres barn fik i stedet job i Malmø og flyttede ned til dem i Malmø. ",
+    "image": "hans.jpg",
+	
+	"voteId":12,
+
+    "relations": [
+      {
+        "slug": "saga",
+        "name": "Saga",
+        "text": "Saga er ansat under Hans i malmø."
+      },
+      {
+        "slug": "rasmus",
+        "name": "Rasmus",
+        "text": "Svensk betjent der arbejder på sagen."
+      },
+      {
+        "slug": "lillian",
+        "name": "Lillian",
+        "text": "Politidirektøren i København, Hans's kollega."
+      },
+    {
+        "slug": "martin",
+        "name": "Martin",
+        "text": "Kriminalkommisær fra København, der er med i efterforskningen i Sverige."
+      },
+    {
+        "slug": "pernille",
+        "name": "Pernille",
+        "text": "Dansk betjent der arbejder på sagen."
+      }
+    ],
+
+    "media": [ 
+      {
+        "type": "video",
+        "resourceId": 1583699,
+        "image": "/tjenester/Broen2/Foto_video/AFS1/1_Hans_saga.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1590067,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_hans_udredning.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/hans/hans_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/hans/hans_afs1_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/hans/hans_afs2_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/hans/hans_afs3_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/hans/hans_afs3_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/hans/hans_afs4_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/hans/hans_afs4_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  "lillian": {
+
+    "name": "Lillian",
+    "slug": "lillian",
+    "text" : "Politidirektør i København.",
+    "longText": "Lillian er Martins chef i København og, og hun har udpeget Martin til at koordinere sikkerheden på et kommende EU topmøde i købehavn, men Lillian lader Martin tage opgaven sammen med Saga i Sverige. Hun sætter dog den betingelse, at Martin skal fortsætte sin terapi – for at komme videre efter tabet af August.",
+    "image": "lillian.jpg",
+	
+	"voteId":13,
+
+    "relations": [
+      {
+        "slug": "saga",
+        "name": "Saga",
+        "text": "Saga kender Lillian fra den forrige sag."
+      },
+      {
+        "slug": "hans",
+        "name": "Hans",
+        "text": "Politidirektøren i Malmø, Lillians kollega."
+      },
+    {
+        "slug": "martin",
+        "name": "Martin",
+        "text": "Martin arbejder sammen med Lillian i København, hun er hans chef.."
+      }
+    ],
+
+    "media": [ {
+        "type": "video",
+        "resourceId": 1581454,
+        "image": "/tjenester/Broen2/Foto_video/AFS1/1_Lilian_saga.jpg"
+      },
+	  
+	  {
+        "type": "video",
+        "resourceId": 1581442,
+        "image": "/tjenester/Broen2/Foto_video/AFS1/1_Lillian_martinsnakslut.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1606064,
+        "image": "/tjenester/Broen2/Foto_video/AFS4/4_lillian_martin.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1615970,
+        "image": "/tjenester/Broen2/Foto_video/AFS6/6_lillian_hospital.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/lillian/lillian_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/lillian/lillian_afs1_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/lillian/lillian_afs4_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/lillian/lillian_afs4_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  "mette": {
+
+    "name": "Mette",
+    "slug": "mette",
+    "text" : "Gift med Martin",
+    "longText": "Mette er gift med Martin, men de bor ikke sammen mere. De har 5 børn sammen og Mette bor sammen med dem allesammen. Hun har barnepigen Anna-Dea til at hjælpe sig.",
+    "image": "mette.jpg",
+	
+	"voteId":11,
+
+    "relations": [
+      {
+        "slug": "martin",
+        "name": "Martin",
+        "text": "Martin er Mettes mand."
+      },
+	  {
+        "slug": "annadea",
+        "name": "Anna-Dea",
+        "text": "Anna-Sea er barnepige hos Mette."
+      }
+     
+    ],
+
+    "media": [ 
+      {
+        "type": "video",
+        "resourceId": 1581446,
+        "image": "/tjenester/Broen2/Foto_video/AFS1/1_martin_mette.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/mette/mette_afs1_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/mette/mette_afs1_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/mette/mette_afs6_1.jpg"
+      }
+    
+   ]
+  },
+  
+  
+   "niels": {
+
+    "name": "Niels Tollstrup",
+    "slug": "niels",
+    "text" : "Martins terapeut",
+    "longText": "Niels har altid vidst han ville være terapeut, og han er uddannet i København og har haft sin egen praksis i 5 år. Han ser godt ud, kan lide at klæde sig pænt på og udstråler ro. han bor sammen med en og er lige blevet far for 2. gang.",
+    "image": "niels.jpg",
+	
+	"voteId":30,
+
+    "relations": [
+      {
+        "slug": "martin",
+        "name": "Martin",
+        "text": "Martin går i terapi hos Niels."
+      },
+	  {
+        "slug": "lillian",
+        "name": "Lillian",
+        "text": "Lillian har bestemt, at Martin skal gå i terapi hos Niels."
+      }
+     
+    ],
+
+    "media": [ 
+      {
+        "type": "video",
+        "resourceId": 1607478,
+        "image": "/tjenester/Broen2/Foto_video/AFS1/1_niels_martin.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/niels/niels_afs1_1.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  "niklas": {
+
+    "name": "Niklas Nilsson",
+    "slug": "niklas",
+    "text" : "Laboratorieassistent",
+    "longText": "Niklas har arbejdet på Mediconus i 2 år. Han trives med sit job og er tilfreds med det, han laver. Kom i kontakt med Mads for 5 år siden ved en husbesættelse. Han er imponeret af Mads, hans vilje og drivkraft og følte at han blev noget, da han kom med i gruppen. Da hans forældre døde i en bilulykke for lidt over to år siden, fik han forældremyndigheden over sin lillebror, Linus. Han er meget bekymret for sin bror og ønsker i virkeligheden at trække sig ud af gruppen, men er bange for hvordan Mads vil reagere. Han ved også at gruppen har brug for hans ekspertise og kontakter fra Medisonus..",
+    "image": "niklas_ude.jpg",
+	
+	"voteId":15,
+
+    "relations": [
+      {
+        "slug": "linus",
+        "name": "Linus",
+        "text": "Linus er Niklas's lillebror."
+      },
+      {
+        "slug": "mads",
+        "name": "Mads",
+        "text": "Mads er lederen i den gruppe Niklas er med i."
+      },
+    {
+        "slug": "kattis",
+        "name": "Kattis",
+        "text": "Kattis er aktivist i gruppen, og er lidt skeptisk overfor det der sker."
+      },
+     {
+        "slug": "matilde",
+        "name": "Matilde",
+        "text": "Matilde er aktivist i samme gruppe som Niklas."
+      },
+    {
+        "slug": "julian",
+        "name": "Julian",
+        "text": "Julian er den der styrer gruppen udefra."
+      }
+    ],
+
+    "media": [ 
+      {
+        "type": "video",
+        "resourceId": 1585037,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_niklas_frugt.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1585153,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_niklas_skolen.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1585041,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_niklas_gruppen.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/niklas/niklas_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/niklas/niklas_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  
+  "linus": {
+
+    "name": "Linus Nilsson",
+    "slug": "linus",
+    "text" : "Skoleelev.",
+    "longText": "Linus går i skole, men har svært ved at få venner og bliver mobbet og holdt uden for. Han bor alene med sin storebror Niklas, da de har mistet deres forældre i en bilulykke. Han er meget nervøs for at han også skal miste sin storebror.",
+    "image": "linus.jpg",
+	
+	"voteId":14,
+
+    "relations": [
+      {
+        "slug": "niklas",
+        "name": "Niklas",
+        "text": "Niklas er Linus's storebror og den eneste familie han har."
+      }
+      
+    
+    ],
+
+    "media": [ {
+        "type": "video",
+        "resourceId": 1582190,
+        "image": "/tjenester/Broen2/Foto_video/AFS1/1_linus_ild.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1591070,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_linus_hjemme.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1591054,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_linus_afsløring.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1599760,
+        "image": "/tjenester/Broen2/Foto_video/AFS3/3_niklas_linus.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/linus/linus_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/linus/linus_afs1_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/linus/linus_afs3_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/linus/linus_afs3_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  
+  
+  
+  
+  
+  "mads": {
+
+    "name": "Mads Nielsen",
+    "slug": "mads",
+    "text" : "Lederen i gruppen.",
+    "longText": "Lederen i gruppen, selvsikker og med psykopatiske træk. Han har haft forskellige småjobs, har en baggrund som miljøaktivist, men er ikke med i gruppen pga. sin overbevisning, men mere for det adrenalinkick, det giver at udføre attentaterne. I forbindelse med COP 15 blev Mads anholdt og han er opført i politiets register for mindre narkotikakriminalitet og vold mod tjenestemand i forbindelse med demonstrationer. Han er vant til at bestemme, kræver respekt og ingen må sige ham imod. Han har let paranoide træk og er mistænksom. Han har en agenda, og den skal alle følge. Frygtløs og beslutsom og tøver aldrig med at bruge vold, hvis det er nødvendigt. Han har været sammen med Matilde i et års tid.",
+    "image": "mads_ude.jpg",
+	
+	
+
+    "relations": [
+      {
+        "slug": "niklas",
+        "name": "Niklas",
+        "text": "Niklas er med i gruppen, og er bange for Mads."
+      },
+    {
+        "slug": "matilde",
+        "name": "Matilde",
+        "text": "Matilde er med i gruppen og kæreste med Mads."
+      },
+    {
+        "slug": "kattis",
+        "name": "Kattis",
+        "text": "Kattis er også med i gruppen som aktivist."
+      },
+    {
+        "slug": "julian",
+        "name": "Julian",
+        "text": "Julian er den der styrer gruppen udefra."
+      }
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "video",
+        "resourceId": 1590344,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_mads_kattis_matilde_niklas.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1593824,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_mads_bil.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/mads/mads_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/mads/mads_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  
+  "kattis": {
+
+    "name": "Katarina Lövgren",
+    "slug": "kattis",
+    "text" : "Miljøaktivist.",
+    "longText": " Kattis var tidligere dyreaktivist og var blandt andet med til at slippe mink ud og kæmpe for dyrs rettigheder. I den forbindelse mødte hun Matilde, og blev senere kontaktet af Julian. På Matildes opfordring tog de hende med i gruppen. Hun er uddannet civilingenør i Lund, lidt rastløs og usikker, leder efter sin egen identitet. Hun er ikke bange for at sige sin mening, er imod vold og aktioner med dødelig udgang.",
+    "image": "kattis_ude.jpg",
+	
+	
+
+    "relations": [
+      {
+        "slug": "niklas",
+        "name": "Niklas",
+        "text": "Niklas er med i gruppen, og bryder sig heller ikke om vold."
+      },
+    {
+        "slug": "matilde",
+        "name": "Matilde",
+        "text": "Matilde er med i gruppen og kæreste med Mads."
+      },
+    {
+        "slug": "mads",
+        "name": "Mads",
+        "text": "Mads er lederen af gruppen og den der bestemmer."
+      },
+    {
+        "slug": "julian",
+        "name": "Julian",
+        "text": "Julian er den, der styrer gruppen udefra."
+      }
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "video",
+        "resourceId": 1590344,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_mads_kattis_matilde_niklas.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/kattis/kattis_afs1_1.jpg"
+      },
+      
+    {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/kattis/kattis_afs1_3.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  
+  "matilde": {
+
+    "name": "Matilde Madsen",
+    "slug": "matilde",
+    "text" : "Miljøaktivist",
+    "longText": "Matilde er Julians halvsøster. Hun har været miljøaktivist siden teenageårerne, har et kald og er klar til at ofre sig selv for at redde jorden. Hun kæmper og giver aldig op og hader hvis folk er feje. Matilde drages af farlige og dominerende mænd. Hun kom ind i gruppen via Julian, men ingen ved at de er halvsøskende, selvom det er tilladt at have nære bånd til andre i organisationen.",
+    "image": "matilde_ude.jpg",
+	
+	
+
+    "relations": [
+      {
+        "slug": "linus",
+        "name": "Linus",
+        "text": "Linus er Niklas's lillebror."
+      },
+      {
+        "slug": "mads",
+        "name": "Mads",
+        "text": "Mads er lederen i den gruppe Niklas er med i."
+      },
+    {
+        "slug": "kattis",
+        "name": "Kattis",
+        "text": "Kattis er aktivist i gruppen og lidt skeptisk overfor det, der sker."
+      },
+     {
+        "slug": "niklas",
+        "name": "Niklas",
+        "text": "Niklas er med i gruppen."
+      },
+    {
+        "slug": "julian",
+        "name": "Julian",
+        "text": "Julian er den der styrer gruppen udefra."
+      }
+    ],
+
+    "media": [ 
+      {
+        "type": "video",
+        "resourceId": 1590344,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_mads_kattis_matilde_niklas.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/matilde/matilde_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/matilde/matilde_afs1_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/matilde/matilde_afs2_1.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  "julian": {
+
+    "name": "Julian Christensen",
+    "slug": "julian",
+    "text" : "IT Ekspert og ejer et IT firma.",
+    "longText": "Uddannet Programmør og systemanalytiker. Han har mange penge og er med til at finansiere projektet ” gør verden bedre”, har altid interesseret sig for miljøet. Han har en dyr smag, og et specielt forhold til sin halvsøster som egentlig er det eneste mennesker, han kan lide. Han er ansvarlig for rekruttering til gruppen og dens mission. ",
+    "image": "julian_ude.jpg",
+	
+
+	
+
+    "relations": [
+      {
+        "slug": "niklas",
+        "name": "Niklas",
+        "text": "Niklas er med i gruppen."
+      },
+    {
+        "slug": "matilde",
+        "name": "Matilde",
+        "text": "Matilde er med i gruppen og søster til Julian."
+      },
+    {
+        "slug": "kattis",
+        "name": "Kattis",
+        "text": "Kattis er også med i gruppen som aktivist."
+      },
+    {
+        "slug": "mads",
+        "name": "Mads",
+        "text": "Mads er leder af gruppe, som Julian rekrutteer til."
+      },
+    {
+        "slug": "laura",
+        "name": "Laura",
+        "text": "Laura er ansat i receptionen i Julians firma."
+      }
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      
+	  {
+        "type": "video",
+        "resourceId": 1591104,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_julian_laura.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1603748,
+        "image": "/tjenester/Broen2/Foto_video/AFS4/4_julian.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/julian/julian_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/julian/julian_afs1_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/julian/julian_afs4_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/julian/julian_afs4_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/julian/julian_afs5_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/julian/julian_afs5_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  "laura": {
+
+    "name": "Laura Westberg",
+    "slug": "laura",
+    "text" : "Gymnasieelev.",
+    "longText": "Laura bor sammen med sin far Axel, og går i gymnasiet. Laura er meget ambitiøs,  har let ved at lære og stiller meget høje krav til sig selv. Hun vil være den bedste .Hun er konkurrence menneske og hader at tabe. Hun arbejder ved siden af skolen i Julians IT Firma og hun elsker sko – har mindst 100 par. Laura er social og har mange bekendte, men er alligevel svær at komme rigtig ind på livet af. Hun ved at hun ser godt ud og kan lide at manipulere med folk, og hun tester ofte hvor langt hun kan gå. Hendes forældre er skilt, og Lauras mor på i udlandet. ",
+    "image": "laura.jpg",
+	
+	"voteId":16,
+
+    "relations": [
+      {
+        "slug": "beate",
+        "name": "Beate",
+        "text": "Beate er Lauras lærer og elskerinde."
+      },
+    {
+        "slug": "julian",
+        "name": "Julian",
+        "text": "Julian er Lauras chef i IT firmaet."
+      },
+    {
+        "slug": "axel",
+        "name": "Axel",
+        "text": "Axel er Lauras far."
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ {
+        "type": "video",
+        "resourceId": 1581325,
+        "image": "/tjenester/Broen2/Foto_video/AFS1/1_laura_skolen_læreren.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1581448,
+        "image": "/tjenester/Broen2/Foto_video/AFS1/1_Laura_beate.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1585186,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_laura_axel.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1585173,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_laura_karakterer.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs2_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs2_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs4_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs4_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  "axel": {
+
+    "name": "Axel Westberg",
+    "slug": "axel",
+    "text" : "Filmfotograf.",
+    "longText": " Axel er filmfotograf og har har et mindre produktionsselskab, der laver dokumentarfilm i Malmø. Han har været gift med Karin, der arbejder i EU og bor i Bruxelles. Axel bor sammen med Laura i en mindre villa i det gamle Limhamn. Axel synes, det er vigtigt med en god relation til sin datter, og han har givet hende meget frihed. Han bekymrer sig også for hende og stiller altid op for hende, når hun behøver hjælp og kører hende til forskellige aktiviteter. Men han synes også, det er vigtigt ikke at ødelægge hende. Hun må lære, at man ikke kan få alt, hvad man vil. Man må kunne tåle modgang, noget Laura har meget svært ved. Han er stolt over, at hun er så ambitiøs og dygtig, men også lidt bange for, at hun stiller for store krav til sig selv. Axel går meget op i sit arbejde som fotograf og er sammen med en producent i gang med at lave en dokumentarfilm om miljøforurening i Østersøen.  ",
+    "image": "axel.jpg",
+	
+	"voteId":17,
+
+    "relations": [
+      {
+        "slug": "beate",
+        "name": "Beate",
+        "text": "Beate er Lauras lærer og elskerinde."
+      },
+    {
+        "slug": "laura",
+        "name": "Laura",
+        "text": "Laura er Axels datter."
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ {
+        "type": "video",
+        "resourceId": 1583728,
+        "image": "/tjenester/Broen2/Foto_video/AFS1/1_Axel_Laura_telf.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/axel/axel_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/axel/axel_afs1_2.jpg"
+      },
+	   {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/axel/axel_afs3_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/axel/axel_afs3_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  
+  "beate": {
+
+    "name": "Beate",
+    "slug": "beate",
+    "text" : "Gymnasielærer.",
+    "longText": " Beate er gymnasielærer på Ørestad Gymnasium, hvor hun underviser Laura i matematik. Laura er en af hendes dygtigste elever, men hendes interesse for Laura er ikke kun faglig.  ",
+    "image": "beate_ude.jpg",
+	
+	
+
+    "relations": [
+      
+    {
+        "slug": "laura",
+        "name": "Laura",
+        "text": "Laura er Beates elev og elskerinde."
+      },
+	  {
+        "slug": "axel",
+        "name": "Axel",
+        "text": "Axel møder Beate gennem Laura."
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ {
+        "type": "video",
+        "resourceId": 1581448,
+        "image": "/tjenester/Broen2/Foto_video/AFS1/1_Laura_beate.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1599769,
+        "image": "/tjenester/Broen2/Foto_video/AFS3/3_beate_laura.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1610751,
+        "image": "/tjenester/Broen2/Foto_video/AFS5/5_beate_axel.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/beate/beate_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/beate/beate_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  "jens": {
+
+    "name": "Jens",
+    "slug": "jens",
+    "text" : " Tidligere politimand.",
+    "longText": " Jens Hansen sidder i fængsel på livstid. Han er rolig og tryg, og har fået balance i sit liv. Hans plan fra forrige sæson fungerede ikke perfekt, men han opnåede de vigtigste mål. Da han får at vide, at Martin vil tale med ham, siger han ja. ",
+    "image": "jens.jpg",
+	
+		"voteId":10,
+
+    "relations": [
+      
+    {
+        "slug": "martin",
+        "name": "Martin",
+        "text": "Jens har slået Martins søn August ihjel."
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ {
+        "type": "video",
+        "resourceId": 1589689,
+        "image": "/tjenester/Broen2/Foto_video/AFS1/1_jens_i_fængsel.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1605272,
+        "image": "/tjenester/Broen2/Foto_video/AFS4/4_jens_martin.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1610759,
+        "image": "/tjenester/Broen2/Foto_video/AFS5/5_jens_martin.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/jens/jens_afs1_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/jens/jens_afs5_1.jpg"
+      },
+	   {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/jens/jens_afs6_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/jens/jens_afs7_1.jpg"
+      }
+      
+    
+   ]
+  },
+  
+  
+  
+  "jakob": {
+
+    "name": "Jakob Sandberg",
+    "slug": "jakob",
+    "text" : " Sagas kæreste.",
+    "longText": " Jakob er Sagas kæreste og han er lige flyttet sammen med hende. Han elsker hende som hun er, selvom det ikke altid er helt let at leve sammen med Saga. Hun kender ikke helt de uskrevne regler i et parforhold ",
+    "image": "jakob.jpg",
+	
+		"voteId":20,
+
+    "relations": [
+      
+    {
+        "slug": "saga",
+        "name": "Saga",
+        "text": "Saga bor sammen med Jakob."
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ {
+        "type": "video",
+        "resourceId": 1589860,
+        "image": "/tjenester/Broen2/Foto_video/AFS1/1_jacob_saga.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1590313,
+        "image": "/tjenester/Broen2/Foto_video/AFS2/2_Saga_jakob.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1606058,
+        "image": "/tjenester/Broen2/Foto_video/AFS4/4_jacob_saga.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/jakob/jakob_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/jakob/jakob_afs1_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/jakob/jakob_afs6_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/jakob/jakob_afs6_2.jpg"
+      }
+      
+    
+   ]
+  },
+  
+  
+  "marcus": {
+
+    "name": "Marcus Stenberg",
+    "slug": "marcus",
+    "text" : " Skibsreder.",
+    "longText": " Marcus er skibsreder, og han har overtaget sin fars rederi, hvor han er vicedirektør. Han har egentlig aldrig haft nogen interesse for skibe, men det var en uudtalt forventing, at han skulle overtage familiefirmaet. Marcus har gået på privatskole, han var den ældste søn, og den, der skulle overtage firmaet. Han var egentlig ikke specielt dygtig i skolen, men faderen sørgede for, at han fik de karakterer, der skulle til for at kunne studere videre. Marcus lader andre passe firmaet, men har tjent godt som vicedirektør. I den senere tid har han været nødt til at tage nogle obskure lån for at redde firmaet, som han nu har svært ved at betale tilbage.",
+    "image": "marcus.jpg",
+	
+		"voteId":19,
+
+    "relations": [
+
+	  {
+        "slug": "oliver",
+        "name": "Oliver",
+        "text": "Oliver gik i skole med Marcus."
+      },
+	   {
+        "slug": "ramon",
+        "name": "Mand i campingvogn",
+        "text": "Manden i campingvognen har sunket Marcus motorbåd."
+      }
+      
+   
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/marcus/marcus_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/marcus/marcus_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  "caroline": {
+
+    "name": "Caroline Brandstrup-Julin ",
+    "slug": "caroline",
+    "text" : " Tjenestemand.",
+    "longText": "Caroline bor i København sammen med sin mand Alexander, som hun har været gift med i snart 20 år. Hun har ingen børn, men det er ikke noget hun har prioriteret eller længtes efter. Hun bor i en stor lejlighed midt i byen og har god smag og mange penge. Hun kan lide sit job som kontorchef i EU-departementet, og hun har nu ansvaret for EU-topmødet vedrørende jordens ressourcer og klima trussel. Hun har et tæt forhold til sin søster, der er lidt mere vild end hun selv er, og de er lidt hinandens modsætninger. Caroline kan lide orden og ro, og udfordrer ikke skæbnen. Derfor kan hun også blivet stresset og usikker, hvis tingene ikke går som hun har planlagt. Hun elsker sin mand, men kærligheden er kølnet lidt af med årerne. De har mere et venskabeligt forhold, men Caroline er tilfreds med det, som det er. ",
+    "image": "caroline.jpg",
+	
+	"voteId":28,
+
+    "relations": [
+      
+    {
+        "slug": "bodil",
+        "name": "Bodil",
+        "text": "Bodil er carolies søster."
+      },
+	  {
+        "slug": "alexander",
+        "name": "Alexander",
+        "text": "Alexander er Carolines mand."
+      },
+	  {
+        "slug": "claudio",
+        "name": "Claudio",
+        "text": "Claudio mødes med Caroline en enkelt gang."
+      },
+	   {
+        "slug": "victoria",
+        "name": "Victoria",
+        "text": "Victoria mødes med Caroline, der vil have hende til at holde oplæg."
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ {
+        "type": "video",
+        "resourceId": 1599764,
+        "image": "/tjenester/Broen2/Foto_video/AFS3/3_Alexander_caroline.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1610757,
+        "image": "/tjenester/Broen2/Foto_video/AFS5/5_alexander_caroline.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1615972,
+        "image": "/tjenester/Broen2/Foto_video/AFS6/6_alexander_caroline_2.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1616263,
+        "image": "/tjenester/Broen2/Foto_video/AFS6/6_alexander_caroline.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1616256,
+        "image": "/tjenester/Broen2/Foto_video/AFS6/6_bodil_caroline.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/caroline/caroline_afs3_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/caroline/caroline_afs4_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/caroline/caroline_afs4_2.jpg"
+      }
+     
+    
+   ]
+  },
+  
+  
+  
+  
+  "bodil": {
+
+    "name": "Bodil Brandstrup  ",
+    "slug": "bodil",
+    "text" : "Forlægger.",
+    "longText": "Bodil er forlægger på sit eget lille forlag, og hun er opvokset og bor i København. Hun har tidligere haft forfatterambitioner, men tiden var ikkt til det. Men hun har aldrig opgivet håbet. Hun lever ikke i noget fast forhold, er selvstændig og kan lide singlelivet. Hun har Claudio, som hun ringer til når hun har lyst til sex. Hun er meget social og har en stor omgangskreds, og hun tager for sig af livets goder og kan godt lide at gå ud og spise. Hun bruger meget tid og mange penge på sit udseende, og klæder sig ungdommeligt. Hun er en typisk storesøster, der gerne vil bestemme, og hun tror hun ved hvad der er bedst for sin lillesøster. Hun er bange for at blive ældre, og for at blive gammel og ensom, men det prøver hun at fortrænge.  ",
+    "image": "bodil.jpg",
+	
+	"voteId":29,
+
+    "relations": [
+      
+    {
+        "slug": "caroline",
+        "name": "Caroline",
+        "text": "Carolien er Bodils lillesøster."
+      },
+	  {
+        "slug": "alexander",
+        "name": "Alexander",
+        "text": "Alexander er Carolines mand."
+      },
+	  {
+        "slug": "claudio",
+        "name": "Claudio",
+        "text": "Claudio dyrker sex med Bodil."
+      },
+	  {
+        "slug": "victoria",
+        "name": "Victoria",
+        "text": "Victorias bog skal skrives af Bodil."
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ {
+        "type": "video",
+        "resourceId": 1601712,
+        "image": "/tjenester/Broen2/Foto_video/AFS3/3_bodil_caroline.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1606288,
+        "image": "/tjenester/Broen2/Foto_video/AFS4/4_bodil_caroline.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1610755,
+        "image": "/tjenester/Broen2/Foto_video/AFS5/5_claudio_bodil.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1616256,
+        "image": "/tjenester/Broen2/Foto_video/AFS6/6_bodil_caroline.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/bodil/bodil_afs3_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/bodil/bodil_afs3_2.jpg"
+      }
+    
+   ]
+  },
+  
+  "alexander": {
+
+    "name": "Alexander Julin",
+    "slug": "alexander",
+    "text" : " Gift med Caroline.",
+    "longText": "Alexander og Caroline er gift, men de er kørt noget træt i deres ægteskab. ",
+    "image": "alexander.jpg",
+	
+	"voteId":27,
+
+    "relations": [
+      
+    {
+        "slug": "caroline",
+        "name": "Caroline",
+        "text": "Caroline er Alexanders kone."
+      },
+	  {
+        "slug": "bodil",
+        "name": "Bodil",
+        "text": "Bodil er Alexanders svigerinde."
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ {
+        "type": "video",
+        "resourceId": 1599764,
+        "image": "/tjenester/Broen2/Foto_video/AFS3/3_Alexander_caroline.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1606303,
+        "image": "/tjenester/Broen2/Foto_video/AFS4/4_Alexander_caroline.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1610757,
+        "image": "/tjenester/Broen2/Foto_video/AFS5/5_alexander_caroline.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1615972,
+        "image": "/tjenester/Broen2/Foto_video/AFS6/6_alexander_caroline_2.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1616263,
+        "image": "/tjenester/Broen2/Foto_video/AFS6/6_alexander_caroline.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/alexander/alexander_afs3_1.jpg"
+      }
+      
+    
+   ]
+  },
+  
+  "gertrud": {
+
+    "name": "Gertrud Kofoed ",
+    "slug": "gertrud",
+    "text" : " Forskningschef på Medisonus.",
+    "longText": "Gertrud er enebarn, og er vokset op med forældre der var ulands frivillige. De rejste rundt i forskellige dele af verden, og Gertrud oplevede hvordan det var at bo i fattige lande. Hun har det svært med uretfærdighed, og hun engagerede sig tidligt i forskellige foreninger. Hun besluttede sig for at forske i forskellige sygdomme, uddannede sig og bosatte sig i København. Hun blev til sidst forskningschef på Medisonus.",
+    "image": "gertrud.jpg",
+	
+	"voteId":36,
+
+    "relations": [
+      
+    {
+        "slug": "niklas",
+        "name": "Niklas",
+        "text": "Niklas er ansat på Medisonus."
+      },
+	  {
+        "slug": "victoria",
+        "name": "Victoria",
+        "text": "Victoria er Adm. Direktør på Medisonus."
+      },
+	  {
+        "slug": "oliver",
+        "name": "Oliver",
+        "text": "Oliver er gift med Gertrud."
+      },
+	  {
+        "slug": "peter",
+        "name": "Peter",
+        "text": "Peter er sikkerhedschef på Medisonus."
+      }
+	  
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      
+	  
+	  {
+        "type": "video",
+        "resourceId": 1601724,
+        "image": "/tjenester/Broen2/Foto_video/AFS3/3_gertrud.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/gertrud/gertrud_afs3_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/gertrud/gertrud_afs3_2.jpg"
+      },
+	   {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/gertrud/gertrud_afs7_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/gertrud/gertrud_afs7_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  "peter": {
+
+    "name": "Peter ",
+    "slug": "peter",
+    "text" : " Sikkerhedschef på Medisonus.",
+    "longText": "Peter er sikkerhedschef på Medisonus,og han er uddannet ingeniør fra DTU.",
+    "image": "peter.jpg",
+	
+	"voteId":34,
+
+    "relations": [
+      
+    {
+        "slug": "gertrud",
+        "name": "Gertrud",
+        "text": "Gertrud arbejder sammen med Peter."
+      }
+	  
+     ],
+
+    "media": [ 
+      
+	  
+	  {
+        "type": "video",
+        "resourceId": 1601724,
+        "image": "/tjenester/Broen2/Foto_video/AFS3/3_gertrud.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/peter/peter_afs3_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/peter/peter_afs3_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/peter/peter_afs7_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/peter/peter_afs7_2.jpg"
+      }
+      
+    
+   ]
+  },
+  
+  
+  
+  "annadea": {
+
+    "name": "Anna-Dea ",
+    "slug": "annadea",
+    "text" : " Barnepige.",
+    "longText": "Anna-Dea har gået i gymnasiet, og hun vidste ikke rigtig hvad hun ville bagefter. Hun så en annonce hvor en enlig mor, søgte en barnepige til at passe 5 børn. Anna-Dea søgte jobbet, og efter 2 samtaler fik hun det. Hun er ansvarsfuld og kærlig, og kan både lave mad og lege med børnene. Mette og hun kommer fint ud af det med hinanden. ",
+    "image": "Anna-Dea.jpg",
+	
+	"voteId":25,
+
+    "relations": [
+      
+    {
+        "slug": "martin",
+        "name": "Martin",
+        "text": "Martins børn bliver passet at Anna-Dea."
+      },
+	  {
+        "slug": "mette",
+        "name": "Mette",
+        "text": "Mette har ansat Anna-Dea til at passe børnene"
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      
+	  {
+        "type": "video",
+        "resourceId": 1604603,
+        "image": "/tjenester/Broen2/Foto_video/AFS4/4_annadea.jpg"
+      },
+	   {
+        "type": "video",
+        "resourceId": 1615970,
+        "image": "/tjenester/Broen2/Foto_video/AFS6/6_lillian_hospital.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/annadea/3_annadea_afs3_1.jpg"
+      },
+	 
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/annadea/4_annadea_afs4_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/annadea/6_annadea_afs6_1.jpg"
+      }
+      
+    
+   ]
+  },
+  
+  
+  
+    "victoria": {
+
+    "name": "Victoria Nordengren ",
+    "slug": "victoria",
+    "text" : " Administrerende direktør for Medisonus.",
+    "longText": " Victoria er vokset op i Limhamn og har gået i privatskole, og i modsætning til sin bror Oliver havde hun nemt ved at lære. Hendes bror Oliver passede hende ofte, da deres forældre arbejdede og rejste meget. Hun gik ud af skolen med topkarakterer, og det var også i skolen hun mødte sin første store kærlighed Marcus Stenberg. Deres forhold varde et år, og Victoria har ikke være i noget fast forhold siden dengang. Victoria blev efter skolen diagnostiseret med en uhelbredelig sygdom, og hun ved, at hun snart skal dø. Victorias far sørgede for at hun fik den bedste uddannelse, hun var hans øjesten, og det var hende der skulle overtage familiefirmaet. Victoria er den fødte leder, selvstændig og modig og vant til at træffe hurtige beslutninger. Hun er meget ærlig, og kan ind imellem svinge i humør. ",
+    "image": "victoria.jpg", 
+	
+	"voteId":26,
+
+    "relations": [
+      
+    {
+        "slug": "caroline",
+        "name": "Caroline",
+        "text": "Caroline vil have Victoria til at holde tale."
+      },
+	
+	   {
+        "slug": "gertrud",
+        "name": "Gertrud",
+        "text": "Gertrud er forskningschef på Medisonus."
+      },
+	  {
+        "slug": "oliver",
+        "name": "Oliver",
+        "text": "Oliver er Victorias bror."
+      },
+	  {
+        "slug": "richard",
+        "name": "Richard",
+        "text": "Richard har et ubehageligt møde med Victoria."
+      }
+	  
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      
+	  
+	  {
+        "type": "video",
+        "resourceId": 1605268,
+        "image": "/tjenester/Broen2/Foto_video/AFS4/4_victoria_caroline.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1616275,
+        "image": "/tjenester/Broen2/Foto_video/AFS6/6_victoria_oliver.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/victoria/victoria_afs4_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/victoria/victoria_afs4_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/victoria/victoria_afs4_3.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/victoria/victoria_afs6_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/victoria/victoria_afs6_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/victoria/victoria_afs7_1.jpg"
+      }
+      
+    
+   ]
+  },
+  
+  
+  
+    "claudio": {
+
+    "name": "Claudio ",
+    "slug": "claudio",
+    "text" : " Gigolo.",
+    "longText": "Claudio er smuk og veltrænet, bekymrer sig om sit udseende, er charmerende og varm. Efter gymnasiet rejste han udenlands, fik job som model men blev træt af det efter nogle år, og vendte tilbage til København. Han var vant til at have mange penge, og da han ikke fik modeljobs længere, opdagede han, at han kunne tjene penge på en anden måde. Nemlig ved at gøre ensomme kvinder selskab. Han kalder sig Claudio, er eskortmand, og ser ikke sig selv som prostitueret eller et offer. Tværtimod er han stolt over hvad han laver, og han har sin egen hjemmesiden med en trofast kundekreds. Han er interesseret i mennesker og deres modsætninger, det beriger livet synes han. Han træffer mennesker, han ellers aldrig ville have mødt. Han er god at snakke med og han er god til sex. Kunderne opsøger ham på nettet, men ofte bliver han introduceret via trofaste kunder og deres veninder. ",
+    "image": "claudio_ude.jpg",
+	
+
+
+    "relations": [
+      
+    {
+        "slug": "bodil",
+        "name": "Bodil",
+        "text": "Bodil dyrker sex med Claudio."
+      },
+	   {
+        "slug": "caroline",
+        "name": "Caroline",
+        "text": "Caroline for en aftale med Claudio."
+      }
+	  
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      
+	  
+	  {
+        "type": "video",
+        "resourceId": 1605266,
+        "image": "/tjenester/Broen2/Foto_video/AFS4/4_claudio.jpg"
+      },
+	   {
+        "type": "video",
+        "resourceId": 1610755,
+        "image": "/tjenester/Broen2/Foto_video/AFS5/5_claudio_bodil.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1616259,
+        "image": "/tjenester/Broen2/Foto_video/AFS6/6_saga_martin_lig.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/claudio/claudio_afs4_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/claudio/claudio_afs4_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/claudio/claudio_afs4_3.jpg"
+      }
+    
+   ]
+  },
+  
+  
+      "oliver": {
+
+    "name": "Oliver Nordengren ",
+    "slug": "oliver",
+    "text" : " Sidder i bestyrelsen i Medisonus.",
+    "longText": " Oliver er opvokset i Limhamn sammen med sin lillesøster Victoria. Han fik tidligt ansvaret for hende, da begge deres forældre rejste og arbejdede meget i familefirmaet Medisonus. Oliver kom i privatskole, men der trivedes han ikke særlig godt. Han fik sin eksamen med middelmådige karakterer, og faderen som var en fremtrædende forsker vurderede, at Oliver ikke egnede sig til atarbejde i ledelsen i Medisonus. Oliver brød kontakten med forældrene, flyttede til København og fik forskellige små jobs. Han havde stadig kontakt til sin søster Victoria, som fik større og større betydning for ham. Da forældrene døde overtog Victoria ledelsen af Medisonus, Oliver flyttede hjem igen, og Victoria gav ham en plads i firmaets bestyrelse. Han lever af arven efter forældrene. I firmaet mødte Oliver forskningschefen Gertrud Kofoed og flyttede sammen med hende. Oliver har altid levet i skyggen af sin lillesøster, men han elsker hende og har altid set op til hende. ",
+    "image": "oliver.jpg", 
+	
+	"voteId":32,
+
+    "relations": [
+      
+    {
+        "slug": "victoria",
+        "name": "Victoria",
+        "text": "Victoria er Olivers søster."
+      },
+	  {
+        "slug": "marcus",
+        "name": "Marcus",
+        "text": "Marcus gik på samme skole som Oliver."
+      },
+	   {
+        "slug": "gertrud",
+        "slug": "gertrud",
+        "name": "Gertrud",
+        "text": "Gertrud er Olivers kone."
+      }
+	  
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      
+	  
+	  {
+        "type": "video",
+        "resourceId": 1610763,
+        "image": "/tjenester/Broen2/Foto_video/AFS5/5_oliver_bodil.jpg"
+      },
+	  {
+        "type": "video",
+        "resourceId": 1616275,
+        "image": "/tjenester/Broen2/Foto_video/AFS6/6_victoria_oliver.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/oliver/oliver_afs5_1.jpg"
+      },
+	   {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/oliver/oliver_afs6_1.jpg"
+      },
+	   {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/oliver/oliver_afs6_2.jpg"
+      }
+	  
+      
+    
+   ]
+  },
+  
+  
+  
+  
+  "ramon": {
+
+    "name": "Mand i campingvogn ",
+    "slug": "ramon",
+    "text" : " Mand i campingvogn",
+    "longText": "  ",
+    "image": "ramon.jpg", 
+	
+	"voteId":33,
+
+    "relations": [
+      
+    {
+        "slug": "marcus",
+        "name": "Marcus",
+        "text": "Marcus har fået manden til at hjælpe med forsikrings svindel, ved at sænke hans motorbåd."
+      }
+	  
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      
+	  
+	 
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/ramon/ramon_afs6_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/ramon/ramon_afs6_2.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/ramon/ramon_afs6_3.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/ramon/ramon_afs7_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/ramon/ramon_afs7_2.jpg"
+      }
+	  
+      
+    
+   ]
+  },
+  
+  
+  
+   "richard": {
+
+    "name": "Richard Strandh ",
+    "slug": "richard",
+    "text" : " Mand der forhandler med Victoria.",
+    "longText": " Mand der forhandler med Victoria, og det udvikler sig til et voldsomt sammenstød ",
+    "image": "richard.jpg", 
+	
+	"voteId":35,
+
+    "relations": [
+      
+    {
+        "slug": "victoria",
+        "name": "Victoria",
+        "text": "Victoria og Richard har et voldsomt sammenstød under et møde."
+      }
+	  
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      
+	  
+	  
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/richard/richard_afs6_1.jpg"
+      },
+	   {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/richard/richard_afs6_2.jpg"
+      },
+	   {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/richard/richard_afs6_3.jpg"
+      }
+	  
+      
+    
+   ]
+  }
+  
+  
+  
+  
+  
+ } 
+
+
+

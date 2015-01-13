@@ -1,0 +1,190 @@
+
+<link rel="stylesheet" href="/diebruecke/_design/b2/static/jquery-ui-timepicker-addon.css">
+<link rel="stylesheet" href="/diebruecke/_design/b2/static/ui-lightness/jquery-ui-1.10.4.custom.css">
+
+<link rel="stylesheet" href="/diebruecke/_design/b2/static/select/bootstrap-select.css">
+
+<script src="/diebruecke/_design/b2/static/jquery-ui-1.10.4.custom.js"></script>
+<script src="/diebruecke/_design/b2/static/jquery-ui-timepicker-addon.js"></script>
+<script src="/diebruecke/_design/b2/static/select/bootstrap-select.js"></script>
+
+
+<h1>Übersicht</h1>
+
+<div class="body" id="datepicker1">Ende Episode1:
+	<input type="text" value="1.1.2014" id="datepicker_text1"/>
+	<input type="text" value="10:15" id="datepicker2_text1"/>
+</div>
+
+<div class="body" id="datepicker2">Ende Episode2:
+	<input type="text" value="1.1.2014" id="datepicker_text2"/>
+	<input type="text" value="10:15" id="datepicker2_text2"/>
+</div>
+
+<div class="body" id="datepicker3">Ende Episode3:
+	<input type="text" value="1.1.2014" id="datepicker_text3"/>
+	<input type="text" value="10:15" id="datepicker2_text3"/>
+</div>
+
+<div class="body" id="datepicker4">Ende Episode4:
+	<input type="text" value="1.1.2014" id="datepicker_text4"/>
+	<input type="text" value="10:15" id="datepicker2_text4"/>
+</div>
+
+<div class="body" id="datepicker5">Ende Episode5:
+	<input type="text" value="1.1.2014" id="datepicker_text5"/>
+	<input type="text" value="10:15" id="datepicker2_text5"/>
+</div>
+
+
+
+
+
+<table id="personenlist">
+
+</table>	
+
+<script>
+	var settings = {};
+	var personen = {};
+	var baseurl = "{{baseurl}}";
+	var db = require('db').use(baseurl);
+
+	var handlebars = require('handlebars');
+		handlebars.registerHelper("key_value", function(obj, fn) {
+		    var buffer = "",
+		        key;
+		 
+		    for (key in obj) {
+		        if (obj.hasOwnProperty(key)) {
+		            buffer += fn({key: key, value: obj[key]});
+		        }
+		    }
+		 
+		    return buffer;
+		});
+
+	$('#datepicker_text1').datetimepicker({
+		altField: "#datepicker2_text1",
+		dateFormat: "dd.mm.yy",
+		timeFormat: "HH:mm",
+		onSelect: function(dateText) {
+			console.log(dateText);
+
+			var datetext = $("#datepicker_text1").val();
+			var timetext = $("#datepicker2_text1").val();
+			save(datetext, timetext,1);	
+		}
+	});
+
+	$('#datepicker_text2').datetimepicker({
+		altField: "#datepicker2_text2",
+		dateFormat: "dd.mm.yy",
+		timeFormat: "HH:mm",
+		onSelect: function(dateText) {
+			console.log(dateText);
+
+			var datetext = $("#datepicker_text2").val();
+			var timetext = $("#datepicker2_text2").val();
+			save(datetext, timetext,2);	
+		}
+	});
+
+	$('#datepicker_text3').datetimepicker({
+		altField: "#datepicker2_text3",
+		dateFormat: "dd.mm.yy",
+		timeFormat: "HH:mm",
+		onSelect: function(dateText) {
+			console.log(dateText);
+
+			var datetext = $("#datepicker_text3").val();
+			var timetext = $("#datepicker2_text3").val();
+			save(datetext, timetext,3);	
+		}
+	});
+
+	$('#datepicker_text4').datetimepicker({
+		altField: "#datepicker2_text4",
+		dateFormat: "dd.mm.yy",
+		timeFormat: "HH:mm",
+		onSelect: function(dateText) {
+			console.log(dateText);
+
+			var datetext = $("#datepicker_text4").val();
+			var timetext = $("#datepicker2_text4").val();
+			save(datetext, timetext,4);	
+		}
+	});
+
+	$('#datepicker_text5').datetimepicker({
+		altField: "#datepicker2_text5",
+		dateFormat: "dd.mm.yy",
+		timeFormat: "HH:mm",
+		onSelect: function(dateText) {
+			console.log(dateText);
+
+			var datetext = $("#datepicker_text5").val();
+			var timetext = $("#datepicker2_text5").val();
+			save(datetext, timetext,5);	
+		}
+	});
+
+	function save(datetext, timetext, i){
+
+		var dateParts = datetext.split(".");
+		var timeParts = timetext.split(":");
+		
+		var date = new Date(dateParts[2], (dateParts[1] - 1), dateParts[0], timeParts[0], timeParts[1], 0, 0);
+
+		
+		settings._id="settings";
+		settings.type="settings";
+		settings["end"+i] = date;
+		db.saveDoc(settings, docSaved());
+
+	}
+
+	function docSaved(){
+		return function(err, response){
+			if (err) return;	
+			if (response.ok)
+				settings._rev = response.rev;
+		}
+	}
+
+	db.getDoc("settings", function(err,response){
+		if(err) return;
+		settings = response;
+		//$('.selectpicker').selectpicker("val", user.freischaltepisode);
+		$("#datepicker_text1").val(new Date(settings.end1).toLocaleDateString());
+		$("#datepicker2_text1").val(new Date(settings.end1).toLocaleTimeString());
+		$("#datepicker_text2").val(new Date(settings.end2).toLocaleDateString());
+		$("#datepicker2_text2").val(new Date(settings.end2).toLocaleTimeString());
+		$("#datepicker_text3").val(new Date(settings.end3).toLocaleDateString());
+		$("#datepicker2_text3").val(new Date(settings.end3).toLocaleTimeString());
+		$("#datepicker_text4").val(new Date(settings.end4).toLocaleDateString());
+		$("#datepicker2_text4").val(new Date(settings.end4).toLocaleTimeString());
+		$("#datepicker_text5").val(new Date(settings.end5).toLocaleDateString());
+		$("#datepicker2_text5").val(new Date(settings.end5).toLocaleTimeString());
+
+	});
+
+	//http://localhost:5984/diebruecke/_design/b2/_list/getDatajsonPerson/personen/
+	db.getList("b2", "getDatajsonPerson", "personen", function(err, personen){
+		personen = JSON.parse(personen);
+
+		$.get("/diebruecke/_design/b2/static/client_templates/personen_list.html",function(response){
+				//settings und personen kombinieren
+
+				var template = handlebars.compile(response);
+				var context = {	baseurl: baseurl,
+				        		personen: personen}
+				var html    = template(context);
+				$("#personenlist").append(html);
+
+				getloginStatus();
+		});		
+	})
+
+
+</script>

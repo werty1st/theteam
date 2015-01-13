@@ -1,0 +1,26 @@
+{
+    "name": "b2",
+    "version": "2.1.1",
+    "description": "Modul mit Hintergrundinformationen und Beziehungen der Hauptfiguren",
+    "load": "lib/app",
+    "modules": ["lib"],
+    "attachments": ["index.html","vote.html", "img", "js/libs","js/broen.js","styles","static"],
+    "handlebars": {
+        "all_partials": false,
+        "templates": "templates"
+        },
+    "dependencies": {
+        "attachments": null,
+        "modules": null,
+        "session": null,
+        "properties": null,
+        "jquery": null,
+        "db"    :null,
+        "settings": null,
+        "handlebars": null,
+        "jquery": null,
+        "users": null
+    }
+}
+
+

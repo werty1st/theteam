@@ -1,0 +1,393 @@
+#broen-gallery {
+  min-height: 400px;
+  margin-top: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+#broen-gallery h2 .dr-link-readmore {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  line-height: 20px;
+}
+#broen-gallery h2 .dr-link-readmore:before {
+  background-color: #000;
+  color: #fff;
+}
+#broen-gallery #broen-gallery-home {
+  position: relative;
+}
+#broen-gallery #broen-gallery-home p.intro-text {
+  font-size: 18px;
+  padding: 0;
+  line-height: 24px;
+}
+#broen-gallery #broen-gallery-home #broen-gallery-home-persons {
+  overflow: hidden;
+  padding-top: 20px;
+}
+#broen-gallery #broen-gallery-home #broen-gallery-home-persons .person {
+  display: inline;
+  float: left;
+  margin: 0 20px 20px 0;
+  cursor: pointer;
+  width: 80px;
+}
+#broen-gallery #broen-gallery-person {
+  overflow: hidden;
+}
+#broen-gallery .hide {
+  display: none;
+}
+
+#broen-gallery-graph {
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  height: 400px;
+}
+#broen-gallery-graph .node text,
+#broen-gallery-graph .centerNode text {
+  fill: #fff;
+}
+#broen-gallery-graph .node {
+  font-size: 14px;
+  cursor: pointer;
+}
+#broen-gallery-graph .centerNode text {
+  font-size: 18px;
+  cursor: move;
+}
+#broen-gallery-graph .link {
+  stroke: rgba(27, 31, 21, 0.8);
+  stroke-width: 2;
+}
+
+#broen-gallery-person-media #broen-gallery-person-media-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 460px;
+  z-index: 48;
+}
+#broen-gallery-person-media #broen-gallery-person-media-slider .dr-icon-close {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  line-height: 20px;
+}
+#broen-gallery-person-media #broen-gallery-person-media-slider .dr-icon-close:before {
+  background-color: #000;
+  color: #fff;
+}
+#broen-gallery-person-media #broen-gallery-person-media-slider .section.boxed {
+  padding-bottom: 0 !important;
+  background-color: #363e2a;
+}
+#broen-gallery-person-media #broen-gallery-person-media-slider .dr-widget-swipe-carousel {
+  margin-top: -20px;
+  background-color: #000;
+}
+#broen-gallery-person-media #broen-gallery-person-media-slider .dr-widget-swipe-carousel .swipe {
+  margin: 0 50px;
+}
+#broen-gallery-person-media #broen-gallery-person-media-slider .dr-widget-swipe-carousel .item {
+  width: 734px;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+#broen-gallery-person-media #broen-gallery-person-media-slider .dr-widget-swipe-carousel .item img {
+  margin-right: 0;
+}
+#broen-gallery-person-media #broen-gallery-person-media-slider .dr-widget-swipe-carousel .carousel-button {
+  top: 0;
+  bottom: 0;
+  background-color: #1b1f15;
+  background-color: rgba(27, 31, 21, 0.8);
+}
+body.broen {
+  overflow: hidden;
+}
+body.broen #globalnavigation,
+body.broen .dr-site-navigation,
+body.broen #globalfooter,
+body.broen .site-id,
+body.broen .dr-site-footer-help,
+body.broen .dr-site-footer-onduty,
+body.broen #broen-gallery-graph {
+  display: none;
+}
+body.broen #broen-gallery {
+  position: inherit;
+  min-height: 0;
+}
+body.broen #broen-gallery-person-info-inner {
+  height: 0;
+}
+body.broen .site-wrapper,
+body.broen .dr-page-article {
+  position: static;
+  margin-top: 0px !important;
+  padding: 0;
+}
+body.broen .site-content {
+  width: 100%;
+  padding: 0;
+}
+body.broen [class*="span-"] {
+  padding: 0;
+}
+html.mobile #broen-gallery-person-media #broen-gallery-person-media-slider {
+  background-color: #000;
+  height: 100%;
+}
+html.mobile #broen-gallery-person-media #broen-gallery-person-media-slider .section.boxed {
+  background-color: #000;
+}
+html.mobile #broen-gallery-person-media #broen-gallery-person-media-slider .section.boxed h3 {
+  background-color: #000;
+  color: #fff;
+}
+html.mobile #broen-gallery-person-media #broen-gallery-person-media-slider .dr-widget-swipe-carousel {
+  margin-top: 20%;
+}
+html.mobile #broen-gallery-person-media #broen-gallery-person-media-slider .dr-widget-swipe-carousel .item {
+  width: 100%;
+}
+html.mobile #broen-gallery-person-media #broen-gallery-person-media-slider .dr-widget-swipe-carousel .swipe {
+  margin: 0;
+}
+html.mobile #broen-gallery-person-media #broen-gallery-person-media-slider .dr-widget-swipe-carousel .swipe .swipe-wrap {
+  background-color: #000;
+}
+html.mobile #broen-gallery-person-media #broen-gallery-person-media-slider .dr-widget-swipe-carousel .carousel-item {
+  background-color: #000;
+  padding: 0;
+}
+html.mobile #broen-gallery-person-media #broen-gallery-person-media-slider .dr-widget-swipe-carousel .carousel-button {
+  display: none;
+}
+
+.mobile #broen-gallery {
+  height: auto;
+}
+.mobile #broen-gallery-graph {
+  position: relative;
+  float: left;
+  left: auto;
+  height: auto;
+}
+.mobile #broen-gallery-graph h2 {
+  font-size: 18px;
+  border-top-width: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-color: #fff;
+}
+.mobile #broen-gallery-graph .section {
+  margin-left: 20px;
+}
+.mobile #broen-gallery-graph ul {
+  list-style: none;
+}
+.mobile #broen-gallery-graph ul li {
+  position: relative;
+  overflow: hidden;
+  padding: 10px 0;
+  background: transparent url("http://www.dr.dk/assets/img/border.svg") repeat-x -2px 100%;
+}
+.mobile #broen-gallery-graph ul li img {
+  float: left;
+}
+.mobile #broen-gallery-graph ul li a,
+.mobile #broen-gallery-graph ul li p {
+  display: block;
+  margin-left: 60px;
+}
+.mobile #broen-gallery-graph ul li a.name {
+  font-size: 14px;
+  font-family: "gibsonSemiBold", "Arial Black", sans-serif;
+}
+.mobile #broen-gallery-graph ul li p {
+  font-size: 14px;
+  margin-right: 70px;
+}
+.mobile #broen-gallery-graph ul li .dr-link-readmore {
+  position: absolute;
+  top: 50%;
+  margin-top: -19px;
+  right: 0;
+}
+.mobile #broen-gallery-graph ul li .dr-link-readmore:before {
+  background-color: #000;
+  color: #fff;
+}
+@media only screen and (max-width: 700px) {
+  .mobile #broen-gallery {
+    padding: 0 !important;
+  }
+  .mobile #broen-gallery h2 {
+    margin: -20px 0px 0px;
+  }
+  .mobile #broen-gallery #broen-gallery-graph {
+    width: 100%;
+    height: auto;
+  }
+  .mobile #broen-gallery #broen-gallery-graph .section {
+    padding: 20px;
+    margin-left: 0;
+  }
+  .mobile #broen-gallery #broen-gallery-home {
+    padding: 20px;
+  }
+  .mobile #broen-gallery #broen-gallery-home p.intro-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .mobile #broen-gallery #broen-gallery-home #broen-gallery-home-persons .person {
+    width: 76px;
+    margin: 0 10px 10px 0;
+  }
+  .mobile #broen-gallery #broen-gallery-home #broen-gallery-home-persons .person img {
+    width: 76px;
+    height: 76px;
+  }
+  .mobile #broen-gallery #broen-gallery-person-info {
+    background-color: inherit;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    min-height: inherit;
+  }
+}
+
+#broen-gallery-person-info {
+  background-color: #1b1f15;
+  background-color: rgba(27, 31, 21, 0.8);
+  float: left;
+  width: 50%;
+  min-height: 350px;
+}
+#broen-gallery-person-info p {
+  margin-top: 10px;
+}
+#broen-gallery-person-info #broen-gallery-person-info-inner {
+  padding: 20px;
+}
+#broen-gallery-person-info #broen-gallery-person-info-inner > img {
+  float: left;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 700px) {
+  #broen-gallery-person-info #broen-gallery-person-info-inner > img {
+    margin-top: -20px;
+  }
+}
+#broen-gallery-person-info #broen-gallery-person-info-inner h2 {
+  float: left;
+  padding-left: 10px;
+}
+#broen-gallery-person-info #broen-gallery-person-info-inner p {
+  clear: both;
+}
+#broen-gallery-person-info #broen-gallery-person-media {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  padding-top: 20px;
+  margin-top: 20px;
+}
+#broen-gallery-person-info #broen-gallery-person-media span.dr-icon-play-boxed-small {
+  width: 79px;
+  height: 79px;
+  float: left;
+  margin-right: 10px;
+}
+#broen-gallery-person-info #broen-gallery-person-media .floatleft {
+  float: left;
+}
+#broen-gallery-person-info #broen-gallery-person-media img {
+  margin-right: 10px;
+  cursor: pointer;
+  z-index: auto;
+}
+#broen-gallery-person-info .vote {
+  padding-top: 5px;
+  font-family: "gibsonSemiBold", "Arial Black", sans-serif;
+  font-size: 14px;
+}
+#broen-gallery-person-info .vote button {
+  margin-top: 10px;
+  width: 100px;
+  background-color: #ff7f12;
+}
+
+#broen-gallery-graph-popover,
+#broen-gallery-home-popover {
+  padding: 10px;
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.85);
+  width: 180px;
+  position: absolute;
+  z-index: 1;
+}
+#broen-gallery-graph-popover a,
+#broen-gallery-home-popover a,
+#broen-gallery-graph-popover p,
+#broen-gallery-home-popover p {
+  color: #000;
+}
+#broen-gallery-graph-popover p,
+#broen-gallery-home-popover p {
+  padding: 0;
+}
+#broen-gallery-graph-popover .dr-icon-close,
+#broen-gallery-home-popover .dr-icon-close {
+  display: inline;
+  margin-top: -10px;
+  margin-right: -10px;
+  float: right;
+  padding: 10px 5px 0px 5px !important;
+}
+#broen-gallery-graph-popover .dr-icon-close:before,
+#broen-gallery-home-popover .dr-icon-close:before {
+  background-color: #7f7f7f;
+  color: #fff;
+}
+#broen-gallery-graph-popover .dr-icon-link-small.dr-link-readmore,
+#broen-gallery-home-popover .dr-icon-link-small.dr-link-readmore {
+  padding-top: 15px;
+  padding-bottom: 0;
+}
+#broen-gallery-graph-popover .dr-link-readmore,
+#broen-gallery-home-popover .dr-link-readmore {
+  text-align: left;
+  padding-top: 5px;
+}
+#broen-gallery-graph-popover .dr-link-readmore:before,
+#broen-gallery-home-popover .dr-link-readmore:before {
+  background-color: #000;
+  color: #fff;
+}
+#broen-gallery-graph-popover .vote,
+#broen-gallery-home-popover .vote {
+  position: relative;
+  background-color: #000;
+  margin: -10px -10px -9px -10px;
+  overflow: hidden;
+  padding: 10px;
+  margin-top: 10px;
+}
+#broen-gallery-graph-popover .vote p,
+#broen-gallery-home-popover .vote p {
+  color: #fff;
+  font-family: "gibsonSemiBold", "Arial Black", sans-serif;
+  font-size: 14px;
+  float: left;
+}
+#broen-gallery-graph-popover .vote button,
+#broen-gallery-home-popover .vote button {
+  float: right;
+  background-color: #ff7f12;
+}

@@ -1,0 +1,109 @@
+<!doctype html>
+<html class="mo-bile">
+
+	<head>
+		<meta charset="UTF-8">
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="styles/unsupported.css">
+		<![endif]-->
+		<link rel="stylesheet" href="styles/base.css" media="screen"/>
+		<link rel="stylesheet" href="styles/broen.css" media="screen"/>
+		<link rel="stylesheet" href="styles/icomoon.css">
+		<!-- <link type="text/css" href="styles/zdfplayer-1.4.2356.min.css" rel="stylesheet" /> -->
+		<link href="styles/video-js.min.css" rel="stylesheet">	
+
+	</head>
+
+	<body>
+		<div id="broen-gallery-container"> </div>
+		<div id="unsupported" style="display:none">Bitte verwenden sie einen aktuellen Browser.</div>
+	
+		<script src="js/libs/mootools-core-1.4.5-full-nocompat.js"></script>
+		<script type="text/javascript" src="js/libs/d3.min.js"></script>
+		<script type="text/javascript" src="js/libs/require.js"></script>
+		<script type="text/javascript" src="js/libs/require.config.js"></script>
+		<script type="text/javascript" src="js/libs/mootools-router.js"></script>
+		<script type="text/javascript" src="//script.ioam.de/iam.js" language="JavaScript"></script>
+		<script type="text/javascript" src="js/libs/swipe.js"></script>
+		 <script type="text/javascript" src="js/libs/dr-widget-swipe-carousel.js"></script>
+<!--
+
+-->
+		<script type="text/javascript" src="js/broen.js"></script>
+		
+		<script type="text/javascript">
+			//vote auth
+			var global = {};
+
+			var iam_data = {
+				"st":"zdfsup",
+				"cp":"ZD/zdfde_Die_Bruecke",
+				"co":"Modul/DieBruecke2/A016464",
+				"sv":"ke"
+			};
+			//install ivw function
+			window.ivw = function() {iom.c(iam_data,1)};
+
+			var myRequest = new Request({
+			    url: 'episode',
+			    method: "GET",
+			    onSuccess: function(responseText, responseXML){
+			        var e = responseText.toInt();
+			        if (e=="NaN") e = 0;
+
+			        new DR.BroenGallery.App('broen-gallery-container',e);
+					console.log('Geladen für Episode '+e);					
+				}
+			});			 
+			myRequest.send();
+			
+
+
+			//vote appkey
+			var aKey = "63008d4bee6de5cef4e3b380b2be11e4";
+
+			var myvoteauth = new Request({
+			    url: 'http://vote.zdf.de/auth/',
+			    method: "POST",
+			    data: {vid: "407", auth: aKey},
+
+			    onSuccess: function(json){
+					var jsdata = JSON.decode(json);
+					global.auth4 = jsdata.auth4;
+					global.auth6 = jsdata.auth6;
+					global.valid = jsdata.valid;
+					global.uar = jsdata.uar;			
+				}
+			});			 
+			myvoteauth.send();
+
+		</script>
+
+		<script>
+
+
+
+			// var player = null;
+
+			// function playvideo(el){
+
+			// 	var url = el.getAttribute("video-url");
+			// 	var elid = el.id;
+
+			// 	jQuery( "<div id='myvideo'></div>" ).insertBefore("#"+elid);
+				
+
+				
+
+			// 	return false;
+	  //   	}
+
+		</script>
+
+		<iframe class="vframe" scrolling="no" src="vote.html"></iframe>
+		
+	</body>
+
+
+	
+</html>

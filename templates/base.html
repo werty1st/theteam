@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="/diebruecke/_design/b2/static/bootstrap/css/bootstrap.css">
+      <link rel="stylesheet" href="/diebruecke/_design/b2/static/bootstrap/css/bootstrap-theme.css">
+      <!-- <link rel="stylesheet" href="/diebruecke/_design/b2/static/bootstrap/css/Flatstrap.css">
+      <link rel="stylesheet" href="/diebruecke/_design/b2/static/bootstrap/css/Flatstrap-theme.css"> -->
+      <script src="/diebruecke/_design/b2/static/jquery-1.10.2.js"></script>
+      <script src="/diebruecke/_design/b2/static/bootstrap/js/bootstrap.js"></script>
+      <script src="/diebruecke/_design/b2/modules.js"></script>
+      
+      <link rel="stylesheet" href="/diebruecke/_design/b2/static/ladda/ladda-themeless.css">
+      <script src="/diebruecke/_design/b2/static/ladda/spin.js"></script>
+      <script src="/diebruecke/_design/b2/static/ladda/ladda.js"></script>
+      <title>{{title}}</title> 
+  </head> 
+  <body> 
+
+  <a href="#loginmodal" class="flatbtn" id="modaltrigger" style="display:none">Login</a>
+  <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/diebruecke/_design/b2/_rewrite/start">Backend</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/diebruecke/_design/b2/_rewrite/start">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="#contact">Contact</a></li> -->
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#login"  id="userstatus_login" onclick='$("#modaltrigger").click();'>Login</a></li>
+            <li><a href="#logout" id="userstatus_logout" onclick='userLogout();'>Logout</a></li>
+          </ul>          
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+  <div class="container" id="wrapper">
+    <div id="loginmodal" style="display:none;">
+      <h1>User Login</h1>
+      <form id="loginform" name="loginform" method="post" action="index.html">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" class="txtfield" tabindex="1">
+         
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" class="txtfield" tabindex="2">
+         
+        <div class="center"><input type="submit" name="loginbtn" id="loginbtn" class="flatbtn-blu hidemodal" value="Log In" tabindex="3"></div>
+      </form>
+    </div>
+    <!-- Main component for a primary marketing message or call to action -->
+
+
+    <div class="jumbotron">
+      {{#if knusper}}
+      <div id="list">
+        {{{knusper}}}
+      </div>
+      {{/if}}
+
+      {{#if content}}
+      <div id="content">
+        {{{content}}}
+      </div>
+      {{/if}}
+    </div>
+
+  </div> <!-- /container -->
+  
+
+    <script type="text/javascript">
+      var session    = require('session');
+      var handlebars = require('handlebars');
+
+      function getloginStatus(){
+
+        session.info(function (err, info) {
+          if (err) // an error occurred getting session info
+          {
+            console.log("error session.info");
+            //console.log(err);
+          }
+          else     // success server antwortet
+          {
+            loginUser(info.userCtx);
+          }
+        });
+
+      };
+
+      function validUser(){
+        console.log("user eingeloggt");
+        $('.editable').css('display',"block");
+        $('#userstatus_login').css('display',"none");
+        $('#userstatus_logout').css('display',"block");
+        $('#loginform>#username').val("");
+        $('#loginform>#password').val("");
+      }
+
+      function invalidUser(){
+        console.log("nicht gegnügend rechte oder nicht eingeloggt");
+        $('.editable').css('display',"none");
+        $('#userstatus_login').css('display',"block");
+        $('#userstatus_logout').css('display',"none");
+
+      }
+
+      function userLogout(){
+        session.logout(function (err, response) {
+            if (err) // an error occurred logging out
+              console.log(err);
+            else     // success
+            {
+              invalidUser();
+            }
+          });
+      }
+
+      function loginUser(userCtx){
+
+        if (userCtx && userCtx.roles){
+              //user eingeloggt
+              if (intersect_safe(["redakteur","_admin"], userCtx.roles)){
+                validUser();
+                return true;                
+              } else {
+                invalidUser();
+                return false;
+              }
+            } else {
+              //kein user eingeloggt
+              invalidUser();
+            }
+      }
+
+
+    </script>
+
+    <script type="text/javascript">
+    (function($){$.fn.extend({leanModal:function(options){var defaults={top:100,overlay:0.5,closeButton:null};var overlay=$("<div id='lean_overlay'></div>");$("body").append(overlay);options=$.extend(defaults,options);return this.each(function(){var o=options;$(this).click(function(e){var modal_id=$(this).attr("href");$("#lean_overlay").click(function(){close_modal(modal_id)});$(o.closeButton).click(function(){close_modal(modal_id)});var modal_height=$(modal_id).outerHeight();var modal_width=$(modal_id).outerWidth();
+    $("#lean_overlay").css({"display":"block",opacity:0});$("#lean_overlay").fadeTo(200,o.overlay);$(modal_id).css({"display":"block","position":"fixed","opacity":0,"z-index":11000,"left":50+"%","margin-left":-(modal_width/2)+"px","top":o.top+"px"});$(modal_id).fadeTo(200,1);e.preventDefault()})});function close_modal(modal_id){$("#lean_overlay").fadeOut(200);$(modal_id).css({"display":"none"})}}})})(jQuery);
+
+
+    //AUTOSTART
+    $(function(){
+        console.log("loaded");
+
+        $('#loginform').submit(function(e){
+
+            var username= $('#loginform>#username').val();
+            var password= $('#loginform>#password').val();
+
+            session.login(username, password, function (err, response) {
+                if (err) // an error occurred logging in
+                    console.log("no connection");
+                else     // success
+                {                    
+                    console.log(response);
+                    loginUser(response);
+                }
+            });
+            return false;
+        });
+
+        $('#modaltrigger').leanModal({ top: 110, overlay: 0.45, closeButton: ".hidemodal" });
+        
+        getloginStatus();
+    });
+
+
+
+    //UTILS
+      function intersect_safe(arr1, arr2)
+      {
+        var results = [];
+
+        for (var i = 0; i < arr1.length; i++) {
+            if (arr2.indexOf(arr1[i]) !== -1) {
+                // results.push(arr1[i]);
+                return true;
+            }
+        }
+
+        return false;
+      }
+    </script>
+
+
+
+    
+
+
+
+
+  </body>
+<style type="text/css">
+  /** modal window styles **/
+  #lean_overlay {
+      position: fixed;
+      z-index:100;
+      top: 0px;
+      left: 0px;
+      height:100%;
+      width:100%;
+      background: #000;
+      display: none;
+  }
+   
+  #loginmodal {
+    width: 300px;
+    padding: 15px 20px;
+    background: #f3f6fa;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  }
+   
+  #loginform { /* no default styles */ }
+   
+  #loginform label { display: block; font-size: 1.1em; font-weight: bold; color: #7c8291; margin-bottom: 3px; }
+   
+  .txtfield { 
+    display: block;
+    width: 100%;
+    padding: 6px 5px;
+    margin-bottom: 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #7988a3;
+    font-size: 1.4em;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8);
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#edf3f9), to(#fff));
+    background-image: -webkit-linear-gradient(top, #edf3f9, #fff);
+    background-image: -moz-linear-gradient(top, #edf3f9, #fff);
+    background-image: -ms-linear-gradient(top, #edf3f9, #fff);
+    background-image: -o-linear-gradient(top, #edf3f9, #fff);
+    background-image: linear-gradient(top, #edf3f9, #fff);
+    border: 1px solid;
+    border-color: #abbce8 #c3cae0 #b9c8ef;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.4);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.4);
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+  }
+   
+  .txtfield:focus {
+    outline: none;
+    color: #525864;
+    border-color: #84c0ee;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), 0 0 7px #96c7ec;
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), 0 0 7px #96c7ec;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), 0 0 7px #96c7ec;
+  }
+
+
+.zeile{
+display: block;
+width: 380px;
+height: 100px;
+}
+.zelle{
+float: left;
+padding-right: 30px;
+}
+
+.video{
+position: relative;
+}
+
+#mainimage{
+  margin-right: 25px;
+}
+
+#save_doc_div{
+display: block;
+margin-bottom: 60px;
+}
+
+[class*=video]:before {
+font-family: "dr-icons";
+content: "\25B6";
+background-color: #000;
+color: #ffffff;
+position: absolute;
+top: 5px;
+left: 5px;
+z-index: 2;
+border-radius: 2px;
+-webkit-font-smoothing: antialiased;
+}
+
+.pad10{
+  padding-left: 10px;
+}
+</style>  
+</html>

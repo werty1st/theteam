@@ -1,0 +1,612 @@
+{
+    
+  "saga": {
+
+    "name": "Saga Noren",
+    "slug": "saga",
+    "text" : "Politikommisær.",
+    "longText": "Saga arbejder hos kriminalpolitiet i Malmø og til hendes store glæde er Hans tilbage som hendes chef. Martin har hun ikke haft kontakt med siden August’s ( Martins søn) begravelse. Privat har Saga et forhold til Jacob Sandberg, en fyr hun mødte på en bar for lidt over 7 måneder siden. Han elsker hende som hun er, og de er lige flyttet samme. Saga forsøger at forstå, hvordan man skal opføre sig, når man lever i et parforhold, og hun læser en masse bøger om det. Men Saga er fokuseret på sit arbejde, og bryder alle de uskrevne regler der er i et parforhold. Ringer ikke når hun kommer senere hjem, og har allerede spist ude, selvom Jacob venter med maden.",
+    "image": "saga.jpg",
+
+    "relations": [
+      {
+        "slug": "martin",
+        "name": "Martin",
+        "text": "Sagas politimakker i Danmark."
+      },
+      {
+        "slug": "pernille",
+        "name": "Pernille",
+        "text": "Saga’s danske kollega på sagen."
+      },
+      {
+        "slug": "rasmus",
+        "name": "Rasmus",
+        "text": "Svensk kollega til Saga."
+      },
+      
+      {
+        "slug": "hans",
+        "name": "Hans",
+        "text": "Hans er Sagas chef i Malmø"
+      },
+      
+      {
+        "slug": "lillian",
+        "name": "Lillian",
+        "text": "Lillian er chefen i København, som også kender Saga"
+      },
+	  {
+        "slug": "john",
+        "name": "John",
+        "text": "John er dataekspert på stationen i malmø."
+      },
+	  {
+        "slug": "mette",
+        "name": "Mette",
+        "text": "Martins kone, som Saga har mødt."
+      }
+    ],
+
+    "media": [
+      
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/saga/saga_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/saga/saga_afs1_2.jpg"
+      }
+    ]
+  },
+
+
+  "martin": {
+
+    "name": "Martin Rhode",
+    "slug": "martin",
+    "text" : "Kriminalkommisær.",
+    "longText": "Martin arbejder hos Københavns politi – og han er stærkt traumatiseret efter August’s død. Han er ikke deprimeret og apatisk – mere rastløs og frustreret. Han humør svinger meget og nogle gange vælter vreden frem. Han arbejder næste 24 timer i døgnet og forsøger at flygte fra sorgen. Da Saga kontakter ham, for at få hjælp til at opklare en ny sag der vedrører både Danmark og Sverige, bliver han glad. Martin og Mette er flyttet fra hinanden, og Martin bor midlertidigt på et motel. Mette bor i et nyt hus uden for København med alle 5 børn, og hun har ansat en barnepige, Anna-Dea, som hjælper hende.",
+    "image": "martin.jpg",
+
+    "relations": [
+      {
+        "slug": "saga",
+        "name": "Saga",
+        "text": "Martins politimakker i Sverige."
+      },
+      {
+        "slug": "lillian",
+        "name": "Lillian",
+        "text": "Martins chef i København."
+      },
+      {
+        "slug": "pernille",
+        "name": "Pernille",
+        "text": "Martins danske kollega."
+      },
+      {
+        "slug": "rasmus",
+        "name": "Rasmus",
+        "text": "Svensk kollega til Martin."
+      },
+      {
+        "slug": "hans",
+        "name": "Hans",
+        "text": "Chefen i Malmø hvor Martin arbejder med på sagen."
+      },
+	  {
+        "slug": "mette",
+        "name": "Mette",
+        "text": "Martins kone."
+      },
+	  {
+        "slug": "john",
+        "name": "John",
+        "text": "John er dataekspert på stationen i malmø."
+      }
+	  
+	  
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/martin/martin_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/martin/martin_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  "rasmus": {
+    
+    "name": "Rasmus Larsson",
+    "slug": "rasmus",
+    "text" : "30 år. kriminalbetjent.",
+    "longText": "Rasmus er lige blevet færdig på politiskolen med topkarakterer – og det er ingen hemmelighed, at han ser den igangværende sag som et springbræt i sin karriere. Han er ambitiøs og grundig. For Rasmus er det vigtigt at få anerkendelse for det han gør – at blive set og bekræftet. Han er vant til det, og har svært ved at forstå hvorfor Saga ikke værdsætter hans indsats. Det er en af grundene til at han bliver irriteret på hende. Han tager sig primært af opklaringsarbejdet på den svenske side, men vil gerne ud i marken. Rasmus er cool og vil helst gå klædt i T-shirt og jeans. Han er miljøbevidst og er omhyggelig med at sortere affald og handle økologisk. Han bor sammen med en pige. ",
+    "image": "rasmus.jpg",
+
+    "relations": [
+      {
+        "slug": "saga",
+        "name": "Saga",
+        "text": "Rasmus overordnede i Sverige."
+      },
+      
+      {
+        "slug": "pernille",
+        "name": "Pernille",
+        "text": "Kollega fra Danmark der også arbejder på sagen."
+      },
+      {
+        "slug": "martin",
+        "name": "Martin",
+        "text": "Kollega fra Danmark på linie med Saga."
+      },
+      {
+        "slug": "hans",
+        "name": "Hans",
+        "text": "Chefen i Malmø, hvor Rasmus arbejder."
+      },
+	  {
+        "slug": "john",
+        "name": "John",
+        "text": "John er dataekspert på stationen i malmø."
+      }
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/rasmus/rasmus_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/rasmus/rasmus_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  "pernille": {
+
+    "name": "Pernille Lindegaard",
+    "slug": "pernille",
+    "text" : "35 år. Kriminalbetjent.",
+    "longText": "Pernille er en dygtig og effektiv efterforsker ved Københavns politi. Hun kan opfange meget information på kort tid og sortere det fra som er vigtigst. Hun udstråler naturlig selvsikkerhed, er varm og glad, betænksom og omsorgsfuld, og vil gerne have at alle føler sig godt tilpas. Hun stiller altid op for andre, og hun er meget fysisk, står ofte tæt på den hun snakker med, og har fysisk kontakt til personer tæt på hende. Pernille tænker over hvordan hun går klædt, men har sin egen tøjstil, og den er afslappet. Hun er single, har mange venner, og vil gerne finde en at dele livet med. Hun tager sig primært af opklaringen på den danske side. ",
+    "image": "pernille.jpg",
+
+    "relations": [
+      {
+        "slug": "saga",
+        "name": "Saga",
+        "text": "Pernilles overordnede i Sverige."
+      },
+      {
+        "slug": "rasmus",
+        "name": "Rasmus",
+        "text": "Svensk kollega der også arbejder på sagen."
+      },
+      {
+        "slug": "hans",
+        "name": "Hans",
+        "text": "Chefen i Malmø hvor Pernille lige nu arbejder."
+      },
+    {
+        "slug": "martin",
+        "name": "Martin",
+        "text": "Kollega fra Danmark."
+      },
+	  {
+        "slug": "john",
+        "name": "John",
+        "text": "John er dataekspert på stationen i malmø."
+      }
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/pernille/pernille_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/pernille/pernille_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  "john": {
+
+    "name": "John Lundqvist",
+    "slug": "John",
+    "text" : "37 år - Politidataekspert.",
+    "longText": "John er den eneste ( udover Saga og Hans) på stationen i Malmø vi genkender fra sidste sæson af Broen.",
+    "image": "john.jpg",
+
+    "relations": [
+      {
+        "slug": "saga",
+        "name": "Saga",
+        "text": "Saga er Johns kollega og de arbejder tæt sammen."
+      },
+    {
+        "slug": "hans",
+        "name": "Hans",
+        "text": "Politidirektøren i Malmø, Johns kollega."
+      },
+    {
+        "slug": "martin",
+        "name": "Martin",
+        "text": "Kriminalkommisær fra København, der er med i efterforskningen i Sverige."
+      },
+	  {
+        "slug": "pernille",
+        "name": "Pernille",
+        "text": "kollega på sagen."
+      },
+	  {
+        "slug": "rasmus",
+        "name": "Erasmus",
+        "text": "kollega på sagen."
+      }
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/john/john_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/john/john_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  "hans": {
+
+    "name": "Hans Pettersson",
+    "slug": "hans",
+    "text" : "59 år - Politidirektør i Malmø.",
+    "longText": "Hans er stadigvæk Saga chef.  Han skulle egentlig være flyttet til Göteborg med sin kone, for at komme tættere på børn og børnebørn. Men deres barn fik istedet job i Malmø og flyttede ned til dem i Malmø, så Hans er stadigvæk chef. ",
+    "image": "hans.jpg",
+
+    "relations": [
+      {
+        "slug": "saga",
+        "name": "Saga",
+        "text": "Saga er ansat under Hans i malmø."
+      },
+      {
+        "slug": "rasmus",
+        "name": "Rasmus",
+        "text": "Svensk betjent der arbejder på sagen."
+      },
+      {
+        "slug": "lillian",
+        "name": "Lillian",
+        "text": "Politidirektøren i København, Hans's kollega."
+      },
+    {
+        "slug": "martin",
+        "name": "Martin",
+        "text": "Kriminalkommisær fra København, der er med i efterforskningen i Sverige."
+      },
+    {
+        "slug": "pernille",
+        "name": "Pernille",
+        "text": "Dansk betjent der arbejder på sagen."
+      },
+	  {
+        "slug": "john",
+        "name": "John",
+        "text": "John er dataekspert på stationen i malmø."
+      }
+    ],
+
+    "media": [ 
+	
+	
+	
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/hans/hans_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/hans/hans_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  "lillian": {
+
+    "name": "Lillian",
+    "slug": "lillian",
+    "text" : "Politidirektør i København.",
+    "longText": "Lillian er Martins chef i København og, og hun har udpeget Martin til at koordinere sikkerheden på et kommende EU topmøde i købehavn, men Lillian lader Martin tage opgaven sammen med Saga i Sverige. Hun sætter dog den betingelse at Martin skal fortsætte sin terapi – for at komme videre efter tabet af August.",
+    "image": "lillian.jpg",
+
+    "relations": [
+      {
+        "slug": "saga",
+        "name": "Saga",
+        "text": "Saga kender Lillian fra København."
+      },
+      {
+        "slug": "hans",
+        "name": "Hans",
+        "text": "Politidirektøren i Malmø, Lillians kollega."
+      },
+    {
+        "slug": "martin",
+        "name": "Martin",
+        "text": "Martin arbejder sammen med Lillian i København."
+      }
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/lillian/lillian_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/lillian/lillian_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  
+  
+  "mette": {
+
+    "name": "Mette",
+    "slug": "mette",
+    "text" : "35 år - gift med Martin",
+    "longText": "Mette er gift med Martin, men de bor ikke sammen mere. De har 5 børn sammen og Mette bor sammen med dem allesammen. Hun har barnepigen Anna-Dea til at hjælpe sig.",
+    "image": "mette.jpg",
+
+    "relations": [
+      {
+        "slug": "martin",
+        "name": "Martin",
+        "text": "Martin er Mettes mand."
+      },
+	  {
+        "slug": "saga",
+        "name": "Saga",
+        "text": "Saga kender Mette gennem Martin."
+      }
+     
+    ],
+
+    "media": [ 
+	{
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/matilde/mette_afs1_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/martin/martin_afs1_2.jpg"
+      }
+      
+    
+   ]
+  },
+  
+    
+  
+  
+  "linus": {
+
+    "name": "Linus Nilsson",
+    "slug": "linus",
+    "text" : "Skoleelev.",
+    "longText": "Linus går i skole, men har svært ved at få venner og bliver mobbet og holdt uden for. Han bor alene med sin storebror Niklas, da de har mistet deres forældre i en bilulykke. Han er meget nervøs for at han også skal miste sin storebror.",
+    "image": "linus.jpg",
+
+    "relations": [
+      {
+        "slug": "niklas",
+        "name": "Niklas",
+        "text": "Niklas er Linus's storebror og den eneste familie han har."
+      }
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/linus/linus_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/linus/linus_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  "niklas": {
+
+    "name": "Niklas Nilsson",
+    "slug": "niklas",
+    "text" : "25 år - Laboratorieassistent",
+    "longText": "Niklas har arbejdet på Mediconus (en medicinal fabrik) i 2 år. Han trives med sit job og er tilfreds med det han laver. Da hans forældre døde i en bilulykke lidt over to år siden, fik han forældremyndigheden over sin lille bror, Linus (13 år). Han er meget bekymret for sin bror.",
+    "image": "niklas.jpg",
+
+    "relations": [
+      {
+        "slug": "linus",
+        "name": "Linus",
+        "text": "Linus er Niklas's lillebror."
+      }
+      
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/niklas/niklas_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/niklas/niklas_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+   
+  
+    
+  
+  "laura": {
+
+    "name": "Laura Westberg",
+    "slug": "laura",
+    "text" : " 18 år - Gymnasieelev.",
+    "longText": "Laura bor sammen med sin far Axel, og går i gymnasiet. Laura er meget ambitiøs,  har let ved at lære og stiller meget høje krav til sig selv. Hun vil være den bedste. Hun er konkurrence menneske og hader at tabe. Hun arbejder ved siden af skolen i Julians IT Firma, og hun elsker sko – har mindst 100 par. Laura er social og har mange bekendte, men er alligevel svær at komme rigtig ind på livet af. Hun ved at hun ser godt ud og kan lide at manipulere med folk, og hun tester ofte hvor langt hun kan gå. Hendes forældre er skilt, og Lauras mor bor i udlandet. ",
+    "image": "laura.jpg",
+
+    "relations": [
+      {
+        "slug": "beate",
+        "name": "Beate",
+        "text": "Beate er Lauras matematiklærer."
+      },
+    
+    {
+        "slug": "axel",
+        "name": "Axel",
+        "text": "Axel er Lauras far."
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+	  
+	 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  "axel": {
+
+    "name": "Axel Westberg",
+    "slug": "axel",
+    "text" : " 45 år - Filmfotograf.",
+    "longText": " Axel er filmfotograf og har har et mindre produktionsselskab, der laver dokumentarfilm , i Malmø. Han har været gift med Karin der arbejder i EU og bor i Bruxelles. Axel bor sammen med Laura i en mindre villa i det gamle Limhamn. Axel synes det er vigtigt med en god relation til sin datter, og han har givet hende meget frihed. Han bekymrer sig også for hende og stiller altid op for henden, når hun behøver hjælp og kører hende til forskellige aktiviteter. Men han synes også det er vigtigt ikke at ødelægge hende, og hun må lære at man ikke kan få alt hvad man vil. Man må også kunne tåle modgang, noget Laura har meget svært ved. Han er stolt over at hun er så ambitiøs og dygtig, men også lidt bange for, at hun stiller for store krav til sig selv. Axel går meget op i sit arbejde som fotograf, og er sammne med en producent igang med at lave en dokumentarfilm om miljø forurening i Østersøen.  ",
+    "image": "axel.jpg",
+
+    "relations": [
+      {
+        "slug": "beate",
+        "name": "Beate",
+        "text": "Beate er Lauras gymnasielærer."
+      },
+    {
+        "slug": "laura",
+        "name": "Laura",
+        "text": "Laura er Axels datter."
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  
+  "beate": {
+
+    "name": "Beate Frelle",
+    "slug": "beate",
+    "text" : " 35 år - Gymnasielærer.",
+    "longText": " Beate er Lauras matematiklærer. ",
+    "image": "beate.jpg",
+
+    "relations": [
+      
+    {
+        "slug": "laura",
+        "name": "Laura",
+        "text": "Laura er Beates elev."
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/beate/beate_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/beate/beate_afs1_2.jpg"
+      }
+    
+   ]
+  }
+  
+ } 
+
+
+

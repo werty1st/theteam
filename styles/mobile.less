@@ -1,0 +1,114 @@
+.mobile {
+
+  #broen-gallery {
+    height: auto;
+  }
+
+  #broen-gallery-graph {
+    position: relative;
+    float: left;
+    left: auto;
+    height: auto;
+
+    h2 {
+      font-size: 18px;
+      border-top-width: 3px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-color: #fff;
+    }
+
+    .section {
+      margin-left: 20px;
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        position: relative;
+        overflow: hidden;
+        padding: 10px 0;
+        background: transparent url("http://www.dr.dk/assets/img/border.svg") repeat-x -2px 100%;
+
+        img {
+          float: left;
+        }
+
+        a, p {
+          display: block;
+          margin-left: 60px;
+        }
+
+        a.name {
+          font-size: 14px;
+          font-family: "gibsonSemiBold", "Arial Black", sans-serif;
+        }
+
+        p {
+          font-size: 14px;
+          margin-right: 70px;
+        }
+
+        .dr-link-readmore {
+          position: absolute;
+          top: 50%;
+          margin-top: -19px;
+          right: 0;
+
+          &:before {
+            background-color: #000;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    #broen-gallery {
+      padding: 0 !important;
+    
+      h2 {
+        margin: -20px 0px 0px;
+      }
+
+      #broen-gallery-graph {
+        width: 100%;
+        height: auto;
+
+        .section {
+          padding: 20px;
+          margin-left: 0;
+        }
+      }
+
+      #broen-gallery-home {
+        padding: 20px;
+
+        p.intro-text {
+          font-size: 14px;
+          line-height: 20px;
+        }
+
+        #broen-gallery-home-persons .person {
+          width: 76px;
+          margin: 0 10px 10px 0;
+
+          img {
+            width: 76px;
+            height: 76px;    
+          }
+        }
+      }
+
+      #broen-gallery-person-info {
+        background-color: inherit;
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+        min-height: inherit;
+      }
+    }  
+  }
+}

@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chrome>
+    
+	<media>
+		<type>video</type>
+		<assetID>1900916</assetID>
+	</media>
+	
+	<settings> 
+		<source>mediathek</source> 
+		<tracking>
+			<source>mediathek</source>
+			<context>intern</context>
+		</tracking>
+		<backgroundColor>0x000000</backgroundColor>
+		<embedTypes>html5</embedTypes>
+		<smoothing>true</smoothing>
+		<initialBufferTime>2</initialBufferTime>
+		<expandedBufferTime>10</expandedBufferTime> 
+		<hdsBufferTime>3</hdsBufferTime>
+		<cookieID>changeMe0815</cookieID>
+		<scaleMode>letterbox</scaleMode>
+		<videoClickPlayToggle>true</videoClickPlayToggle>
+		<adaptive>
+			<normalScreenMaxAdaptiveIndex>5</normalScreenMaxAdaptiveIndex>
+			<liveMaxAdaptiveIndex>-1</liveMaxAdaptiveIndex>
+			<vodMaxAdaptiveIndex>-1</vodMaxAdaptiveIndex>
+			<initialAdaptiveIndex>4</initialAdaptiveIndex>
+		</adaptive>
+		<dvrEnabled>true</dvrEnabled>		
+		<loop>false</loop>
+		<autoPlay>true</autoPlay>
+		<autoHideDelay>2000</autoHideDelay>
+		<initialQuality>veryhigh</initialQuality>
+		<qualities>
+			<quality fromBitrate="60000" toBitrate="160000" quality="low" label="Niedrig (Modem oder ISDN)" />
+			<quality fromBitrate="500000" toBitrate="700000" quality="high" label="Hoch (DSL 1000)" />
+			<quality fromBitrate="1650000" toBitrate="1750000" quality="veryhigh" label="Sehr Hoch (DSL 3000)" />
+			<quality fromBitrate="2500000" toBitrate="3500000" quality="hd" label="High Definition - HD (DSL 6000+)" />
+		</qualities>	
+
+
+	<androidNativeMode>true</androidNativeMode>
+	<androidMinUseEmbedVersion>4.1.2</androidMinUseEmbedVersion>
+	<androidMinUseDevicePlayerVersion>2.3.6</androidMinUseDevicePlayerVersion>
+
+	</settings>
+	
+	<services>       
+		<service key="article" type="mediathek" params="ak=web"><![CDATA[example/assets/testdata/beitragsDetails.xml]]></service>
+		<service key="channel" type="mediathek" params="ganzeSendungen=false&amp;maxLength=50&amp;offset=0&amp;ak=web"><![CDATA[example/assets/testdata/einzelsendung.xml]]></service>
+		<service key="recommend" type="mediathek" params="ak=web"><![CDATA[example/assets/testdata/trenner.xml]]></service>
+		<service key="tracking" type="mediathek" params="ak=web"><![CDATA[example/assets/testdata/trackingIVW.xml]]></service>
+		<service key="mail" type="mediathek" params="ak=web"><![CDATA[example/assets/testdata/mail.xml]]></service>	
+		<service key="vqm" type="mediathek" params=""><![CDATA[http://vqm.zdf.de/conf/zdfplayer/1.2/mediathek/vqm.xml]]></service>
+    </services>
+	
+	<dictionary>
+		<!-- Allgemeine Texte -->
+		<entry key="scaleMode"><![CDATA[Skalierungsmodus]]></entry>
+		<entry key="airDatePrefix"><![CDATA[Sendedatum: ]]></entry>
+		<entry key="expirydatePrefix"><![CDATA[Online sichtbar bis: ]]></entry>
+		<entry key="broadcastPrefix"><![CDATA[Sendung: ]]></entry>
+		<entry key="flashVersionInfo"><![CDATA[ZDFPlayer %(VERSION) basiert auf Core %(CORE)]]></entry>
+		<entry key="htmlVersionInfo"><![CDATA[ZDF HTML5 Player %(VERSION)]]></entry>
+		<entry key="buffer"><![CDATA[Puffer]]></entry>
+		<entry key="error"><![CDATA[Fehler]]></entry>
+		<entry key="information"><![CDATA[Hinweis]]></entry>
+		<entry key="commonError"><![CDATA[Es ist ein allgemeiner Fehler aufgetreten.]]></entry>
+		<entry key="compatibilityError"><![CDATA[Leider unterstützt Ihr Browser keine aktuelle Videotechnologie.]]></entry>
+		<entry key="missingVideo"><![CDATA[Es konnte keine Videodatei ermittelt werden]]></entry>
+		<!-- Error und Info Messages Weiterempfehlen Dialog -->		
+		<entry key="mailSuccess"><![CDATA[Ihre Empfehlung wurde erfolgreich versendet.]]></entry>
+		<entry key="mailFailure"><![CDATA[Beim Versenden Ihrer Empfehlung ist ein Fehler aufgetreten. Bitte versuchen Sie es zu einem späteren Zeitpunkt noch einmal.]]></entry>		
+		<entry key="messageEmpty"><![CDATA[Bitte geben Sie eine Nachricht ein.]]></entry>
+		<entry key="receiverAdressInvalid"><![CDATA[Bitte geben Sie eine gültige Empfängeradresse ein.]]></entry>
+		<entry key="senderAdressInvalid"><![CDATA[Bitte geben Sie eine gültige Absenderadresse ein.]]></entry>		
+		<!-- HTML5 Video Messages -->
+		<entry key="MEDIA_ERR_ABORTED"><![CDATA[You aborted the video playback.]]></entry>
+		<entry key="MEDIA_ERR_NETWORK"><![CDATA[A network error caused the video download to fail part-way.]]></entry>
+		<entry key="MEDIA_ERR_DECODE"><![CDATA[The video playback was aborted due to a corruption problem or because the video used features your browser did not support.]]></entry>
+		<entry key="MEDIA_ERR_SRC_NOT_SUPPORTED"><![CDATA[The video could not be loaded, either because the server or network failed or because the format is not supported.]]></entry>								
+		<!-- Error Messages OSMF Wiedergabe -->
+		<entry key="mediaError_1"><![CDATA[ioError]]></entry>
+		<entry key="mediaError_2"><![CDATA[securityError]]></entry>
+		<entry key="mediaError_3"><![CDATA[asyncError]]></entry>
+		<entry key="mediaError_6"><![CDATA[httpGetFailed]]></entry>
+		<entry key="mediaError_7"><![CDATA[mediaLoadFailed]]></entry>
+		<entry key="mediaError_11"><![CDATA[netConnectionRejected]]></entry>
+		<entry key="mediaError_12"><![CDATA[netConnectionApplicationInvalid]]></entry>
+		<entry key="mediaError_13"><![CDATA[netConnectionFailed]]></entry>
+		<entry key="mediaError_14"><![CDATA[netConnectionTimeout]]></entry>
+		<entry key="mediaError_15"><![CDATA[netStreamPlayFailed]]></entry>
+		<!-- Error Messages Schnittstellen Kommunikation -->
+		<entry key="commonError"><![CDATA[Es ist ein Fehler aufgetreten!]]></entry>
+		<entry key="dataMissing"><![CDATA[Die Informationen zur Medienermittlung sind unvollständig!]]></entry>		
+		<entry key="notFound"><![CDATA[Zu diesem Beitrag liegen keine Videos vor]]></entry>
+		<entry key="notVisible"><![CDATA[Dieser Beitrag ist leider nicht sichtbar]]></entry>
+		<entry key="notVisibleAnymore"><![CDATA[Dieser Beitrag ist leider nicht mehr sichtbar]]></entry>
+		<entry key="fsk"><![CDATA[Dieser Beitrag ist mit FSK belegt]]></entry>
+		<entry key="geolocation"><![CDATA[Dieser Beitrag ist mit Geolocation belegt]]></entry>
+		<entry key="wrongParameter"><![CDATA[Dieser Beitrag existiert leider nicht]]></entry>	
+	</dictionary>
+
+	<!-- plug-ins -->
+	
+	<plugins baseURL="flash/plugins/">
+		<plugin url="ZDFSMILPlugin.swf"/>
+		<plugin url="IVWTrackingPlugin.swf"/>
+		<plugin url="CaptioningPlugin.swf"/>
+	</plugins>
+
+	<plugins baseURL="flash/plugins/" profileName="akamai_vod_rtmp">
+		<plugin url="AkamaiBasicStreamingPlugin.swf"/>
+	</plugins>	
+	
+	<plugins baseURL="flash/plugins/" profileName="akamai_live_rtmp" includesProfile="akamai_vod_rtmp" />
+
+	<plugins baseURL="flash/plugins/" profileName="akamai_live_hds">
+		<plugin url="AkamaiAdvancedStreamingPlugin.swf"/>
+	</plugins>
+	
+	<!-- flash assets -->
+	
+	<assets baseURL="img/assets/images/">
+		<asset id="loader" type="flashSymbol" url="spinner.swf" symbol="SpinningLoader" />
+	</assets>
+	
+	<!-- image assets -->
+	
+	<assets baseURL="img/assets/images/">  
+		
+		<asset id="panel" type="bitmapFile" url="panel_background.png" scale9="11,34,234,148" width="254" height="191" offsetX="0" offsetY="0" />		
+		<asset id="caption" type="bitmapFile" url="spritesheet.png" scale9="2,2,15,15" width="19" height="19" offsetX="154" offsetY="228" />		
+		<asset id="bar" type="bitmapFile" url="spritesheet.png" scale9="2,2,18,13" width="22" height="17" offsetX="223" offsetY="242" />
+		<asset id="empty" type="bitmapFile" url="spritesheet.png" width="1" height="1" offsetX="254" offsetY="0" />
+		
+		<asset id="loaderGif" type="bitmapFile" url="loader.gif" />
+		
+		<asset id="closeUp" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="0" offsetY="192" />
+		<asset id="closeDown" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="25" offsetY="192" />
+		<asset id="closeDisabled" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="50" offsetY="192" />
+				
+		<asset id="playUp" type="bitmapFile" url="spritesheet.png" width="38" height="25" offsetX="150" offsetY="0" />
+		<asset id="playDown" type="bitmapFile" url="spritesheet.png" width="38" height="25" offsetX="150" offsetY="25" />
+		<asset id="playDisabled" type="bitmapFile" url="spritesheet.png" width="38" height="25" offsetX="150" offsetY="50" />
+		<asset id="pauseUp" type="bitmapFile" url="spritesheet.png" width="38" height="25" offsetX="150" offsetY="75" />
+		<asset id="pauseDown" type="bitmapFile" url="spritesheet.png" width="38" height="25" offsetX="150" offsetY="100" />  
+		<asset id="pauseDisabled" type="bitmapFile" url="spritesheet.png" width="38" height="25" offsetX="150" offsetY="125" />  
+		
+		<asset id="overlayPlayUp" type="bitmapFile" url="spritesheet.png" width="32" height="32" offsetX="188" offsetY="0" />
+		<asset id="overlayPlayDown" type="bitmapFile" url="spritesheet.png" width="32" height="32" offsetX="188" offsetY="33" />
+		<asset id="overlayPlayDisabled" type="bitmapFile" url="spritesheet.png" width="32" height="32" offsetX="188" offsetY="66" />
+		
+		<asset id="stopUp" type="bitmapFile" url="spritesheet.png" width="38" height="25" offsetX="150" offsetY="150" />
+		<asset id="stopDown" type="bitmapFile" url="spritesheet.png" width="38" height="25" offsetX="150" offsetY="175" />
+		<asset id="stopDisabled" type="bitmapFile" url="spritesheet.png" width="38" height="25" offsetX="150" offsetY="200" />
+		
+		<asset id="muteUp" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="0" offsetY="96" />
+		<asset id="muteDown" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="25" offsetY="96" />
+		<asset id="muteDisabled" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="50" offsetY="96" />
+		<asset id="muteSelectedUp" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="75" offsetY="96" />
+		<asset id="muteSelectedDown" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="100" offsetY="96" />
+		<asset id="muteSelectedDisabled" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="125" offsetY="96" />
+		
+		<asset id="captionUp" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="0" offsetY="24" />
+		<asset id="captionDown" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="25" offsetY="24" />
+		<asset id="captionDisabled" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="50" offsetY="24" />
+		<asset id="captionSelectedUp" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="75" offsetY="24" />
+		<asset id="captionSelectedDown" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="100" offsetY="24" />
+		<asset id="captionSelectedDisabled" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="125" offsetY="24" />
+		
+		<asset id="infoUp" type="bitmapFile" url="spritesheet.png" width="31" height="23" offsetX="221" offsetY="0" />
+		<asset id="infoDown" type="bitmapFile" url="spritesheet.png" width="31" height="23" offsetX="221" offsetY="24" />
+		<asset id="infoDisabled" type="bitmapFile" url="spritesheet.png" width="31" height="23" offsetX="221" offsetY="48" />
+		<asset id="infoSelectedUp" type="bitmapFile" url="spritesheet.png" width="31" height="23" offsetX="221" offsetY="72" />
+		<asset id="infoSelectedDown" type="bitmapFile" url="spritesheet.png" width="31" height="23" offsetX="221" offsetY="96" />
+		<asset id="infoSelectedDisabled" type="bitmapFile" url="spritesheet.png" width="31" height="23" offsetX="221" offsetY="120" />
+
+		<asset id="adjustmentUp" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="0" offsetY="0" />
+		<asset id="adjustmentDown" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="25" offsetY="0" />
+		<asset id="adjustmentDisabled" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="50" offsetY="0" />
+		<asset id="adjustmentSelectedUp" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="75" offsetY="0" />
+		<asset id="adjustmentSelectedDown" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="100" offsetY="0" />
+		<asset id="adjustmentSelectedDisabled" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="125" offsetY="0" />
+
+		<asset id="videoAdjustmentUp" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="0" offsetY="120" />
+		<asset id="videoAdjustmentDown" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="25" offsetY="120" />
+		<asset id="videoAdjustmentDisabled" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="50" offsetY="120" />
+		<asset id="videoAdjustmentSelectedUp" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="75" offsetY="120" />
+		<asset id="videoAdjustmentSelectedDown" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="100" offsetY="120" />
+		<asset id="videoAdjustmentSelectedDisabled" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="125" offsetY="120" />
+
+		<asset id="recommendUp" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="0" offsetY="144" />
+		<asset id="recommendDown" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="25" offsetY="144" />
+		<asset id="recommendDisabled" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="50" offsetY="144" />
+		<asset id="recommendSelectedUp" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="75" offsetY="144" />
+		<asset id="recommendSelectedDown" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="100" offsetY="144" />
+		<asset id="recommendSelectedDisabled" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="125" offsetY="144" />
+			
+		<asset id="fullScreenEnterUp" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="0" offsetY="48" />
+		<asset id="fullScreenEnterDown" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="25" offsetY="48" />
+		<asset id="fullScreenEnterDisabled" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="50" offsetY="48" />
+		<asset id="fullScreenLeaveUp" type="bitmapFile" url="spritesheet.png"  width="24" height="23" offsetX="75" offsetY="48" />
+		<asset id="fullScreenLeaveDown" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="100" offsetY="48" />
+		<asset id="fullScreenLeaveDisabled" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="125" offsetY="48" />		
+		
+		<asset id="neutralUp" type="bitmapFile" url="spritesheet.png" scale9="2,2,20,19" width="24" height="23" offsetX="0" offsetY="168" />
+		<asset id="neutralDown" type="bitmapFile" url="spritesheet.png" scale9="2,2,20,19" width="24" height="23" offsetX="25" offsetY="168" />
+		<asset id="neutralDisabled" type="bitmapFile" url="spritesheet.png" scale9="2,2,20,19" width="24" height="23" offsetX="50" offsetY="168" />
+		<asset id="neutralSelectedUp" type="bitmapFile" url="spritesheet.png" scale9="2,2,20,19" width="24" height="23" offsetX="75" offsetY="168" />
+		<asset id="neutralSelectedDown" type="bitmapFile" url="spritesheet.png" scale9="2,2,20,19" width="24" height="23" offsetX="100" offsetY="168" />
+		<asset id="neutralSelectedDisabled" type="bitmapFile" url="spritesheet.png" scale9="2,2,20,19" width="24" height="23" offsetX="125" offsetY="168" />
+		
+		<asset id="cuepointUp" type="bitmapFile" url="spritesheet.png" scale9="2,2,20,19" width="24" height="23" offsetX="0" offsetY="240" />
+		<asset id="cuepointDown" type="bitmapFile" url="spritesheet.png" scale9="2,2,20,19" width="24" height="23" offsetX="25" offsetY="240" />
+		<asset id="cuepointDisabled" type="bitmapFile" url="spritesheet.png" scale9="2,2,20,19" width="24" height="23" offsetX="50" offsetY="240" />
+		<asset id="cuepointSelectedUp" type="bitmapFile" url="spritesheet.png" scale9="2,2,20,19" width="24" height="23" offsetX="75" offsetY="240" />
+		<asset id="cuepointSelectedDown" type="bitmapFile" url="spritesheet.png" scale9="2,2,20,19" width="24" height="23" offsetX="100" offsetY="240" />
+		<asset id="cuepointSelectedDisabled" type="bitmapFile" url="spritesheet.png" scale9="2,2,20,19" width="24" height="23" offsetX="125" offsetY="240" />
+		
+		<asset id="minimizeUp" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="0" offsetY="264" />
+		<asset id="minimizeDown" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="25" offsetY="264" />
+		<asset id="minimizeDisabled" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="50" offsetY="264" />
+		<asset id="maximizeUp" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="75" offsetY="264" />
+		<asset id="maximizeDown" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="100" offsetY="264" />
+		<asset id="maximizeDisabled" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="125" offsetY="264" />
+			
+		<asset id="downloadUp" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="75" offsetY="192" />
+		<asset id="downloadDown" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="100" offsetY="192" />
+		<asset id="downloadDisabled" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="125" offsetY="192" />		
+		
+		<asset id="mediathekFullScreenUp" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="0" offsetY="216" />
+		<asset id="mediathekFullScreenDown" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="25" offsetY="216" />
+		<asset id="mediathekFullScreenDisabled" type="bitmapFile" url="spritesheet.png" width="24" height="23" offsetX="50" offsetY="216" />
+			
+		<asset id="radioButtonUp" type="bitmapFile" url="spritesheet.png" width="13" height="13" offsetX="206" offsetY="151" />
+		<asset id="radioButtonDown" type="bitmapFile" url="spritesheet.png" width="13" height="13" offsetX="206" offsetY="164" />
+		<asset id="radioButtonDisabled" type="bitmapFile" url="spritesheet.png" width="13" height="13" offsetX="206" offsetY="177" />
+		<asset id="radioButtonSelectedUp" type="bitmapFile" url="spritesheet.png" width="13" height="13" offsetX="206" offsetY="192" />
+		<asset id="radioButtonSelectedDown" type="bitmapFile" url="spritesheet.png" width="13" height="13" offsetX="206" offsetY="205" />
+		<asset id="radioButtonSelectedDisabled" type="bitmapFile" url="spritesheet.png" width="13" height="13" offsetX="206" offsetY="218" />
+		
+		<asset id="checkBoxUp" type="bitmapFile" url="spritesheet.png" width="15" height="11" offsetX="190" offsetY="151" />
+		<asset id="checkBoxDown" type="bitmapFile" url="spritesheet.png" width="15" height="11" offsetX="190" offsetY="164" />
+		<asset id="checkBoxDisabled" type="bitmapFile" url="spritesheet.png" width="15" height="11" offsetX="190" offsetY="177" />
+		<asset id="checkBoxSelectedUp" type="bitmapFile" url="spritesheet.png" width="15" height="11" offsetX="190" offsetY="192" />
+		<asset id="checkBoxSelectedDown" type="bitmapFile" url="spritesheet.png" width="15" height="11" offsetX="190" offsetY="205" />
+		<asset id="checkBoxSelectedDisabled" type="bitmapFile" url="spritesheet.png" width="15" height="11" offsetX="190" offsetY="218" />
+						
+		<asset id="volumeSliderThumbUp" type="bitmapFile" url="spritesheet.png" width="16" height="17" offsetX="221" offsetY="205" />
+		<asset id="volumeSliderThumbDown" type="bitmapFile" url="spritesheet.png" width="16" height="17" offsetX="239" offsetY="205" />
+		<asset id="volumeSliderThumbDisabled" type="bitmapFile" url="spritesheet.png" width="16" height="17" offsetX="221" offsetY="224" />
+		
+		<asset id="volumeSliderTrack" type="bitmapFile" url="spritesheet.png" scale9="2,2,74,2" width="78" height="6" offsetX="150" offsetY="260" />	
+		<asset id="volumeSliderProgressTrack" type="bitmapFile" url="spritesheet.png"  width="78" height="6" offsetX="150" offsetY="276" />			
+		
+		<asset id="scrubBarTrack" type="bitmapFile" url="spritesheet.png" scale9="2,2,68,4" width="72" height="8" offsetX="150" offsetY="260" />
+		<asset id="scrubBarProgressTrack" type="bitmapFile" url="spritesheet.png" scale9="2,2,68,4" width="72" height="8" offsetX="150" offsetY="251" />
+		
+		<asset id="scrubberUp" type="bitmapFile" url="spritesheet.png" width="37" height="17" offsetX="219" offsetY="150" />
+		<asset id="scrubberDown" type="bitmapFile" url="spritesheet.png" width="37" height="17" offsetX="219" offsetY="168" />
+		<asset id="scrubberDisabled" type="bitmapFile" url="spritesheet.png" width="37" height="17" offsetX="219" offsetY="186" />
+			
+		<asset id="adjustmentThumbUp" type="bitmapFile" url="spritesheet.png" width="13" height="20" offsetX="175" offsetY="230" />
+		<asset id="adjustmentThumbDown" type="bitmapFile" url="spritesheet.png" width="13" height="20" offsetX="190" offsetY="230" />
+		<asset id="adjustmentThumbDisabled" type="bitmapFile" url="spritesheet.png" width="13" height="20" offsetX="205" offsetY="230" />
+					
+		<asset id="facebookIcon" type="bitmapFile" url="facebook.png" width="16" height="16" offsetX="0" offsetY="0" />
+		<asset id="deliciousIcon" type="bitmapFile" url="delicious.png" width="16" height="16" offsetX="0" offsetY="0" />
+							
+	</assets>
+	
+	<!-- font assets -->
+	<assets baseURL="img/assets/fonts/">
+		<asset id="defaultFont" type="fontSymbol" color="0xFFFFFF" url="fonts.swf" 
+			   symbol="Verdana" fontFamily="Verdana,Helvetica,Arial,sans-serif" fontSize="11"/> 
+		<asset id="tooltipFont" type="fontSymbol" color="0xFFFFFF" url="fonts.swf" 
+			   symbol="Verdana" fontFamily="Verdana,Helvetica,Arial,sans-serif" fontSize="11"/>
+		<asset id="footNote" type="fontSymbol" color="0xAFAFAF" url="fonts.swf" 
+			   symbol="Verdana" fontFamily="Verdana,Helvetica,Arial,sans-serif" fontSize="9"/>
+		<asset id="captionFont" type="fontSymbol" color="0xFFFFFF" url="fonts.swf" 
+			   symbol="Verdana" fontFamily="Verdana,Helvetica,Arial,sans-serif" fontSize="16"/>
+	</assets>
+	
+	<!-- widgets -->
+	<widgets>
+		
+		<!-- Start Image -->   
+		<widget
+			id="startImage"
+			type="startImage"
+			hideImageWhilePlayback="true"			
+			percentWidth="100"
+			percentHeight="100"
+			imagePercentWidth="100"
+			imagePercentHeight="100"
+			/>	
+		<!-- Ende Start Image -->
+		
+		<!-- Buffering Notifier -->
+			
+		<widget
+			id="bufferNotifier"
+			type="bufferNotifier"
+			percentWidth="100"
+			percentHeight="100"	
+			loader="loader"		
+			animation="loaderGif"
+			/>
+			
+		<!-- Ende Buffering Notifier -->		
+	
+		<!-- Contextmenu Overlay -->
+		
+		<widget
+			id="contextMenuOverlay"
+			type="contextMenuOverlay"
+			percentWidth="100"
+			percentHeight="100"
+			versionDetails="true"
+			playbackDetails="false"
+			smoothingOptions="false"
+			scaleOptions="true"
+			/>
+			
+		<!-- Ende Contextmenu Overlay -->  
+		
+		<!-- Tooltips -->
+		
+		<widget
+			id="tooltip"
+			type="tooltip"
+			borderColor="0x000000"
+			borderThickness="1"
+			backgroundColor="0xFFFFE1"
+			font="tooltipFont"
+			maxWidth="200"
+			delay="500"
+			/>	
+			
+		<!-- Ende tooltips --> 
+		
+		<!-- Overlay PlayButton -->
+		
+		<widget
+			id="overlayPlayButton"
+			type="overlayPlayButton"
+			upFace="overlayPlayUp"
+			downFace="overlayPlayDown"
+			disabledFace="overlayPlayDisabled"
+			buttonMode="true"	
+			left="0"
+			right="0"
+			top="45"
+			bottom="45"
+			/>
+				
+		<!-- Ende Overlay Play Button -->		
+
+		
+		
+		
+		<!-- Controlbar -->
+				
+		<widget
+			id="controlBar"
+			face="bar"
+			percentWidth="100"
+			height="44"
+			horizontalAlign="center" 
+			bottom="0"
+			autoHide="false"
+			fadeSteps="7"
+			>
+			
+			<!-- Linker Controlbar Bereich -->
+			
+			<widget
+				id="controlBarLeft" 
+				layoutMode="horizontal"
+				left="5"
+				percentHeight="100"
+				>
+
+				<widget
+					id="playPauseButton"
+					type="playPauseButton"
+					verticalAlign="middle"
+					upFace="playUp"
+					downFace="playDown"
+					disabledFace="playDisabled"
+					selectedUpFace="pauseUp"
+					selectedDownFace="pauseDown"
+					selectedDisabledFace="pauseDisabled"	
+					buttonMode="true"	
+					tooltip="Play/Pause"		
+					/>	
+					
+				<widget
+					id="stopButton"
+					type="stopButton"
+					verticalAlign="middle"
+					upFace="stopUp"
+					downFace="stopDown"
+					disabledFace="stopDisabled"
+					tooltip="Stop"
+					/>
+					
+			</widget>
+			
+			<!-- Ende Linker Controlbar Bereich -->
+			
+			<!-- Rechter Controlbar Bereich -->
+			
+			<widget
+				id="controlBarRight"
+				layoutMode="horizontal"
+				verticalAlign="middle"
+				percentHeight="100"
+				right="5"
+				>
+				
+				<widget
+					id="timeField"
+					type="timeField"	
+					displayMode="elapsedRemaining"
+					verticalAlign="middle"
+					/>	
+					
+				<widget width="6" />	
+				
+				<widget
+                  id="volumeButton"
+                  type="volumeButton"                  
+                  verticalAlign="middle"
+                  upFace="muteUp"
+                  downFace="muteDown"
+                  disabledFace="muteDisabled"
+                  selectedUpFace="muteSelectedUp"
+                  selectedDownFace="muteSelectedDown"
+                  selectedDisabledFace="muteSelectedDisabled"     
+                  tooltip="Laustärkeregelung" 
+				  buttonMode="true"	  
+                  sliderHeight="55"
+                  sliderWidth="24"
+                  sliderBackgroundColor="0x111111"
+                  sliderBackgroundAlpha="0.6"
+                  thumbUp="volumeSliderThumbUp"
+                  thumbDown="volumeSliderThumbDown"
+                  thumbDisabled="volumeSliderThumbDisabled"
+                  track="volumeSliderTrack"
+                  progressTrack="volumeSliderProgressTrack"
+                  value="0.75"                  
+                  />
+
+				<widget width="6" />					
+
+	
+								
+				<widget width="2" />
+				
+													
+
+			</widget>
+			
+			<!-- Ende Rechter Controlbar Bereich -->	
+			
+			<!-- Scrubbar --> 
+			
+			<widget
+				id="scrubBar"
+				type="scrubBar"
+				showTimeFields="false"
+				left="95"
+				right="120"
+				height="17"
+				scrubberUp="scrubberUp"
+				scrubberDown="scrubberDown"
+				scrubberDisabled="scrubberDisabled"
+				track="scrubBarTrack"
+				progressTrack="scrubBarProgressTrack"
+				showDataTip="true"
+				immediateScrubbing="false"
+				dataTipMode="elapsedRemaining" 
+				verticalAlign="middle"
+				/>
+				
+			<!-- Ende Scrubbar -->
+				
+		</widget>
+		
+		<!-- Ende Controlbar -->
+
+		<!-- Loader Animation -->
+		
+		<widget
+			id="loaderAnimation"
+			type="loaderAnimation"
+			horizontalAlign="center"
+			verticalAlign="middle"
+			/>
+					
+		<!-- Ende Loader Animation -->
+		
+
+		<widget
+			id="supplementaryContainer"	
+			percentWidth="100"
+			bottom="44"
+			layoutMode="vertical"
+			>
+			
+			<!-- Caption Layer -->
+			
+			<widget
+				id="caption"
+				type="caption"
+				face="caption"
+				percentWidth="100"
+				height="100"
+				verticalAlign="bottom"
+				layoutMode="vertical" 
+				>
+				
+				<widget
+					id="captionLabel"
+					type="label"
+					top="10"
+					left="10"
+					right="10"
+					bottom="10"
+					font="captionFont"
+					/>		
+			
+			</widget>
+					
+			<!-- Ende Caption Layer -->	
+			
+			<!-- CuePoint Layer -->
+				
+			<widget
+				id="cuepoint"
+				type="cuepoint"
+				layoutMode="none"
+				markerUpFace="cuepointUp"
+				markerDownFace="cuepointDown"
+				markerDisabledFace="cuepointDisabled"
+				font="defaultFont"	
+				scrollSpeed="10"
+				scrollSensitivity="50"
+				percentWidth="100"
+				autoHide="false"
+				fadeSteps="7"	
+				face="empty"			
+				/>
+				
+			<!-- Ende CuePoint Layer -->
+			
+			<!-- "Einzelsendung" Layer -->
+					
+			<widget
+				id="articleList"
+				type="articleList"
+				fadeSteps="5"
+				layoutMode="none"
+				markerUpFace="cuepointUp"
+				markerDownFace="cuepointDown"
+				markerDisabledFace="cuepointDisabled"
+				markerSelectedUpFace="cuepointSelectedUp"
+				markerSelectedDownFace="cuepointSelectedDown"
+				markerSelectedDisabledFace="cuepointSelectedDisabled"
+				font="defaultFont"	
+				scrollSpeed="10"
+				scrollSensitivity="50" 
+				left="0"
+				right="0"
+				face="empty"
+				autoHide="false"
+				/>
+					
+			<!-- Ende "Einzelsendung" Layer -->	
+			
+		</widget>
+				
+		<!-- Ende Container für Zusatzlayer -->		
+		
+		<!-- Popup Container -->
+
+		<widget
+			id="popupContainer"
+			type="popupContainer"
+			percentWidth="100"
+			percentHeight="100"
+			layoutMode="none" 
+			>
+			
+			<!-- Download Dialog -->
+			
+			<widget
+				id="downloadDialog"
+				type="downloadDialog"
+				face="panel"
+				width="190"
+				height="120"
+				horizontalAlign="center"
+				verticalAlign="middle"
+				pauseMedia="true"
+				dropShadow="true"
+				>
+								
+				<widget
+					id="downloadHeadline"
+					type="label"
+					height="20"
+					left="10"
+					right="10"
+					top="10"
+					text="Video herunterladen"
+					fontSize="13"
+					/>	
+					
+				<widget
+					type="button"
+					id="closeButton"
+					upFace="closeUp"
+					downFace="closeDown"
+					disabledFace="closeDisabled"
+					right="10"
+					top="10"
+					/>					
+					
+				<widget
+					id="wmvButton"
+					type="button"
+					upFace="neutralUp"
+					downFace="neutralDown"
+					disabledFace="neutralDown"
+					left="10"
+					top="45"
+					text="wmv (Windows Media)"
+					/>
+					
+				<widget
+					id="mp4Button"
+					type="button"
+					upFace="neutralUp"
+					downFace="neutralDown"
+					disabledFace="neutralDown"
+					left="10"
+					top="80"
+					text="mp4 (Apple Quicktime)"
+					/>							
+							
+			</widget>
+			
+			
+			<!-- Ende Download Dialog -->	
+			
+			
+			<!-- Article Info Dialog -->
+
+			<widget
+				id="articleInfo"
+				type="articleInfo"
+				height="200"
+				width="350"
+				face="panel"
+				right="10"
+				top="10"
+				pauseMedia="false"
+				dropShadow="true"
+				>
+				
+				<widget
+					type="button"
+					id="closeButton"
+					upFace="closeUp"
+					downFace="closeDown"
+					disabledFace="closeDisabled"
+					right="10"
+					top="10"
+					/>
+					
+				<widget
+					id="articleTitleHeadline"
+					type="label"
+					height="16"
+					left="10"
+					right="30"
+					top="10"
+					text="Aktueller Beitrag"
+					fontSize="14"
+					/>		
+				
+				<widget
+					id="articleTitleLabel"
+					type="label"
+					height="20"
+					left="10"
+					right="10"
+					top="35"
+					/>
+	
+				<widget
+					id="articleDescriptionLabel"
+					type="label"
+					multiline="true"
+					left="10"
+					right="10"	
+					top="60"
+					/>	
+					
+				<widget
+					id="broadcastLabel"
+					type="label"
+					height="20"
+					left="10"
+					right="10"	
+					bottom="44"
+					text="broadcastLabel"
+					/>	
+					
+				<widget
+					id="airDateLabel"
+					type="label"
+					height="20"
+					left="10"
+					right="10"	
+					bottom="27"	
+					text="airDateLabel"					
+					/>	
+					
+				<widget
+					id="expiryDateLabel"
+					type="label"
+					height="20"
+					left="10"
+					right="10"	
+					bottom="10"	
+					text="expiryDateLabel"				
+					/>	
+				
+			</widget>
+
+		    <!-- Ende Article Info Dialog -->	
+		    
+		   <!-- Adjustment Dialog -->	
+			
+			<widget
+				id="adjustment"
+				type="adjustment"
+				face="panel"
+				width="260"
+				height="200"
+				horizontalAlign="center"
+				verticalAlign="middle"
+				pauseMedia="true"
+				dropShadow="true"
+				>
+				
+				<widget
+					id="adjustmentHeadlineLabel"
+					type="label"
+					top="10"
+					left="10"
+					right="10"
+					fontSize="14"
+					text="Einstellungen"
+					height="25"				
+					/>
+			 
+				<widget
+					id="broadcastLabel"
+					type="label"
+					top="48"
+					left="10"
+					right="10"
+					text="Bandbreite"
+					height="18"	
+					/>
+					
+				<widget
+					id="closeButton"
+					type="button"
+					upFace="closeUp"
+					downFace="closeDown"
+					disabledFace="closeDisabled"
+					right="10"
+					top="10"
+					tooltip="Schliessen"
+					/>					
+					
+				<widget
+					right="10"
+					left="10"
+					top="72"
+					bottom="40"
+					>
+
+					<widget
+						id="qualitySelector"
+						type="qualitySelector"
+						upFace="radioButtonUp"
+						downFace="radioButtonDown"
+						disabledFace="radioButtonDisabled"
+						selectedUpFace="radioButtonSelectedUp"
+						selectedDownFace="radioButtonSelectedDown"
+						selectedDisabledFace="radioButtonSelectedDisabled"	
+						font="defaultFont"
+						right="0"
+						left="0"
+						top="0"
+						bottom="0"
+						/>
+					
+				</widget>				
+							
+				<widget
+					id="cancelSettingsButton"
+					type="button"
+					upFace="neutralUp"
+					downFace="neutralDown"
+					disabledFace="neutralDown"
+					right="10"
+					bottom="10"
+					text="abbrechen"
+					tooltip="Änderungen verwerfen"	
+					/>
+					
+				<widget
+					id="saveSettingsButton"
+					type="button"
+					upFace="neutralUp"
+					downFace="neutralDown"
+					disabledFace="neutralDown"
+					right="100"
+					bottom="10"
+					text="speichern"
+					tooltip="Änderungen speichern"	
+					/>
+					
+			</widget>	
+						
+			<!-- Ende Adjustment Dialog -->
+				
+			<!-- Recommend Dialog -->	
+			
+			<widget
+				id="recommend"
+				type="recommend"
+				face="panel"
+				width="430"
+				height="380"
+				horizontalAlign="center"
+				verticalAlign="middle"
+				pauseMedia="true"
+				dropShadow="true"
+				>
+				
+				<widget
+					id="titleLabel"
+					type="label"
+					top="7"
+					height="16"
+					text="Weiterempfehlen"
+					fontSize="14"
+					left="10"
+					right="10"
+					/>
+
+				<widget
+					id="bookmarkLabel"
+					type="label"
+					top="38"
+					left="10"
+					width="150"
+					height="16"
+					text="Social Bookmarks:"
+					/>						
+					
+				<widget
+					id="socialBookmarkBar"
+					layoutMode="horizontal"
+					height="20"
+					left="10"
+					right="10"
+					top="56"
+					>
+					
+					<widget
+						id="facebookButton"
+						type="socialMediaLinkButton"
+						upFace="facebookIcon"			
+						title="Lorem456"	
+						sharingURL="http://www.facebook.com/share.php?u=%(URL)"
+						tooltip="Teilen auf Facebook"
+						/>
+						
+					<widget
+						id="deliciousButton"
+						type="socialMediaLinkButton"
+						upFace="deliciousIcon"			
+						title="Ipsum123"	
+						sharingURL="http://delicious.com/post?url=%(URL)&amp;title=%(TITLE)"
+						tooltip="Teilen auf Delicious"	
+						/>
+						
+				</widget>
+				
+				<widget
+					id="linkLabel"
+					type="label"
+					top="86"
+					left="10"
+					width="150"
+					height="16"
+					text="URL des Videobeitrags:"
+					/>
+				
+				<widget
+					id="linkInput"
+					type="label"
+					width="410"
+					left="10"
+					top="110"
+					height="20"
+					input="true"
+					background="true"
+					backgroundColor="0xFFFFFF"
+					textAlpha="0.8"
+					textColor="0x000000"
+					text="http://google.de"
+					/>
+	
+					
+				<widget
+					id="closeButton"
+					type="button"
+					upFace="closeUp"
+					downFace="closeDown"
+					disabledFace="closeDisabled"
+					right="10"
+					top="10"
+					tooltip="schliessen"
+					/>
+					
+				<widget
+					id="copyLinkButton"
+					type="button"
+					upFace="neutralUp"
+					downFace="neutralDown"
+					disabledFace="neutralDown"
+					right="10"
+					top="140"
+					text="Link Adresse kopieren"
+					/>
+												
+				<widget
+					id="messageLabel"
+					type="label"
+					top="180"
+					left="10"
+					width="150"
+					height="16"
+					text="Nachricht:"
+					/>
+					
+				<widget
+					id="messageInput"
+					type="label"
+					width="410"
+					left="10"
+					top="204"
+					height="60"
+					input="true"
+					background="true"
+					backgroundColor="0xFFFFFF"
+					textColor="0x000000"
+					textAlpha="0.8"
+					multiline="true"
+					/>
+					
+				<widget
+					id="receiverMailLabel"
+					type="label"
+					top="280"
+					left="10"
+					height="20"
+					width="150"
+					text="Empfänger:"
+					/>
+					
+				<widget
+					id="receiverMailInput"
+					type="label"
+					left="10"
+					top="305"
+					height="20"
+					width="200"
+					input="true"
+					background="true"
+					backgroundColor="0xFFFFFF"
+					textAlpha="0.8"
+					textColor="0x000000"
+					/>
+					
+				<widget
+					id="senderMailLabel"
+					type="label"
+					top="280"
+					left="220"
+					height="20"
+					text="Absender:"
+					/>
+					
+				<widget
+					id="senderMailInput"
+					type="label"
+					left="220"
+					width="200"
+					top="305"
+					height="20"
+					input="true"
+					background="true"
+					backgroundColor="0xFFFFFF"
+					textAlpha="0.8"
+					textColor="0x000000"
+					/>
+					
+					
+				<widget
+					id="dataSecurityHint"
+					type="label"
+					top="335"
+					left="10"
+					right="110"
+					text="Das ZDF versichert, Ihre Daten entsprechend der datenschutzrechtlichen Bestimmungen vertraulich zu behandeln"
+					font="footNote"
+					multiline="true"
+					height="40"
+					/>				
+					
+				<widget
+					id="sendButton"
+					type="button"
+					upFace="neutralUp"
+					downFace="neutralDown"
+					disabledFace="neutralDown"
+					right="10"
+					bottom="10"
+					text="Absenden"
+					/>	
+
+			</widget>
+			
+			<!-- Ende Recommend Dialog -->
+			
+			<!-- Video Adjustment Dialog  -->
+					
+			<widget
+				id="videoadjustment"
+				type="videoadjustment"
+				face="panel"
+				width="220"
+				height="275"
+				fadeSteps="5"
+				pauseMedia="false"
+				dropShadow="true"
+				horizontalAlign="center"
+				verticalAlign="middle"				
+				>
+				
+				<widget
+					id="closeButton"
+					type="button"
+					upFace="closeUp"
+					downFace="closeDown"
+					disabledFace="closeDisabled"
+					right="10"
+					top="10"
+					tooltip="Schliessen"
+					/>	
+							
+				<widget
+					id="saturationLabel"
+					type="label"
+					top="20"
+					width="60"
+					height="16"
+					text="Sättigung"
+					horizontalAlign="center"
+					/>
+					
+				<widget
+					id="saturationSlider"
+					type="slider"
+					font="defaultFont"
+					top="50"
+					right="10"
+					left="10"
+					height="31"
+					horizontalAlign="center"
+					thumbUp="adjustmentThumbUp"
+					thumbDown="adjustmentThumbDown"
+					thumbDisabled="adjustmentThumbDisabled" 
+					track="scrubBarTrack"
+					minimumLabel="-"
+					maximumLabel="+"
+					minimumValue="-100"
+					maximumValue="100"
+					labelColor="0xEBEBEB"	
+					value="0"
+					/>			
+					
+				<widget
+					id="contrastLabel"
+					type="label"
+					top="90"
+					width="51"
+					height="16"
+					text="Kontrast"
+					horizontalAlign="center"
+					/>
+					
+				<widget
+					id="contrastSlider"
+					type="slider"
+					font="defaultFont"
+					top="120"
+					right="10"
+					left="10"
+					height="31"
+					horizontalAlign="center"
+					thumbUp="adjustmentThumbUp"
+					thumbDown="adjustmentThumbDown"
+					thumbDisabled="adjustmentThumbDisabled" 
+					track="scrubBarTrack"
+					minimumLabel="-"
+					maximumLabel="+"
+					minimumValue="-100"
+					maximumValue="100"
+					labelColor="0xEBEBEB"	
+					value="0"
+					/>				
+					
+				<widget
+					id="brightnessLabel"
+					type="label"
+					top="160"
+					height="16"
+					width="57"
+					text="Helligkeit"
+					horizontalAlign="center"
+					/>
+					
+				<widget
+					id="brightnessSlider"
+					type="slider"
+					font="defaultFont"
+					top="190"
+					right="10"
+					left="10"
+					height="31"
+					horizontalAlign="center"
+					thumbUp="adjustmentThumbUp"
+					thumbDown="adjustmentThumbDown"
+					thumbDisabled="adjustmentThumbDisabled" 
+					track="scrubBarTrack"
+					minimumLabel="-"
+					maximumLabel="+"
+					minimumValue="-100"
+					maximumValue="100"
+					labelColor="0xEBEBEB"	
+					value="0"
+					/>
+									
+				<widget
+					id="resetSlidersButton"
+					type="button"
+					upFace="neutralUp"
+					downFace="neutralDown"
+					disabledFace="neutralDown"
+					right="10"
+					bottom="10"
+					text="zurücksetzen"
+					/>
+					
+			</widget>	 
+							
+			<!-- Ende Video Adjustment Dialog -->	
+									
+		</widget>
+		
+		<!-- Ende PopUp Container -->	
+		
+		<!-- Alert Dialog -->
+		
+		<widget
+			id="alert"
+			type="alert"
+			face="panel"
+			width="250"
+			height="140"
+			verticalAlign="middle"
+			horizontalAlign="center"
+			fadeSteps="6"
+			dropShadow="true"
+			>
+			
+			<widget
+				id="captionLabel"
+				type="label"
+				top="12"
+				left="15"
+				right="10"
+				height="18"
+				fontSize="14"
+				/>
+				
+			<widget
+				id="messageLabel"
+				type="label"
+				top="44"
+				left="15"
+				right="15"
+				bottom="10"
+				multiline="true"
+				selectable="true"
+				/>
+				
+			<widget
+				id="closeButton"
+				type="button"
+				upFace="closeUp"
+				downFace="closeDown"
+				disabledFace="closeDisabled"
+				right="10"
+				top="10"
+				tooltip="Meldung schliessen"
+				/>
+			
+		</widget>
+		
+		<!-- Ende Alert Dialog -->
+				
+	</widgets>
+	
+</chrome>
