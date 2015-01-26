@@ -1,0 +1,989 @@
+{
+    
+  "harald": {
+
+    "name": "Harald Bjørn",
+    "slug": "harald",
+    "text" : "Hauptkommissar, Kopenhagen",
+    "longText": "Harald Bjørn (48) ist Hauptkommissar im Morddezernat Kopenhagen und Experte auf dem Gebiet des organisierten Verbrechens. Harald braucht seinen Beruf wie die Luft zum Atmen. Darüber vergisst er oft sein Umfeld und das sogar, obwohl seine Frau Liv hochschwanger ist. Wenn Harald eine Aufgabe hat, wirft er sich mit allem hinein, was er hat. Und das nicht nur beruflich. Er ist ein leidenschaftlicher Bergsteiger und in seinem Alter noch immer süchtig nach dem Adrenalinkick, den eine senkrechte Felswand in ihm auslöst. Gleichzeitig ist er loyal und aufopferungsvoll den Menschen gegenüber, die ihm nahestehen. Wieder mit Jackie zu arbeiten, bringt ihn in eine schwierige private Situation.",
+    "image": "harald.jpg",
+
+    "relations": [
+      {
+        "slug": "jackie",
+        "name": "Jackie Mueller",
+        "text": "Kollegin vom BKA in Berlin"
+      },
+      {
+        "slug": "else",
+        "name": "Else Højby",
+        "text": "Kommissarin in Kopenhagen"
+      },
+      {
+        "slug": "finn",
+        "name": "Finn Moesgaard",
+        "text": "Haralds Stellvertreter"
+      },
+      
+      {
+        "slug": "liv",
+        "name": "Liv Eriksen",
+        "text": "Haralds Ehefrau"
+      },
+      
+      {
+        "slug": "kit",
+        "name": "Kit Ekdal",
+        "text": "Digitale Ermittlerin"
+      },
+	  {
+        "slug": "alicia",
+        "name": "Alicia Verbeek",
+        "text": "Kollegin aus Antwerpen"
+      },
+	  {
+        "slug": "william",
+        "name": "William Maclean",
+        "text": "Ermittler bei Europol"
+      }
+    ]
+  },
+
+
+  "jackie": {
+
+    "name": "Jackie Mueller",
+    "slug": "jackie",
+    "text" : "Hauptkommissarin, Berlin",
+    "longText": "Jackie Mueller (36) ist Polizeihauptkommissarin beim BKA Berlin. Sie ist rational genug, um zu erkennen, dass sie nicht die ganze Welt retten kann - doch bei den Konsequenzen, die das organisierte Verbrechen für die Menschen hat, hört für sie der Spaß auf. Seit Jackie vor einigen Jahren bei einem Europol-Einsatz in New York mit einem dänischen Polizei-Teamleiter zusammenarbeitete, ist ihre Ehe mit ihrem Mann Elias nicht mehr dieselbe. Lang gehütete Geheimnisse und ein schlechtes Gewissen können mörderisch für Beziehungen sein, das weiß Jackie aus ihrer Arbeit als Polizistin. Aber was, wenn plötzlich das eigene Leben aus der Bahn gerät?",
+    "image": "jackie.jpg",
+
+    "relations": [
+      {
+        "slug": "harald",
+        "name": "Harald Bjørn",
+        "text": "Hauptkommissar in Kopenhagen"
+      },
+      {
+        "slug": "elias",
+        "name": "Elias Mueller",
+        "text": "Jackies Ehemann"
+      },
+      {
+        "slug": "rainer",
+        "name": "Rainer Stark",
+        "text": "Jackies Chef beim BKA"
+      },
+      {
+        "slug": "natascha",
+        "name": "Natascha Stark",
+        "text": "Kommissarin beim BKA"
+      },
+	  {
+        "slug": "alicia",
+        "name": "Alicia Verbeek",
+        "text": "Kollegin aus Antwerpen"
+	 }
+    ]
+  },
+  
+  "alicia": {
+    
+    "name": "Alicia Verbeek",
+    "slug": "alicia",
+    "text" : "Kommissarin, Antwerpen",
+    "longText": "Alicia Verbeek (34) ist Kommissarin im Morddezernat in Antwerpen. Sie ist Teil der Generation junger Frauen in Europa, die wissen, dass sie in Schule, Ausbildung und Beruf erstklassig sein müssen, um ihr Leben in die Hand nehmen zu können. Alicia ist in Antwerpen aufgewachsen und kennt Verbrecher und Opfer nicht nur aus ihrer Arbeit als Polizistin. Alicia kann sich selbst nicht verzeihen, dass sie ihre kleine Schwester Fifi nicht davor bewahren konnte, wie ihre Mutter in die Prostitution abzurutschen. Als Alicia Missstände in ihrer eigenen Abteilung in Antwerpen aufdeckt, bemerkt sie viel zu spät, dass sie Gefahr läuft für ein Spiel benutzt zu werden, dessen Regeln ihre Vorstellungskraft weit übersteigen.",
+    "image": "alicia.jpg",
+
+    "relations": [
+      {
+        "slug": "harald",
+        "name": "Harald Bjørn",
+        "text": "Kollege aus Kopenhagen"
+      },
+      
+      {
+        "slug": "jackie",
+        "name": "Jackie Mueller",
+        "text": "Kollegin aus Berlin"
+      },
+      {
+        "slug": "frank",
+        "name": "Frank Aers",
+        "text": "Kommissar in Antwerpen"
+      },
+      {
+        "slug": "stephane",
+        "name": "Stéphane Pernel",
+        "text": "Ermittlungsrichterin"
+      }
+
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/rasmus/rasmus_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/rasmus/rasmus_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  "marius": {
+
+    "name": "Marius Loukauskis",
+    "slug": "marius",
+    "text" : "Milliardär und Menschenhändler",
+    "longText": "Marius Loukauskis (44), in ärmlichen Verhältnissen in der ehemaligen Sowjetrepublik Litauen aufgewachsen, treibt seit frühester Kindheit nur ein Wunsch an: Reich zu werden. Richtig reich. Als Kleinkrimineller schnell erfolgreich, findet er bald sein wahres Talent in der Prostitutionsszene. Er beginnt als Zuhälter und entwickelt so die nötige Rücksichtslosigkeit. Als die Sowjetunion zerfällt, ist der damals Neunzehnjährige bereits zu einem ansehnlichen Vermögen gekommen. Er nutzt die Gunst der Stunde und schafft sein Geld nach Berlin. Von dort aus bringt er zusammen mit seiner damaligen Ehefrau Dahlia tausende osteuropäische Frauen in den Westen. Heute ist er einer der führenden Köpfe im organisierten Menschenhandel: ein moderner Sklavenhändler, der mit aller Macht versucht, sich als legaler Geschäftsmann zu etablieren.",
+    "image": "marius.jpg",
+
+    "relations": [
+      {
+        "slug": "bianca",
+        "name": "Bianca Loukauskis",
+        "text": "Loukauskis Tochter"
+      },
+      {
+        "slug": "bruno",
+        "name": "Bruno Koopmann",
+        "text": "Loukauskis Sicherheitschef"
+      },
+      {
+        "slug": "dahlia",
+        "name": "Dahlia Loukauskis",
+        "text": "Loukauskis Exfrau"
+      },
+    {
+        "slug": "iris",
+        "name": "Iris Gabler",
+        "text": "Jazz-Sängerin"
+      },
+      {
+        "slug": "max",
+        "name": "Max Ritter",
+        "text": "Loukauskis Fahrer"
+      },
+	  {
+        "slug": "jeanlouis",
+        "name": "Jean Louis Poquelin",
+        "text": "Journalist und Dokumentarist"
+      }
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/pernille/pernille_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/pernille/pernille_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  "jeanlouis": {
+
+    "name": "Jean Louis Poquelin",
+    "slug": "jeanlouis",
+    "text" : "Journalist und Dokumentarist",
+    "longText": "Jean Louis (40) könnte man als "Scharfschützen" unter den Journalisten bezeichnen. Seine Methode ist es, viele Monate mit der Person zu verbringen, die er portraitiert, um Zugang zu ihren tiefsten Überzeugungen und innersten Gedanken zu erhalten. Bei einem Spaziergang im Hafen seiner Heimatstadt Antwerpen kam Jean Louis die Idee, ein Portrait über den Besitzer der größten Yacht im Hafen zu schreiben. Durch Kontakte bei der Polizei bekam er Hinweise auf Loukauskis, dessen Geschäfte und scheinbar unantastbare Position. Seine Neugierde war geweckt. Er konnte Loukauskis bei einem Treffen überzeugen, ihn für sein neues Buch portraitieren zu dürfen. Über Wochen und Monate kommen sich beide näher, werden fast Freunde, bis Jean Louis in einem fatalen Moment zu weit geht und Loukauskis wahre Natur zum Vorschein kommt.",
+    "image": "jeanlouis.jpg",
+
+    "relations": [
+      {
+        "slug": "marius",
+        "name": "Marius Loukauskis",
+        "text": "Milliardär und Menschenhändler"
+      },
+    {
+        "slug": "maria",
+        "name": "Maria",
+        "text": "Prostituierte in Berlin"
+      }
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/john/john_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/john/john_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  "max": {
+
+    "name": "Max Ritter",
+    "slug": "max",
+    "text" : "Loukauskis Fahrer",
+    "longText": "Max ist ein junger intelligenter Mann aus Berlin, der als Fahrer für Marius Loukauskis arbeitet. Doch er verfolgt noch andere Absichten.",
+    "image": "max.jpg",
+
+    "relations": [
+      {
+        "slug": "bianca",
+        "name": "Bianca Loukauskis",
+        "text": "Marius Loukauskis Tochter"
+      },
+      {
+        "slug": "marius",
+        "name": "Marius Loukauskis",
+        "text": "Milliardär und Menschenhändler"
+      }
+
+    ],
+
+    "media": [ 
+	
+	
+	
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/hans/hans_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/hans/hans_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  "bianca": {
+
+    "name": "Bianca Loukauskis",
+    "slug": "bianca",
+    "text" : "Marius Loukauskis' Tochter",
+    "longText": "Bianca (23) ist Marius Loukauskis Tochter und Verlobte von Carl Graf Friedrich Septimus, einem Grafen des preußischen Adels. Die arrangierte Hochzeit soll vor allem dazu dienen, Loukauskis gesellschaftlichen Status zu verleihen. Viel mehr interessiert sich Bianca allerdings für Max, den Fahrer ihres Vaters. Von dessen wahren Absichten ahnt sie jedoch wenig. Als Jugendliche war Bianca eng mit Iris Gablers Tochter Maria befreundet.",
+    "image": "bianca.jpg",
+
+    "relations": [
+      {
+        "slug": "max",
+        "name": "Max Ritter",
+        "text": "Loukauskis' Fahrer"
+      },
+      {
+        "slug": "maria",
+        "name": "Maria",
+        "text": "Biancas Freundin"
+      },
+{
+        "slug": "marius",
+        "name": "Marius Loukauskis",
+        "text": "Biancas Vater"
+      },
+    {
+        "slug": "dahlia",
+        "name": "Dahlia Loukauskis",
+        "text": "Biancas Mutter"
+      }
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/lillian/lillian_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/lillian/lillian_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  
+  
+  "bruno": {
+
+    "name": "Bruno Koopmann",
+    "slug": "bruno",
+    "text" : "Loukauskis Sicherheitschef",
+    "longText": "Als Sicherheitschef von Marius Loukauskis traut Bruno Koopmann grundsätzlich niemandem. Er handelt zuweilen skrupellos, um die Interessen seines Chefs zu wahren.",
+    "image": "bruno.jpg",
+
+    "relations": [
+      {
+        "slug": "marius",
+        "name": "Marius Loukauskis",
+        "text": "Brunos Chef"
+      },
+	  {
+        "slug": "max",
+        "name": "Max Ritter",
+        "text": "Loukauskis Fahrer"
+      }
+     
+    ],
+
+    "media": [ 
+	{
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/matilde/mette_afs1_1.jpg"
+      },
+	  {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/martin/martin_afs1_2.jpg"
+      }
+      
+    
+   ]
+  },
+  
+    
+  
+  
+  "Frank": {
+
+    "name": "Frank Aers",
+    "slug": "frank",
+    "text" : "Kommissar in Antwerpen",
+    "longText": "Der Antwerpener Polizeikommissar Frank (48) wurde vielleicht einmal zu oft bei Beförderungen übergangen. Daher ist Frank nicht begeistert davon, der wesentlich jüngeren Alicia zu assistieren. Seine merkwürdige und dubiose Verbindung zu Madame Pernel und seine Arbeitsweise, die manchmal sogar die Ermittlungen zu behindern scheint, führen regelmäßig zu hitzigen Auseinandersetzungen mit Alicia.",
+    "image": "frank.jpg",
+
+    "relations": [
+      {
+        "slug": "alicia",
+        "name": "Alicia Verbeek",
+        "text": "Kollegin bei der Mordkommission"
+      },
+{
+        "slug": "stephane",
+        "name": "Stéphane Pernel",
+        "text": "Ermittlungsrichterin"
+      }
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/linus/linus_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/linus/linus_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  "kit": {
+
+    "name": "Kit Ekdal",
+    "slug": "kit",
+    "text" : "Digitale Ermittlerin, Kopenhagen",
+    "longText": "Die Schwedin Kit (29) arbeitet eng mit Harald und den anderen Teammitgliedern zusammen und ist die treibende Kraft, wenn es um technische und IT-Fragen geht. So brillant sie in ihrem Job ist, so unglücklich war sie bei der Wahl ihres Ehemannes, der ein krankhaftes Eifersuchtsproblem hat.",
+    "image": "kit.jpg",
+
+    "relations": [
+      {
+        "slug": "harald",
+        "name": "Harald Bjørn",
+        "text": "Kits Vorgesetzter"
+      },
+   	{
+        "slug": "else",
+        "name": "Else Højby",
+        "text": "Kommissarin, Kopenhagen"
+      },
+   	{
+        "slug": "finn",
+        "name": "Finn Moesgaard",
+        "text": "Kommissar, Kopenhagen"
+     	 } 
+
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/niklas/niklas_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/niklas/niklas_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+   
+  
+    
+  
+  "dahlia": {
+
+    "name": "Dahlia Loukauskis",
+    "slug": "dahlia",
+    "text" : "Marius Loukauskis Exfrau",
+    "longText": "Dahlia war mit Marius Loukauskis verheiratet und hat mit ihm eine gemeinsame Tochter, Bianca.",
+    "image": "dahlia.jpg",
+
+    "relations": [
+      {
+        "slug": "marius",
+        "name": "Marius Loukauskis",
+        "text": "Dahlias Exmann"
+      },
+    
+    {
+        "slug": "bianca",
+        "name": "Bianca Loukauskis",
+        "text": "Dahlias Tochter"
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+	  
+	 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  "elias": {
+
+    "name": "Elias Mueller",
+    "slug": "elias",
+    "text" : "Jackie Muellers Ehemann",
+    "longText": "Elias ist beruflich sehr erfolgreich und ein liebe- und verständnisvoller Familienvater. Mit Jackie hat er zwei kleine Töchter",
+    "image": "elias.jpg",
+
+    "relations": [
+      {
+        "slug": "jackie",
+        "name": "Jackie Mueller",
+        "text": "Jackie ist Elias Ehefrau"
+      
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  
+  "finn": {
+
+    "name": "Finn Moesgaard",
+    "slug": "finn",
+    "text" : "Kommissar, Kopenhagen",
+    "longText": "Finn ist ein erfahrener Ermittler und Haralds Stellvertreter.",
+    "image": "finn.jpg",
+
+    "relations": [
+      {
+        "slug": "harald",
+        "name": "Harald Bjørn",
+        "text": "Finns Vorgesetzter"
+      
+      },
+	
+	{
+        "slug": "Kit",
+        "name": "Kit Ekberg",
+        "text": "Digitale Ermittlerin"
+      
+      },
+
+	{
+        "slug": "else",
+        "name": "Else Højby",
+        "text": "Ermittlerin, Kopenhagen"
+      
+      }
+
+
+    
+       
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+    
+  
+  
+  "iris": {
+
+    "name": "Iris Gabler",
+    "slug": "iris",
+    "text" : "Jazzsängerin",
+    "longText": "Iris Gabler (55), die berühmte Jazzsängerin und Alleinerbin der "Gabler Dynastie", einer Familie des deutschen Geldadels mit eindrucksvollem Stammbaum, lebt in Potsdam. Als ihre Tochter Maria ermordet wird, setzen sie und ihr Mann Roland Arendt eine Belohnung für Informationen aus, die zur Ergreifung von Marias Mörder führen. Iris pflegt eine enge Freundschaft zu ihrem Nachbarn Marius Loukauskis.",
+    "image": "iris.jpg",
+
+    "relations": [
+
+	{
+        "slug": "marius",
+        "name": "Marius Loukauskis",
+        "text": "Befreundeter Nachbar"
+      
+      },
+	{
+        "slug": "maria",
+        "name": "Maria",
+        "text": "Iris Gablers Tochter"
+      
+      }
+
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+    
+  
+  
+  "liv": {
+
+    "name": "Liv Eriksen",
+    "slug": "liv",
+    "text" : "Harald Bjørns Ehefrau",
+    "longText": "Liv Eriksen (40) ist schwedische Gerichtspsychologin und die Ehefrau von Harald. Die Beziehung der beiden ist von einer tiefen körperlichen und seelischen Innigkeit geprägt. Liv ist im neunten Monat schwanger, als Harald sich dem Team anschließt.",
+    "image": "liv.jpg",
+
+    "relations": [
+      {
+        "slug": "harald",
+        "name": "Harald Bjørn",
+        "text": "Harald ist Livs Ehemann"
+      
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+    
+  
+  
+  "maria": {
+
+    "name": "Maria",
+    "slug": "maria",
+    "text" : "Prostituierte",
+    "longText": "Eine junge, gebrochene Frau, die ihren bescheidenen Lebensunterhalt in einem Wohnwagen am Rand von Berlin als Prostituierte verdient.",
+    "image": "maria.jpg",
+
+    "relations": [
+      {
+        "slug": "theo",
+        "name": "Theo Janke",
+        "text": "Theo ist Marias Zuhälter"
+      
+      },
+      {
+        "slug": "iris",
+        "name": "Iris Gabler",
+        "text": "Marias Mutter"
+      
+      }
+    
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+    
+  
+  
+  "natascha": {
+
+    "name": "Natascha Stark",
+    "slug": "natascha",
+    "text" : "Kommissarin in Berlin",
+    "longText": "Die junge Polizeikommissarin Natascha Stark (26) aus Berlin ist die Assistentin von Jackie Mueller und Tochter des Polizeipräsidenten Rainer Stark. Sie ist klug und sehr ehrgeizig, gelegentlich etwas übereifrig in ihren Bemühungen, Jackie zu beeindrucken. Sie hat Schwierigkeiten zu verbergen, dass sie der Fall emotional belastet.",
+    "image": "natascha.jpg",
+
+    "relations": [
+      {
+        "slug": "jackie",
+        "name": "Jackie Mueller",
+        "text": "Natascha soll Jackie unterstützen"
+      
+      },
+
+      {
+        "slug": "rainer",
+        "name": "Rainer Stark",
+        "text": "Nataschas Vater"
+      
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+   
+  
+  
+  "rainer": {
+
+    "name": "Rainer Stark",
+    "slug": "rainer",
+    "text" : "Polizeipräsident, Berlin",
+    "longText": "Rainer Stark ist Polizeipräsident in Berlin und hat eine Tochter, Natascha, die in die Fußstapfen ihres Vaters treten will und als Kommissarin beim BKA arbeitet.",
+    "image": "rainer.jpg",
+
+    "relations": [
+      {
+        "slug": "jackie",
+        "name": "Jackie Mueller",
+        "text": "Hauptkommissarin, Berlin"
+      
+      },
+
+	{
+        "slug": "natascha",
+        "name": "Natascha Stark",
+        "text": "Polizistin und Rainers Tochter"
+      
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  
+  
+  "stephane": {
+
+    "name": "Madame Stéphane Pernel",
+    "slug": "stephane",
+    "text" : "Ermittlungsrichterin in Antwerpen",
+    "longText": "Madame Pernel (54) ist Ermittlungsrichterin in Antwerpen und Vorgesetzte von Alicia und Frank. Während ihres Jurastudiums in Brüssel kam sie das erste Mal mit dem organisierten Verbrechen in Kontakt. Sie hat eine Schwäche für Alicia.",
+    "image": "stephane.jpg",
+
+    "relations": [
+      {
+        "slug": "frank",
+        "name": "Frank Aers",
+        "text": "Frank ist Kommissar in Antwerpen"
+      
+      },
+    
+      {
+        "slug": "jeanlouis",
+        "name": "Jean Louis Poquelin",
+        "text": "Journalist und Dokumentarist"
+      
+      },
+
+    	{
+        "slug": "alicia",
+        "name": "Alicia Verbeek",
+        "text": "Kommissarin in Antwerpen"
+      
+      }
+    
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+ 
+  
+  
+  "theo": {
+
+    "name": "Theo Janke",
+    "slug": "theo",
+    "text" : "Zuhälter",
+    "longText": "Theo ist ein kleiner Ganove aus Berlin, der sich als Zuhälter verdingt und so seine Familie über Wasser hält.",
+    "image": "theo.jpg",
+
+    "relations": [
+      {
+        "slug": "maria",
+        "name": "Maria",
+        "text": "Theo ist Marias Zuhälter"
+      
+      }
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+  
+  
+  
+  "william": {
+
+    "name": "William Maclean",
+    "slug": "william",
+    "text" : "Leitender Ermittler, Europol",
+    "longText": "William Maclean ist Schotte und koordiniert für Europol die so genannten Joint Investigation Teams.",
+    "image": "william.jpg",
+
+    "relations": [
+      {
+        "slug": "jackie",
+        "name": "Jackie Mueller",
+        "text": "Hauptkommissarin beim BKA, Berlin"
+      
+      },
+
+	{
+        "slug": "harald",
+        "name": "Harald Bjørn",
+        "text": "Hauptkommissar, Kopenhagen"
+      
+      },
+
+	{
+        "slug": "alicia",
+        "name": "Alicia Verbeek",
+        "text": "Kommissarin, Antwerpen"
+      
+      }
+
+
+    
+    
+    
+      
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/laura/laura_afs1_2.jpg"
+      }
+    
+   ]
+  },
+  
+  
+             
+  
+  
+  "else": {
+
+    "name": "Else Højby",
+    "slug": "else",
+    "text" : "Kommissarin in Kopenhagen",
+    "longText": "Else arbeitet als Ermittlerin im Team von Harald.",
+    "image": "else.jpg",
+
+    "relations": [
+      
+    {
+        "slug": "harald",
+        "name": "Harald Bjørn",
+        "text": "Harald ist Elses Vorgesetzter"
+      },
+    
+    
+    {
+        "slug": "finn",
+        "name": "Finn Moesgaard",
+        "text": "Haralds Stellvertreter"
+      },
+    
+    
+    {
+        "slug": "kit",
+        "name": "Kit Ekdal",
+        "text": "Digitale Ermittlerin"
+      }  
+    
+    ],
+
+    "media": [ 
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/beate/beate_afs1_1.jpg"
+      },
+      {
+        "type": "image",
+        "url" : "/tjenester/Broen2/Foto_B/beate/beate_afs1_2.jpg"
+      }
+    
+   ]
+  }
+  
+ } 
+
+
+

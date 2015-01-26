@@ -56,26 +56,7 @@
 				}
 			});			 
 			myRequest.send();
-			
-
-
-			//vote appkey
-			var aKey = "63008d4bee6de5cef4e3b380b2be11e4";
-
-			var myvoteauth = new Request({
-			    url: 'http://vote.zdf.de/auth/',
-			    method: "POST",
-			    data: {vid: "407", auth: aKey},
-
-			    onSuccess: function(json){
-					var jsdata = JSON.decode(json);
-					global.auth4 = jsdata.auth4;
-					global.auth6 = jsdata.auth6;
-					global.valid = jsdata.valid;
-					global.uar = jsdata.uar;			
-				}
-			});			 
-			myvoteauth.send();
+		
 
 		</script>
 
@@ -98,9 +79,7 @@
 			// 	return false;
 	  //   	}
 
-		</script>
-
-		<iframe class="vframe" scrolling="no" src="vote.html"></iframe>
+		</script>		
 		
 	</body>
 

@@ -178,6 +178,9 @@ function td($m) {
 			echo "\tverarbeite Name: ".$person->slug."\n";
 
 			unset($person->media);		//videos und fotos entfernen
+			$person->media = array();
+
+			
 			toLower($person);			//string to lowercase
 			$udeabepisode = remove_ude($person)?$f:-1;		//replace ude with original image string
 	        //uploadMediaDoc($person);
@@ -240,6 +243,7 @@ function td($m) {
 		
 
 	}
+
 
 	foreach ($personJson2 as $key => $value) {
 		# code...

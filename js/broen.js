@@ -5,7 +5,7 @@ DR.BroenGallery.config = {
     jsonDataUrl: '/theteam/_design/b2/_list/getDatajsonPersonwithMedia/personwithmedia/',
     jsonDataTestUrl: 'http://socialbld01.net.dr.dk/broen/test.json',
 
-    votingEnabled: true,
+    votingEnabled: false,
     voteEndpoint: 'Quickpoll/front/vote',
 
     faces: {
