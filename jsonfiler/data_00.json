@@ -116,17 +116,17 @@
             {
                 "slug": "bianca",
                 "name": "Bianca Loukauskis",
-                "text": "Loukauskis Tochter"
+                "text": "Loukauskis' Tochter"
             },
             {
                 "slug": "bruno",
                 "name": "Bruno Koopmann",
-                "text": "Loukauskis Sicherheitschef"
+                "text": "Loukauskis' Sicherheitschef"
             },
             {
                 "slug": "dahlia",
                 "name": "Dahlia Loukauskis",
-                "text": "Loukauskis Exfrau"
+                "text": "Loukauskis' Exfrau"
             },
             {
                 "slug": "iris",
@@ -136,7 +136,7 @@
             {
                 "slug": "max",
                 "name": "Max Ritter",
-                "text": "Loukauskis Fahrer"
+                "text": "Loukauskis' Fahrer"
             },
             {
                 "slug": "jeanlouis",
@@ -167,14 +167,14 @@
     "max": {
         "name": "Max Ritter",
         "slug": "max",
-        "text": "Loukauskis Fahrer",
+        "text": "Loukauskis' Fahrer",
         "longText": "Max ist ein junger intelligenter Mann aus Berlin, der als Fahrer für Marius Loukauskis arbeitet. Doch er verfolgt noch andere Absichten.",
         "image": "max.jpg",
         "relations": [
             {
                 "slug": "bianca",
                 "name": "Bianca Loukauskis",
-                "text": "Marius Loukauskis Tochter"
+                "text": "Marius Loukauskis' Tochter"
             },
             {
                 "slug": "marius",
@@ -187,7 +187,7 @@
         "name": "Bianca Loukauskis",
         "slug": "bianca",
         "text": "Marius Loukauskis' Tochter",
-        "longText": "Bianca (23) ist Marius Loukauskis Tochter und Verlobte von Carl Graf Friedrich Septimus, einem Grafen des preußischen Adels. Die arrangierte Hochzeit soll vor allem dazu dienen, Loukauskis gesellschaftlichen Status zu verleihen. Viel mehr interessiert sich Bianca allerdings für Max, den Fahrer ihres Vaters. Von dessen wahren Absichten ahnt sie jedoch wenig. Als Jugendliche war Bianca eng mit Iris Gablers Tochter Maria befreundet.",
+        "longText": "Bianca (23) ist Marius Loukauskis' Tochter und Verlobte von Carl Graf Friedrich Septimus, einem Grafen des preußischen Adels. Die arrangierte Hochzeit soll vor allem dazu dienen, Loukauskis gesellschaftlichen Status zu verleihen. Viel mehr interessiert sich Bianca allerdings für Max, den Fahrer ihres Vaters. Von dessen wahren Absichten ahnt sie jedoch wenig. Als Jugendliche war Bianca eng mit Iris Gablers Tochter Maria befreundet.",
         "image": "bianca.jpg",
         "relations": [
             {
@@ -215,7 +215,7 @@
     "bruno": {
         "name": "Bruno Koopmann",
         "slug": "bruno",
-        "text": "Loukauskis Sicherheitschef",
+        "text": "Loukauskis' Sicherheitschef",
         "longText": "Als Sicherheitschef von Marius Loukauskis traut Bruno Koopmann grundsätzlich niemandem. Er handelt zuweilen skrupellos, um die Interessen seines Chefs zu wahren.",
         "image": "bruno.jpg",
         "relations": [
@@ -227,7 +227,7 @@
             {
                 "slug": "max",
                 "name": "Max Ritter",
-                "text": "Loukauskis Fahrer"
+                "text": "Loukauskis' Fahrer"
             }
         ]
     },
@@ -297,7 +297,7 @@
     "dahlia": {
         "name": "Dahlia Loukauskis",
         "slug": "dahlia",
-        "text": "Marius Loukauskis Exfrau",
+        "text": "Marius Loukauskis' Exfrau",
         "longText": "Dahlia war mit Marius Loukauskis verheiratet und hat mit ihm eine gemeinsame Tochter, Bianca.",
         "image": "dahlia.jpg",
         "relations": [

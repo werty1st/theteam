@@ -11,7 +11,7 @@
   line-height: 20px;
 }
 #broen-gallery h2 .dr-link-readmore:before {
-  background-color: #000;
+  background-color: #202020;
   color: #fff;
 }
 #broen-gallery #broen-gallery-home {
@@ -59,7 +59,7 @@
   cursor: move;
 }
 #broen-gallery-graph .link {
-  stroke: rgba(27, 31, 21, 0.8);
+  stroke: #571f22;
   stroke-width: 2;
 }
 
@@ -106,7 +106,7 @@
   top: 0;
   bottom: 0;
   background-color: #1b1f15;
-  background-color: rgba(27, 31, 21, 0.8);
+  background-color: #202020;
 }
 body.broen {
   overflow: hidden;
@@ -265,8 +265,7 @@ html.mobile #broen-gallery-person-media #broen-gallery-person-media-slider .dr-w
 }
 
 #broen-gallery-person-info {
-  background-color: #1b1f15;
-  background-color: rgba(27, 31, 21, 0.8);
+  background-color: #571f22;
   float: left;
   width: 50%;
   min-height: 350px;

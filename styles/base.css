@@ -2075,7 +2075,7 @@ h1 {
   font-size: 24px;
   padding-top: 15px;
   padding-bottom: 15px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   line-height: 1;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -6010,7 +6010,7 @@ section.dr-widget-video-playlist .dr-link-readmore {
 .dr-link-showmore {
   color: #000;
   text-decoration: underline;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 12px; 
   font-family: "gibsonRegular", "Arial", sans-serif;
 }
@@ -11518,8 +11518,8 @@ body:before .visually-hidden {
   color: #999999;
 }
 .container-green-light {
-  background-color: #363e2a;
-  background-color: rgba(54, 62, 42, 0.8);
+  background-color: #202020;
+  /*background-color: rgba(54, 62, 42, 0.8);*/
   color: #ffffff;
 }
 .container-green-light [class*="heading-"] {
@@ -11584,13 +11584,14 @@ body {
 }
 @media only screen and (max-width: 720px) {
   body {
-    background-image: url("../images/bg-body-small.jpg");
+    /*background-image: url("../images/bg-body-small.jpg");*/
+    background-color: #202020;
   }
 }
 @media only screen and (min-width: 721px) {
   body {
     /*background-image: url("../img/bg-body-large-ny.jpg");*/
-    background-color: #696d7a;
+    background-color: #202020;
   }
 }
 .site-id a:link,
