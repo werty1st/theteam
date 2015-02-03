@@ -7,16 +7,19 @@ Requires grunt, couchdb and kanso
 
 
 Initial Setup:
- php convert_data.json.php -> reads jsonfiler/data_00.json and uploads data to couchdb
+----------------
+    php convert_data.json.php -> reads jsonfiler/data_00.json and uploads data to couchdb
 
 
 
  Internal Config:
- http://couchdbserver:5984/theteam/_design/b2/_rewrite/start
- Login with couchdb account
+ ----------------
+    http://couchdbserver:5984/theteam/_design/b2/_rewrite/start
+    Login with couchdb account
 
 
  Nginx Public Config:
+ --------------------
 
     #------------------------------------------------------------------------------#
     ##################################  the team  ##################################
