@@ -297,8 +297,8 @@ function td($m) {
 	unlink("data_split_media_ids.json");
 	*/
 	
-	unlink("data_split.json");
-	unlink("data_split_ids.json");
+	//unlink("data_split.json");
+	//unlink("data_split_ids.json");
 
 	echo"finished\n";
 }
