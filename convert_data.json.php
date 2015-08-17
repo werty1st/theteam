@@ -1,6 +1,6 @@
 <?php
 
-$db_name = "theteam";
+$db_name = "blochin";
 $db_host = "http://localhost:5984";
 
 # Additional site configuration settings. Allows to override global settings.
@@ -8,7 +8,7 @@ if (file_exists('config.php')) {
 	include_once('config.php');
 }
 
-$options = getopt("f:");
+$options = getopt("f:"); //f=
 
 switch ($options["f"]) {
 	case 'td':
@@ -36,13 +36,13 @@ exit;
 
 function gc($m){
 	global $db_host;
-	//curl -X GET http://localhost:5984/theteam/_design/b2/_view/allslugs	
+	//curl -X GET http://localhost:5984/blochin/_design/b3/_view/allslugs	
 
 	// create curl resource 
 	$ch = curl_init(); 
 
 	// set url 
-	curl_setopt($ch, CURLOPT_URL, $db_host."/theteam/_all_docs?include_docs=true"); 
+	curl_setopt($ch, CURLOPT_URL, $db_host."/blochin/_all_docs?include_docs=true"); 
 
 	//return the transfer as a string 
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
@@ -60,7 +60,7 @@ function gc($m){
 	$postdata = json_encode($docsout);
 
 	// set url 
-	curl_setopt($ch, CURLOPT_URL, $db_host."/theteam/_bulk_docs"); 
+	curl_setopt($ch, CURLOPT_URL, $db_host."/blochin/_bulk_docs"); 
 	curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");                                                                     
 	curl_setopt($ch, CURLOPT_POSTFIELDS, $postdata);                                                                  
 	curl_setopt($ch, CURLOPT_HTTPHEADER, array(                                                                          
@@ -271,7 +271,7 @@ function td($m) {
 	  "data_split.json data_split_ids.json";
 
 	system($cmd);
-	system("kanso upload data_split_ids.json ".$db_host."/theteam");
+	system("kanso upload data_split_ids.json ".$db_host."/blochin");
 
 	
 
@@ -396,13 +396,13 @@ function uploadMediaDoc($person){
 	//get500uuids
 	$myuuids = getuuids()["uuids"];
 
-	/*curl -X PUT http://admin:s00fa@localhost:5984/test/docid -d
+	/*curl -X PUT http://localhost:5984/test/docid -d
 	{
 		_id: "55dad1faeacb63600c10ad663ae6d966"
 		ownerslug: "alexander"
 		freischaltepisode: 0
-		image: "/theteam/55dad1faeacb63600c10ad663ae6d966/image.png"
-		thumbnail: "/theteam/55dad1faeacb63600c10ad663ae6d966/thumbnail.png"
+		image: "/blochin/55dad1faeacb63600c10ad663ae6d966/image.png"
+		thumbnail: "/blochin/55dad1faeacb63600c10ad663ae6d966/thumbnail.png"
 		type: "image",
 
 	    "_attachments": {
@@ -515,7 +515,7 @@ function uploadMediaDoc($person){
 function createMediaDoc($person,&$uploadmedia){
 
 	//link festigen
-	//host:port /_design/b2/
+	//host:port /_design/b3/
 
     foreach ($person->media as $key => $value) {
 		$media = array();

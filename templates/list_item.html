@@ -1,12 +1,12 @@
 
-<link rel="stylesheet" href="/theteam/_design/b2/static/jquery-ui-timepicker-addon.css">
-<link rel="stylesheet" href="/theteam/_design/b2/static/ui-lightness/jquery-ui-1.10.4.custom.css">
+<link rel="stylesheet" href="/blochin/_design/b3/static/jquery-ui-timepicker-addon.css">
+<link rel="stylesheet" href="/blochin/_design/b3/static/ui-lightness/jquery-ui-1.10.4.custom.css">
 
-<link rel="stylesheet" href="/theteam/_design/b2/static/select/bootstrap-select.css">
+<link rel="stylesheet" href="/blochin/_design/b3/static/select/bootstrap-select.css">
 
-<script src="/theteam/_design/b2/static/jquery-ui-1.10.4.custom.js"></script>
-<script src="/theteam/_design/b2/static/jquery-ui-timepicker-addon.js"></script>
-<script src="/theteam/_design/b2/static/select/bootstrap-select.js"></script>
+<script src="/blochin/_design/b3/static/jquery-ui-1.10.4.custom.js"></script>
+<script src="/blochin/_design/b3/static/jquery-ui-timepicker-addon.js"></script>
+<script src="/blochin/_design/b3/static/select/bootstrap-select.js"></script>
 
 
 <h1>Übersicht</h1>
@@ -169,11 +169,11 @@
 
 	});
 
-	//http://localhost:5984/theteam/_design/b2/_list/getDatajsonPerson/personen/
-	db.getList("b2", "getDatajsonPerson", "personen", function(err, personen){
+	//http://localhost:5984/blochin/_design/b3/_list/getDatajsonPerson/personen/
+	db.getList("b3", "getDatajsonPerson", "personen", function(err, personen){
 		personen = JSON.parse(personen);
 
-		$.get("/theteam/_design/b2/static/client_templates/personen_list.html",function(response){
+		$.get("/blochin/_design/b3/static/client_templates/personen_list.html",function(response){
 				//settings und personen kombinieren
 
 				var template = handlebars.compile(response);

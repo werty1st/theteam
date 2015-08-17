@@ -2,8 +2,7 @@ var DR = DR || {};
 DR.BroenGallery = {};
 
 DR.BroenGallery.config = {
-    jsonDataUrl: '/theteam/_design/b2/_list/getDatajsonPersonwithMedia/personwithmedia/',
-    jsonDataTestUrl: 'http://socialbld01.net.dr.dk/broen/test.json',
+    jsonDataUrl: '/blochin/_design/b3/_list/getDatajsonPersonwithMedia/personwithmedia/',
 
     votingEnabled: false,
     voteEndpoint: 'Quickpoll/front/vote',
@@ -15,10 +14,7 @@ DR.BroenGallery.config = {
 };
 
 var host = document.location.host;
-if(host == 'www.dr.dk') {
-    DR.BroenGallery.config.jsonDataUrl = '/tjenester/broen2/data.json';
-    DR.BroenGallery.config.faces.url   = '/tjenester/broen2/ansigter/';
-};DR.BroenGallery.App = (function() {
+;DR.BroenGallery.App = (function() {
   App.prototype.isIE = false;
 
   App.prototype.isMobile = false;
@@ -92,7 +88,7 @@ if(host == 'www.dr.dk') {
   };
 
   App.prototype.html = function() {
-    return "<div id=\"broen-gallery\" class=\"section boxed container-green-light\">\n    <h2><a href=\"#home\">Wer ist wer bei „THE TEAM“</a><a id=\"broen-home-link\" class=\"dr-icon-link-small dr-link-readmore hide\" href=\"#home\">Zur Übersicht</a></h2>\n\n    <div id=\"broen-gallery-home\" class=\"hide\">\n        <p class=\"intro-text\">Die wichtigsten Personen und ihre Beziehungen zueinander</p>\n        <div id=\"broen-gallery-home-persons\"></div>\n        <div id=\"broen-gallery-home-popover\" class=\"hide container-green\"></div>\n    </div>\n    \n    <div id=\"broen-gallery-person\">\n        <div id=\"broen-gallery-person-info\"></div>\n        <div id=\"broen-gallery-graph\">\n            <div id=\"broen-gallery-graph-popover\" class=\"hide container-green\"></div>\n        </div>\n    </div>\n</div>";
+    return "<div id=\"broen-gallery\" class=\"section boxed container-green-light\">\n    <h2><a href=\"#home\">Wer ist wer bei „Blochin“</a><a id=\"broen-home-link\" class=\"dr-icon-link-small dr-link-readmore hide\" href=\"#home\">Zur Übersicht</a></h2>\n\n    <div id=\"broen-gallery-home\" class=\"hide\">\n        <p class=\"intro-text\">Die wichtigsten Personen und ihre Beziehungen zueinander</p>\n        <div id=\"broen-gallery-home-persons\"></div>\n        <div id=\"broen-gallery-home-popover\" class=\"hide container-green\"></div>\n    </div>\n    \n    <div id=\"broen-gallery-person\">\n        <div id=\"broen-gallery-person-info\"></div>\n        <div id=\"broen-gallery-graph\">\n            <div id=\"broen-gallery-graph-popover\" class=\"hide container-green\"></div>\n        </div>\n    </div>\n</div>";
   };
 
   return App;

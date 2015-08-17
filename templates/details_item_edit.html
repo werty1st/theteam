@@ -1,12 +1,12 @@
 
-<link rel="stylesheet" href="/theteam/_design/b2/static/jquery-ui-timepicker-addon.css">
-<link rel="stylesheet" href="/theteam/_design/b2/static/ui-lightness/jquery-ui-1.10.4.custom.css">
+<link rel="stylesheet" href="/blochin/_design/b3/static/jquery-ui-timepicker-addon.css">
+<link rel="stylesheet" href="/blochin/_design/b3/static/ui-lightness/jquery-ui-1.10.4.custom.css">
 
-<link rel="stylesheet" href="/theteam/_design/b2/static/select/bootstrap-select.css">
+<link rel="stylesheet" href="/blochin/_design/b3/static/select/bootstrap-select.css">
 
-<script src="/theteam/_design/b2/static/jquery-ui-1.10.4.custom.js"></script>
-<script src="/theteam/_design/b2/static/jquery-ui-timepicker-addon.js"></script>
-<script src="/theteam/_design/b2/static/select/bootstrap-select.js"></script>
+<script src="/blochin/_design/b3/static/jquery-ui-1.10.4.custom.js"></script>
+<script src="/blochin/_design/b3/static/jquery-ui-timepicker-addon.js"></script>
+<script src="/blochin/_design/b3/static/select/bootstrap-select.js"></script>
 
 <h1>Details</h1>
 
@@ -309,7 +309,7 @@ Beziehungen
 
 		user = response;
 
-		db.getView("b2","media", { startkey: ["media",user.slug,0,0], endkey: ["media",user.slug,{},{}] }, function(err,response){
+		db.getView("b3","media", { startkey: ["media",user.slug,0,0], endkey: ["media",user.slug,{},{}] }, function(err,response){
 			if(err)return;
 
 			usermedia = [];
@@ -605,10 +605,10 @@ Beziehungen
 	$('.selectpicker1').selectpicker();
 	$('.selectpicker2').selectpicker();	
 
-	//"/theteam/_design/b2/templates/media_list.js
+	//"/blochin/_design/b3/templates/media_list.js
 	function getMediaList() {
 
-		 $.get("/theteam/_design/b2/static/client_templates/media_list.html",function(response){
+		 $.get("/blochin/_design/b3/static/client_templates/media_list.html",function(response){
 
 		    var template = handlebars.compile(response);
 		    var context = {	imgbaseurl: imgbaseurl,

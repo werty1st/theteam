@@ -1,10 +1,10 @@
 {
-    "name": "b2",
-    "version": "2.1.1",
+    "name": "b3",
+    "version": "3.0.0",
     "description": "Modul mit Hintergrundinformationen und Beziehungen der Hauptfiguren",
     "load": "lib/app",
     "modules": ["lib"],
-    "attachments": ["index.html","vote.html", "img", "js/libs","js/broen.js","styles","static"],
+    "attachments": ["index.html", "img", "js/libs","js/broen.js","styles","static"],
     "handlebars": {
         "all_partials": false,
         "templates": "templates"

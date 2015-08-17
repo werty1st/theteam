@@ -2,8 +2,7 @@ var DR = DR || {};
 DR.BroenGallery = {};
 
 DR.BroenGallery.config = {
-    jsonDataUrl: '/theteam/_design/b2/_list/getDatajsonPersonwithMedia/personwithmedia/',
-    jsonDataTestUrl: 'http://socialbld01.net.dr.dk/broen/test.json',
+    jsonDataUrl: '/blochin/_design/b3/_list/getDatajsonPersonwithMedia/personwithmedia/',
 
     votingEnabled: false,
     voteEndpoint: 'Quickpoll/front/vote',
@@ -15,7 +14,3 @@ DR.BroenGallery.config = {
 };
 
 var host = document.location.host;
-if(host == 'www.dr.dk') {
-    DR.BroenGallery.config.jsonDataUrl = '/tjenester/broen2/data.json';
-    DR.BroenGallery.config.faces.url   = '/tjenester/broen2/ansigter/';
-}
