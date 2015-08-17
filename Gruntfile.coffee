@@ -9,6 +9,7 @@ module.exports = (grunt) ->
             app:
                 options:
                     bare: true
+                    sourceMap: true
 
                 files:
                     'js/app.js': [

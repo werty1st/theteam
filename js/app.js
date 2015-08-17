@@ -1,3 +1,7 @@
+var D3Graph, HomeView, MediaView, MobileGraph, MooRouter, PersonInfoView, PersonView, PopoverView, SimplePopoverView, _ref,
+  __hasProp = {}.hasOwnProperty,
+  __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
+
 DR.BroenGallery.App = (function() {
   App.prototype.isIE = false;
 
@@ -72,14 +76,12 @@ DR.BroenGallery.App = (function() {
   };
 
   App.prototype.html = function() {
-    return "<div id=\"broen-gallery\" class=\"section boxed container-green-light\">\n    <h2><a href=\"#home\">Wer ist wer bei „Blochin“</a><a id=\"broen-home-link\" class=\"dr-icon-link-small dr-link-readmore hide\" href=\"#home\">Zur Übersicht</a></h2>\n\n    <div id=\"broen-gallery-home\" class=\"hide\">\n        <p class=\"intro-text\">Die wichtigsten Personen und ihre Beziehungen zueinander</p>\n        <div id=\"broen-gallery-home-persons\"></div>\n        <div id=\"broen-gallery-home-popover\" class=\"hide container-green\"></div>\n    </div>\n    \n    <div id=\"broen-gallery-person\">\n        <div id=\"broen-gallery-person-info\"></div>\n        <div id=\"broen-gallery-graph\">\n            <div id=\"broen-gallery-graph-popover\" class=\"hide container-green\"></div>\n        </div>\n    </div>\n</div>";
+    return "<div id=\"broen-gallery\" class=\"section boxed container-green-light\">\n    <h2><a href=\"#home\">Who is Who</a><a id=\"broen-home-link\" class=\"dr-icon-link-small dr-link-readmore hide\" href=\"#home\">Zur Übersicht</a></h2>\n\n    <div id=\"broen-gallery-home\" class=\"hide\">\n        <p class=\"intro-text\">Die wichtigsten Personen und ihre Beziehungen im Überblick</p>\n        <div id=\"broen-gallery-home-persons\"></div>\n        <div id=\"broen-gallery-home-popover\" class=\"hide container-green\"></div>\n    </div>\n    \n    <div id=\"broen-gallery-person\">\n        <div id=\"broen-gallery-person-info\"></div>\n        <div id=\"broen-gallery-graph\">\n            <div id=\"broen-gallery-graph-popover\" class=\"hide container-green\"></div>\n        </div>\n    </div>\n</div>";
   };
 
   return App;
 
 })();
-
-var MooRouter;
 
 MooRouter = (function() {
   function MooRouter(app) {
@@ -244,8 +246,6 @@ NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
   }
 };
 
-var D3Graph;
-
 D3Graph = (function() {
   D3Graph.prototype.hasBeenInit = false;
 
@@ -274,7 +274,7 @@ D3Graph = (function() {
     this.svg = d3.select(this.container).append('svg:svg');
     this.svg.attr('width', this.width).attr('height', this.height).append("defs").append("filter").attr("id", "saturate").append("feColorMatrix").attr("type", "matrix").attr("values", "0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0");
     this.svg;
-    this.force = d3.layout.force().linkDistance(40).distance(130).charge(-1000).size([this.width, this.height]);
+    this.force = d3.layout.force().linkDistance(60).distance(180).charge(-1000).size([this.width, this.height]);
     this.nodes = this.force.nodes();
     return this.links = this.force.links();
   };
@@ -329,7 +329,7 @@ D3Graph = (function() {
       if (person.index !== 0) {
         if (!_this.popover.open || person.slug !== _this.popover.person.slug) {
           _this.selectedPerson = person;
-          _this.popover.updatePos(person.x + 30, person.y + 30);
+          _this.popover.updatePos(person.x + 40, person.y + 40);
           return _this.popover.show(person);
         } else {
           return _this.popover.hide();
@@ -338,7 +338,7 @@ D3Graph = (function() {
     });
     nodeEnter.append('image').attr('xlink:href', function(d) {
       var size;
-      size = 60;
+      size = 80;
       if (d.isCenter) {
         size = 90;
       }
@@ -347,25 +347,25 @@ D3Graph = (function() {
       if (d.isCenter) {
         return -45;
       } else {
-        return -30;
+        return -40;
       }
     }).attr('y', function(d) {
       if (d.isCenter) {
         return -45;
       } else {
-        return -30;
+        return -40;
       }
     }).attr('width', function(d) {
       if (d.isCenter) {
         return 90;
       } else {
-        return 60;
+        return 80;
       }
     }).attr('height', function(d) {
       if (d.isCenter) {
         return 90;
       } else {
-        return 60;
+        return 80;
       }
     }).attr('filter', function(d) {
       if (d.ude) {
@@ -407,8 +407,6 @@ D3Graph = (function() {
   return D3Graph;
 
 })();
-
-var HomeView;
 
 HomeView = (function() {
   HomeView.prototype.hasBeenShow = false;
@@ -485,8 +483,6 @@ HomeView = (function() {
   return HomeView;
 
 })();
-
-var MediaView;
 
 MediaView = (function() {
   MediaView.prototype.hasBeenOpened = false;
@@ -663,8 +659,6 @@ MediaView = (function() {
 
 })();
 
-var MobileGraph;
-
 MobileGraph = (function() {
   function MobileGraph(app, container) {
     this.app = app;
@@ -699,8 +693,6 @@ MobileGraph = (function() {
 
 })();
 
-var PersonView;
-
 PersonView = (function() {
   function PersonView(app) {
     this.app = app;
@@ -732,8 +724,6 @@ PersonView = (function() {
   return PersonView;
 
 })();
-
-var PersonInfoView;
 
 PersonInfoView = (function() {
   function PersonInfoView(app, container) {
@@ -788,7 +778,7 @@ PersonInfoView = (function() {
   PersonInfoView.prototype.html = function(person) {
     var html, ude;
     ude = (person.ude ? "ude" : "");
-    html = "<div id=\"broen-gallery-person-info-inner\">\n    <div class=\"" + ude + "\" >" + (DR.BroenGallery.getFaceImg(person.image, 50)) + "</div>\n    <h2>" + person.name + "</h2>\n    <p id=\"broen-gallery-person-text\" data-maxlines=\"5\" data-readmore=\"true\" >" + person.longText + "</p>";
+    html = "<div id=\"broen-gallery-person-info-inner\">\n    <div class=\"" + ude + "\" >" + (DR.BroenGallery.getFaceImg(person.image, 90)) + "</div>\n    <h2>" + person.name + "</h2>\n    <p id=\"broen-gallery-person-text\" data-maxlines=\"5\" data-readmore=\"true\" >" + person.longText + "</p>";
     if (DR.BroenGallery.config.votingEnabled) {
       html += "<div class=\"vote\">Glauben Sie, dass " + person.name + " hinter den Anschlägen steckt?<br /><button class=\"vote-btn\">ja!</button></div>";
     }
@@ -798,8 +788,6 @@ PersonInfoView = (function() {
   return PersonInfoView;
 
 })();
-
-var PopoverView;
 
 PopoverView = (function() {
   PopoverView.prototype.open = false;
@@ -872,10 +860,6 @@ PopoverView = (function() {
 
 })();
 
-var SimplePopoverView, _ref,
-  __hasProp = {}.hasOwnProperty,
-  __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
-
 SimplePopoverView = (function(_super) {
   __extends(SimplePopoverView, _super);
 
@@ -891,3 +875,7 @@ SimplePopoverView = (function(_super) {
   return SimplePopoverView;
 
 })(PopoverView);
+
+/*
+//@ sourceMappingURL=app.js.map
+*/

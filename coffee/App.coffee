@@ -60,10 +60,10 @@ class DR.BroenGallery.App
     html: ->
         """
         <div id="broen-gallery" class="section boxed container-green-light">
-            <h2><a href="#home">Wer ist wer bei „Blochin“</a><a id="broen-home-link" class="dr-icon-link-small dr-link-readmore hide" href="#home">Zur Übersicht</a></h2>
+            <h2><a href="#home">Who is Who</a><a id="broen-home-link" class="dr-icon-link-small dr-link-readmore hide" href="#home">Zur Übersicht</a></h2>
 
             <div id="broen-gallery-home" class="hide">
-                <p class="intro-text">Die wichtigsten Personen und ihre Beziehungen zueinander</p>
+                <p class="intro-text">Die wichtigsten Personen und ihre Beziehungen im Überblick</p>
                 <div id="broen-gallery-home-persons"></div>
                 <div id="broen-gallery-home-popover" class="hide container-green"></div>
             </div>

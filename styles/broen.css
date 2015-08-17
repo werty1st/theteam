@@ -31,7 +31,7 @@
   float: left;
   margin: 0 20px 20px 0;
   cursor: pointer;
-  width: 80px;
+  width: 120px;
 }
 #broen-gallery #broen-gallery-person {
   overflow: hidden;
@@ -44,7 +44,7 @@
   position: absolute;
   left: 50%;
   width: 50%;
-  height: 400px;
+  height: 500px;
 }
 #broen-gallery-graph .node text,
 #broen-gallery-graph .centerNode text {
@@ -59,7 +59,7 @@
   cursor: move;
 }
 #broen-gallery-graph .link {
-  stroke: #571f22;
+  stroke: #3b3c34;
   stroke-width: 2;
 }
 
@@ -265,7 +265,7 @@ html.mobile #broen-gallery-person-media #broen-gallery-person-media-slider .dr-w
 }
 
 #broen-gallery-person-info {
-  background-color: #571f22;
+  background-color: #3b3c34;
   float: left;
   width: 50%;
   min-height: 350px;

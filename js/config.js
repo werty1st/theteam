@@ -9,7 +9,7 @@ DR.BroenGallery.config = {
 
     faces: {
         url: 'img/faces/',
-        size: 80
+        size: 120
     }
 };
 

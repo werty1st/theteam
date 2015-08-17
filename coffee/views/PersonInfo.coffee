@@ -46,7 +46,7 @@ class PersonInfoView
         ude = (if person.ude then "ude" else "") 
         html =  """
                 <div id="broen-gallery-person-info-inner">
-                    <div class="#{ude}" >#{DR.BroenGallery.getFaceImg(person.image, 50)}</div>
+                    <div class="#{ude}" >#{DR.BroenGallery.getFaceImg(person.image, 90)}</div>
                     <h2>#{person.name}</h2>
                     <p id="broen-gallery-person-text" data-maxlines="5" data-readmore="true" >#{person.longText}</p>
                 """

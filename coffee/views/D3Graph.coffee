@@ -33,8 +33,8 @@ class D3Graph
         @svg
 
         @force = d3.layout.force()
-            .linkDistance(40)
-            .distance(130)
+            .linkDistance(60)
+            .distance(180)
             .charge(-1000)
             .size([@width, @height])
 
@@ -87,14 +87,14 @@ class D3Graph
             if person.index isnt 0
                 if not @popover.open or person.slug isnt @popover.person.slug
                     @selectedPerson = person
-                    @popover.updatePos person.x + 30, person.y + 30
+                    @popover.updatePos person.x + 40, person.y + 40
                     @popover.show person
                 else
                     @popover.hide()
  
         nodeEnter.append('image')
             .attr('xlink:href', (d) ->
-                size = 60
+                size = 80
                 if d.isCenter then size = 90
                 DR.BroenGallery.getResizedImg(DR.BroenGallery.getFaceImgUrl(d.image), size, size)
             )
@@ -102,25 +102,25 @@ class D3Graph
                 if d.isCenter
                     -45
                 else
-                    -30
+                    -40
             )
             .attr('y', (d) ->
                 if d.isCenter
                     -45
                 else
-                    -30
+                    -40
             )
             .attr('width', (d) ->
                 if d.isCenter
                     90
                 else
-                    60
+                    80
             )
             .attr('height', (d) ->
                 if d.isCenter
                     90
                 else
-                    60
+                    80
             )
             .attr('filter', (d) ->
                 if (d.ude)
