@@ -202,7 +202,7 @@ function td($m) {
 	        	$personJson2[$person->slug] = $person;
 	        } else {
 	        	if ($f==3 && $person->slug == "beate"){
-	        		echo "knusper";
+	        		//echo "test";
 	        	}
 	        	modifyrelations($personJson2[$person->slug]->relations,$person->relations);
 	        }
