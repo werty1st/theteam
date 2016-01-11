@@ -3,7 +3,8 @@
     "name": "Seth Pilaster",
     "realname": "(Rolf Hoppe)",
     "slug": "seth",
-    "text": "Seth leitet zusammen mit seinen Söhnen Samuel und Joseph das Bankhaus Pilaster, das zweitgrößte Bankhaus Englands. Nach innen ist die Familie jedoch zerstritten. Sein dritter Sohn, Thomas Pilaster gründete die Textilfabrik Thomas Pilaster & Co. Als das Unternehmen während der Wirtschaftskrise Bankrott geht, sieht er keinen andern Ausweg und nimmt sich das Leben.  Seth verurteilt den Tod seines Sohnes als unehrenhaft, obgleich er ihn schmerzt. Jahrelang meidet er daher den Kontakt zu seinem Enkel Hugh, Thomas' Sohn. Wie sein Vetter Edward arbeitet Hugh in der Bank. Als Seth Hughs Talent entdeckt, befördert er ihn – sehr zum Ärger von Edward und dessen Mutter Augusta.",
+    "text": "Familienoberhaupt und Vorstand des Bankhauses Pilaster",
+    "longText": "Seth leitet zusammen mit seinen Söhnen Samuel und Joseph das Bankhaus Pilaster, das zweitgrößte Bankhaus Englands. Nach innen ist die Familie jedoch zerstritten. Sein dritter Sohn, Thomas Pilaster gründete die Textilfabrik Thomas Pilaster & Co. Als das Unternehmen während der Wirtschaftskrise Bankrott geht, sieht er keinen andern Ausweg und nimmt sich das Leben.  Seth verurteilt den Tod seines Sohnes als unehrenhaft, obgleich er ihn schmerzt. Jahrelang meidet er daher den Kontakt zu seinem Enkel Hugh, Thomas' Sohn. Wie sein Vetter Edward arbeitet Hugh in der Bank. Als Seth Hughs Talent entdeckt, befördert er ihn – sehr zum Ärger von Edward und dessen Mutter Augusta.",
     "image": "seth.png",
     "relations": [
       {
@@ -587,7 +588,7 @@
         "text": "Hughs Onkel"
       },
       {
-        "slug": "Thomas",
+        "slug": "thomas",
         "name": "Thomas Pilaster",
         "text": "Hughs verstorbener Vater"
       },
