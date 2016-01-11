@@ -2319,7 +2319,7 @@ body .section .section-header-small > [class*="dr-icon-"]:before {
 }
 */
 .label {
-  color: #999999;
+  color: white;
   font: italic 14px/12px Georgia, serif;
   text-transform: none;
 }
@@ -4778,7 +4778,7 @@ input[type=checkbox] {
   right: 0;
 }
 [class*="dr-widget-swipe-carousel"] .carousel-button.disabled:before {
-  color: #999999;
+  color: white;
 }
 [class*="dr-widget-swipe-carousel"] .carousel-button.loading {
   background-color: #eee;
@@ -5341,7 +5341,7 @@ section.dr-widget-video-playlist .dr-link-readmore {
   display: inline-block;
   width: 35px;
   height: 15px;
-  color: #999999;
+  color: white;
   text-align: center;
 }
 .dr-widget-audio-player .progressbar:last-child,
@@ -6133,7 +6133,7 @@ footer .dr-link-readmore {
 }
 .dr-site-navigation li.active a {
   color: #fff;
-  background-color: #999999;
+  background-color: white;
 }
 .ie7 .dr-site-navigation li a {
   position: static;
@@ -6252,7 +6252,7 @@ footer .dr-link-readmore {
   float: left;
   margin-bottom: 10px;
   padding: 0 20px 10px;
-  background-color: #999999;
+  background-color: white;
   color: white;
   border: none; 
   font-family: "gibsonRegular", "Arial", sans-serif;
@@ -6767,7 +6767,7 @@ footer .dr-link-readmore {
   margin-bottom: 20px;
   background-color: #f2f2f2;
   background-clip: padding-box;
-  border: 1px solid #999999;
+  border: 1px solid white;
   border-color: rgba(128, 128, 128, 0.5);
   resize: none;
   font-size: 14px;
@@ -6786,7 +6786,7 @@ footer .dr-link-readmore {
   background-color: white;
 }
 .dr-site-comment [class*="dr-input"].blur {
-  color: #999999;
+  color: white;
 }
 .dr-site-comment [class*="dr-input"].error {
   border-color: red;
@@ -11466,7 +11466,7 @@ body:before .visually-hidden {
 }
 .container-black p,
 .container-black .metainfo {
-  color: #999999;
+  color: white;
 }
 .container-black .item {
   background-image: url("/assets/img/border-white.png");
@@ -11485,7 +11485,7 @@ body:before .visually-hidden {
 }
 .container-white p,
 .container-white .metainfo {
-  color: #999999;
+  color: white;
 }
 .container-red {
   background-color: #720705;
@@ -11500,7 +11500,7 @@ body:before .visually-hidden {
 }
 .container-red p,
 .container-red .metainfo {
-  color: #999999;
+  color: white;
 }
 .container-green {
   background-color: #363e2a;
@@ -11515,10 +11515,10 @@ body:before .visually-hidden {
 }
 .container-green p,
 .container-green .metainfo {
-  color: #999999;
+  color: white;
 }
 .container-green-light {
-  background-color: #202020;
+  background-color: #843c3c;
   /*background-color: rgba(54, 62, 42, 0.8);*/
   color: #ffffff;
 }
@@ -11531,7 +11531,7 @@ body:before .visually-hidden {
 }
 .container-green-light p,
 .container-green-light .metainfo {
-  color: #999999;
+  color: white;
 }
 .container-green-light .item {
   background-image: url("/assets/img/border-white.png");
@@ -11550,7 +11550,7 @@ body:before .visually-hidden {
 }
 .container-red-light p,
 .container-red-light .metainfo {
-  color: #999999;
+  color: white;
 }
 .container-red-light .item {
   background-image: url("/assets/img/border-white.png");
@@ -11569,7 +11569,7 @@ body:before .visually-hidden {
 }
 .container-green-lighter p,
 .container-green-lighter .metainfo {
-  color: #999999;
+  color: white;
 }
 .container-green-lighter .item {
   background-image: url("/assets/img/border-white.png");
@@ -11591,7 +11591,7 @@ body {
 @media only screen and (min-width: 721px) {
   body {
     /*background-image: url("../img/bg-body-large-ny.jpg");*/
-    background-color: #202020;
+    background-color: #843c3c;
   }
 }
 .site-id a:link,

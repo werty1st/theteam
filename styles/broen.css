@@ -11,7 +11,7 @@
   line-height: 20px;
 }
 #broen-gallery h2 .dr-link-readmore:before {
-  background-color: #202020;
+  background-color: #843c3c;
   color: #fff;
 }
 #broen-gallery #broen-gallery-home {
@@ -265,7 +265,7 @@ html.mobile #broen-gallery-person-media #broen-gallery-person-media-slider .dr-w
 }
 
 #broen-gallery-person-info {
-  background-color: #3b3c34;
+  background-color: #843c3c;
   float: left;
   width: 50%;
   min-height: 350px;
