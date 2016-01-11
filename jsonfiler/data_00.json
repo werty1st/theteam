@@ -1,407 +1,791 @@
 {
-    "blochin": {
-        "name": "Blochin",
-        "realname": "(Jürgen Vogel)",
-        "slug": "blochin",
-        "text": "Mordkommission 7",
-        "longText": "Blochin weiß nicht, wer er ist und wo er herkommt. Und er hat Angst davor, es herauszufinden. Dies führt zum grundlegenden Konflikt seines Lebens. Er ist zerrissen zwischen dem Menschen, der er gern wäre - ein guter Polizist, Ehemann und Vater - und dem dunklen Geist, der ihn vielleicht in Wirklichkeit beherrscht. Er ist ein Kämpfer, der alles tun würde, um Frau und Kind zu schützen. Aber so sehr er auch kämpft, beschleicht ihn manchmal das Gefühl, dass er am Ende alles immer nur noch schlimmer macht. Nachts, nachdem er seiner Tochter im Bett vorgelesen hat, schläft er ab und zu müde neben ihr ein. Dann träumt er von seinem Vater, der jetzt ein alter Mann ist und der Blochins Hilfe braucht. Aber Blochin kann ihm nicht helfen, weil er nicht weiß, wer und wo sein Vater ist.",
-        "image": "blochin.jpg",
-        "relations": [
-            {
-                "slug": "grille",
-                "name": "Grille",
-                "text": "Blochins und Inkas Tochter"
-            },
-            {
-                "slug": "inka",
-                "name": "Inka",
-                "text": "Blochins Ehefrau und Dominiks Schwester"
-            },
-            {
-                "slug": "dominik",
-                "name": "Dominik",
-                "text": "Leiter der Mordkommission 7"
-            },
-            {
-                "slug": "katrin",
-                "name": "Katrin",
-                "text": "Staatssekretärin"
-            },
-            {
-                "slug": "yorik",
-                "name": "Yorik",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "magda",
-                "name": "Magda",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "nanette",
-                "name": "Nanette",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "dankwart",
-                "name": "Dankwart",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "conchita",
-                "name": "Conchita",
-                "text": "Blochins ehemalige Geliebte"
-            },
-            {
-                "slug": "doreen",
-                "name": "Doreen",
-                "text": "Freundin aus Blochins Vergangenheit"
-            }
-        ]
-    },
-    "dominik": {
-        "name": "Dominik",
-        "realname": "(Thomas Heinze)",
-        "slug": "dominik",
-        "text": "Leiter der Mordkommission 7",
-        "longText": "Dominik wurde auf einer US-Armybase als Sohn einer amerikanischen Soldatin und eines deutschen Vaters in Berlin geboren. Als seine Mutter zurück nach Amerika gegangen ist und die Familie verlassen hat, haben er und seine Schwester Inka den Pakt geschlossen, einander nie zu verlassen. Alle anderen Frauen sind für ihn mehr Publikum als Herzensangelegenheit. Dominik ist sehr gerne Polizist, weil er sehr moralisch ist und an den Unterschied zwischen Gut und Böse glaubt. Er glaubt allerdings auch, dass das System nur aufrechterhalten werden kann, wenn der Einzelne die Regeln manchmal bricht. Vor allem, wenn er selbst dieses Individuum ist. An der verheirateten Staatsekretärin Katrin Steinbrenner mag Dominik, dass vermeintlich keine Gefahr von ihr ausgeht, weil er die verheiratete Frau nicht wirklich haben kann …",
-        "image": "dominik.jpg",
-        "relations": [
-            {
-                "slug": "blochin",
-                "name": "Blochin",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "inka",
-                "name": "Inka",
-                "text": "Blochins Ehefrau und Dominiks Schwester"
-            },
-            {
-                "slug": "grille",
-                "name": "Grille",
-                "text": "Blochins und Inkas Tochter"
-            },
-            {
-                "slug": "katrin",
-                "name": "Katrin",
-                "text": "Staatssekretärin"
-            },
-            {
-                "slug": "yorik",
-                "name": "Yorik",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "magda",
-                "name": "Magda",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "nanette",
-                "name": "Nanette",
-                "text": "Mordkommission 7"
-        },
-            {
-                "slug": "dankwart",
-                "name": "Dankwart",
-                "text": "Mordkommission 7"
-        }
-        ]
-    },
-    "inka": {
-        "name": "Inka",
-        "realname": "(Maja Schöne)",
-        "slug": "inka",
-        "text": "Blochins Ehefrau und Dominiks Schwester",
-        "longText": "Inka hat unter dem Weggehen der Mutter stärker gelitten als ihr Bruder Dominik. Deshalb hatte sie auch immer ein Problem mit dem Wort \"Mutter\", bis sie selbst eine wurde. Anders als Dominik glaubt sie mehr an das Selbstbestimmungsrecht des Einzelnen als an das System. Sie hat sich immer dem näher gefühlt, was man als Gegenkultur bezeichnet. Sie mag gutes Essen in all seinen Ausführungen. Ihr Beruf als Lebensmittelchemikerin ist deshalb für sie eine Herzensangelegenheit. Sie dachte lange, dass ihre Nervenkrankheit von ihrem Lebensstil in ihren Zwanzigern kommt, mit zu viel Party, Drogen und Alkohol. In den ersten Jahren ihrer Beziehung zu Blochin war sie sich noch nicht sicher, ob sie wirklich auf lange Sicht ein festes Paar bleiben. Doch seit der Diagnose \"Multiple Sklerose\" weiß sie, dass er ihr Zuhause ist. Mehr als jedes andere Zuhause, das sie je hatte.",
-        "image": "inka.jpg",
-        "relations": [
-            {
-                "slug": "blochin",
-                "name": "Blochin",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "grille",
-                "name": "Grille",
-                "text": "Blochins und Inkas Tochter"
-            },
-            {
-                "slug": "dominik",
-                "name": "Dominik",
-                "text": "Leiter der Mordkommission 7"
-            },
-            {
-                "slug": "tilda",
-                "name": "Tilda",
-                "text": "Gründerin der Kolonie am See"
-            },
-            {
-                "slug": "conchita",
-                "name": "Conchita",
-                "text": "Blochins ehemalige Geliebte"
-            }
-        ]
-    },
-    "katrin": {
-        "name": "Katrin",
-        "realname": "(Jördis Triebel)",
-        "slug": "katrin",
-        "text": "Staatssekretärin",
-        "longText": "Katrin kommt aus einfachen Verhältnissen und ist die Erste in ihrer Familie, die studiert hat. Sie mag Politik als Handwerk und möchte eine verdammt gute Handwerkerin werden. Sie weiß nur noch nicht so genau, für welche Inhalte sie es einsetzen möchte. Doch mit jeder Entscheidung, die Katrin treffen muss, wird ihr selbst klarer, wofür sie steht und wofür nicht. Sie ist Realistin, aber keine Zynikerin, obwohl es im politischen Alltag schwierig ist, diese Grenze nicht verwischen zu lassen. Ehemann und Kinder sind ihr mehr so passiert, als dass sie wirklich dafür gebrannt hätte. Ohne dass ihr das sofort klar war, ist Dominik  bei ihr in eine Lücke gestoßen. Es ist seltsam, dass diese beiden kühlen und rationalen Menschen beim jeweils anderen eine Wärme und Menschlichkeit hochkommen lassen, mit der sie beide nicht gerechnet haben.",
-        "image": "katrin.jpg",
-        "relations": [
-            {
-                "slug": "dominik",
-                "name": "Dominik",
-                "text": "Leiter der Mordkommission 7"
-            },
-            {
-                "slug": "blochin",
-                "name": "Blochin",
-                "text": "Mordkommission 7"
-            }
-        ]
-    },
-    "freddy": {
-        "name": "Freddy",
-        "realname": "(Peri Baumeister)",
-        "slug": "freddy",
-        "text": "Studentin und Ministertochter",
-        "longText": "Freddys Verhältnis zu ihren Eltern ist eine Katastrophe, und je älter sie wird, desto hilfloser ist sie ihrer Wut darüber ausgesetzt, von ihnen nie gesehen worden zu sein. Es fällt ihr jedoch schwer, sich selbst zu reflektieren. Sie dreht sich in ihren Gefühlen, über die sie mit niemandem reden kann, im Kreis. Sie mag Sex in all seinen Möglichkeiten und Gefahren. Niemand weiß, dass sie sich als Teenager bei \"DSDS\" beworben hat. Ihre Stimme war ein Desaster, aber Dieter Bohlen wollte hinterher trotzdem mit ihr ausgehen. Als sie Yorik kennenlernt, hält sie ihn zunächst nur für einen weiteren Mann, der ihr wehtut und dem sie wehtun kann. Doch wie sehr er ihr schließlich wehtut, hätte sie nicht für möglich gehalten.",
-        "image": "freddy.jpg",
-        "relations": [
-            {
-                "slug": "yorik",
-                "name": "Yorik",
-                "text": "Mordkommission 7"
-            }
-        ]
-    },
-    "tilda": {
-        "name": "Tilda",
-        "realname": "(Corinna Harfouch)",
-        "slug": "tilda",
-        "text": "Gründerin der Kolonie am See",
-        "longText": "Tilda hatte schon immer ein natürliches Charisma, das durch die Krankheit MS nur noch verstärkt wurde. Wenn man mit ihr spricht und sie einen ansieht, hat man das Gefühl, als würde man sich selbst in ihren Augen viel klarer sehen, als sonst. Das ist für Inka Segen und Herausforderung zugleich. Denn bei der Suche nach der inneren Wahrheit, schont Tilda weder sich noch andere. Inka lässt sich von Tildas Lebensfreude anstecken und übersieht dabei, dass sie anfängt, die eigene Familie aufs Spiel zu setzen. Tilda lebt in einer offenen Beziehung mit zwei Männern gleichzeitig. Als die schöne Anna Inka Avancen macht, fragt sich Inka, ob so ein offenes Beziehungsleben vielleicht auch für sie möglich und wünschenswert wäre.",
-        "image": "tilda.jpg",
-        "relations": [
-            {
-                "slug": "inka",
-                "name": "Inka",
-                "text": "Blochins Ehefrau und Dominiks Schwester"
-            }
-        ]
-    },
-    "yorik": {
-        "name": "Yorik",
-        "realname": "(Christoph Letkowski)",
-        "slug": "yorik",
-        "text": "Mordkommission 7",
-        "longText": "Er war mit Anfang 20 als Berufssoldat in Afghanistan und hatte nach zwei Jahren genug gesehen, um den Dienst zu quittieren. Obwohl er  gut aussieht, ist er Frauen gegenüber merkwürdig verklemmt. Wenn ihm eine Frau gefällt, schwankt er zwischen Sehnsucht nach absoluter Nähe und einem Misstrauen, das gefährliche Züge annehmen kann. Aus seiner Bundeswehrzeit hat er einen Kadergehorsam gelernt, der tief sitzt und gegen den er jetzt ständig innerlich rebelliert. Sein Verhältnis zu Dominik ist geprägt von diesem Zwiespalt. Eine Hassliebe verbindet ihn mit seinem Mordkommissionsleiter. Blochin sieht er in dieser Beziehung als Konkurrent.",
-        "image": "yorik.jpg",
-        "relations": [
-            {
-                "slug": "dominik",
-                "name": "Dominik",
-                "text": "Leiter der Mordkommission 7"
-            },
-            {
-                "slug": "blochin",
-                "name": "Blochin",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "magda",
-                "name": "Magda",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "nanette",
-                "name": "Nanette",
-                "text": "Mordkommission 7"
-        },
-            {
-                "slug": "dankwart",
-                "name": "Dankwart",
-                "text": "Mordkommission 7"
-            }
-        ]
-    },
-    "magda": {
-        "name": "Magda",
-        "realname": "(Agnieszka Piwowarska)",
-        "slug": "magda",
-        "text": "Mordkommission 7",
-        "longText": "Seit Magdas Mann sie und das Kind verlassen hat, sieht ihre Mutter sie jeden Tag missbilligend an. Obwohl Magda den tiefen katholischen Glauben ihrer Mutter teilt, ist sie doch von den rassistischen, rechtskonservativen Tendenzen in Teilen der polnischen Kirche abgestoßen. Ihre Sanftmut täuscht darüber hinweg, dass sie Polizistin geworden ist, um die Bösen einer gerechten Strafe zuzuführen. Schuld und Sühne sind keine leeren Worte für sie. Sie fühlt sich zu Blochin hingezogen, würde ihn gerne retten. Dominik hält sie für den besten Polizisten, den sie je kennengelernt hat. Bislang jedenfalls.",
-        "image": "magda.jpg",
-        "relations": [
-            {
-                "slug": "dominik",
-                "name": "Dominik",
-                "text": "Leiter der Mordkommission 7"
-            },
-            {
-                "slug": "blochin",
-                "name": "Blochin",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "yorik",
-                "name": "Yorik",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "nanette",
-                "name": "Nanette",
-                "text": "Mordkommission 7"
-        },
-            {
-                "slug": "dankwart",
-                "name": "Dankwart",
-                "text": "Mordkommission 7"
-            }
-        ]
-    },
-    "dankwart": {
-        "name": "Dankwart",
-        "realname": "(Jörg Pose)",
-        "slug": "dankwart",
-        "text": "Mordkommission 7",
-        "longText": "Als die Berliner Polizei in den Siebzigern die gesellschaftliche Strömung aufnahm und von einer Law&Order-Brachialtruppe zu einer Kraft wuchs, in der das schwache Individuum gegen die korrupte Gesellschaft geschützt wurde, war Dankwart ganz vorne mit dabei. Damals war man der Meinung, dass die Gründe für eine Straftat im Umfeld des Täters zu suchen sind. Prävention kam vor Rache. Heute findet sich Dankwart in einer Welt wieder, in der für solche Romantizismen kein Platz mehr ist. Fälle müssen vom Tisch, Staatsanwaltschaft, Gerichte und somit der Steuerzahler müssen entlastet werden - je schneller, desto besser. Auf diese Welt hat Dankwart keine Lust mehr. Weil er aber nicht von seinen alten Idealen lassen will, ohne sich neue aufzubauen, hat er das Hotelprojekt begonnen – mit verheerenden Folgen.",
-        "image": "dankwart.jpg",
-        "relations": [
-            {
-                "slug": "dominik",
-                "name": "Dominik",
-                "text": "Leiter der Mordkommission 7"
-            },
-            {
-                "slug": "blochin",
-                "name": "Blochin",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "yorik",
-                "name": "Yorik",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "nanette",
-                "name": "Nanette",
-                "text": "Mordkommission 7"
-        },
-            {
-                "slug": "magda",
-                "name": "Magda",
-                "text": "Mordkommission 7"
-            }
-        ]
-    },
-    "nanette": {
-        "name": "Nanette",
-        "realname": "(Gisa Flake)",
-        "slug": "nanette",
-        "text": "Mordkommission 7",
-        "longText": "Nanette sucht noch ihren Platz in der MK7. Es bis zur Mordkommission geschafft zu haben, ist der bisher größte Erfolg in ihrem Leben und sie ist sehr stolz darauf. Sie lebt allein und ist dabei weder glücklich noch unglücklich. Sie wartet einfach geduldig darauf, dass sich dieser Zustand irgendwann ändert. Sie kommt aus gutem Hause und ihre Eltern sind vermögend, aber das versucht sie eher zu verbergen. Als Dankwart ihr die Möglichkeit bietet, ihr Erbe in ein Hotel zu investieren, tut sie es auch deshalb, weil sie neugierig ist, wohin es das kleine Braunschweiger Mädchen in dieser Welt noch schaffen wird.",
-        "image": "nanette.jpg",
-        "relations": [
-            {
-                "slug": "dominik",
-                "name": "Dominik",
-                "text": "Leiter der Mordkommission 7"
-            },
-            {
-                "slug": "blochin",
-                "name": "Blochin",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "yorik",
-                "name": "Yorik",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "dankwart",
-                "name": "Dankwart",
-                "text": "Mordkommission 7"
-        },
-            {
-                "slug": "magda",
-                "name": "Magda",
-                "text": "Mordkommission 7"
-            }
-        ]
-    },
-    "conchita": {
-        "name": "Conchita",
-        "realname": "(Carol Schuler)",
-        "slug": "conchita",
-        "text": "Blochins ehemalige Geliebte",
-        "longText": "Conchita hatte eine bewegte Zeit, als sie aus Spanien nach Deutschland kam. Seitdem Blochin sie aus dem Drogensumpf gezogen hat, ist sie untrennbar mit ihm verbunden. Immer wieder kreuzen sich ihre Wege. Schon oft hat er ihr geholfen. Ein Leben ohne Blochin kann sich Conchita nicht vorstellen, auch wenn sie weiß, dass sie ihn niemals für sich haben kann. Dass sie seiner Tochter Nachhilfe in Spanisch gibt und sich um seine kranke Frau Inka kümmert, hilft ihr nicht gerade dabei, Abstand zu wahren …",
-        "image": "conchita.jpg",
-        "relations": [
-            {
-                "slug": "blochin",
-                "name": "Blochin",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "grille",
-                "name": "Grille",
-                "text": "Blochins und Inkas Tochter"
-            },
-            {
-                "slug": "inka",
-                "name": "Inka",
-                "text": "Blochins Ehefrau und Dominiks Schwester"
-            }
-        ]
-    },
-    "grille": {
-        "name": "Grille",
-        "realname": "(Emilia Eidt)",
-        "slug": "grille",
-        "text": "Blochins und Inkas Tochter",
-        "longText": "Grille weiß, dass ihre Eltern irgendwie anders sind als die der anderen Kinder. Und das nicht nur, weil Blochin bei Elternabenden seltsame Fragen stellt. Sie spürt, dass Blochin und Inka Geheimnisse haben, Geheimnisse aus ihrer Vergangenheit. Doch vor allem spürt sie die tiefe Verbindung zwischen ihren Eltern. Das gibt Grille Halt. Doch dann muss sie hilflos mit ansehen, wie ihre Mutter durch die Krankheit immer stärker eingeschränkt wird und sich verändert. Es fällt ihr schwer zu verstehen, weshalb sich Inka immer mehr in die Kommune am See zurückzieht. Und warum sie sich ausgerechnet ihrem geliebten Vater so entzieht.",
-        "image": "grille.jpg",
-        "relations": [
-            {
-                "slug": "blochin",
-                "name": "Blochin",
-                "text": "Mordkommission 7"
-            },
-            {
-                "slug": "inka",
-                "name": "Inka",
-                "text": "Blochins Ehefrau und Dominiks Schwester"
-            },
-            {
-                "slug": "dominik",
-                "name": "Dominik",
-                "text": "Leiter der Mordkommission 7"
-            },
-            {
-                "slug": "conchita",
-                "name": "Conchita",
-                "text": "Blochins ehemalige Geliebte"
-            }
-        ]
-    },
-    "doreen": {
-        "name": "Doreen",
-        "realname": "(Jule Böwe)",
-        "slug": "doreen",
-        "text": "Freundin aus Blochins Vergangenheit",
-        "longText": "In den alten Zeiten, als Blochin noch nicht die Seiten gewechselt hatte, war auch Doreen fester Bestandteil von Blochins Leben. Sie war damals mit Toto zusammen. Doch ein Motorradunfall hat sie körperlich eingeschränkt. Das ist nicht das einzige Erlebnis, das Spuren auf Doreens Seele hinterlassen hat. Als Blochin sie bei Ermittlungen nach vielen Jahren wieder trifft, arbeitet Doreen in einem Fitnessstudio. Inzwischen ist sie mit Garbo zusammen, der immer noch Drogen vertickt. Bis er zu weit geht und mit seinem Leben dafür bezahlt. Das ändert alles für Doreen. Sie will endlich aufräumen mit ihrer Vergangenheit und sich den Dingen stellen, zu denen auch ein Kind gehört, das sie bisher verdrängt hat. ",
-        "image": "doreen.jpg",
-        "relations": [
-            {
-                "slug": "blochin",
-                "name": "Blochin",
-                "text": "Mordkommission 7"
-            }
-        ]
-       }
+  "seth": {
+    "name": "Seth Pilaster",
+    "realname": "(Rolf Hoppe)",
+    "slug": "seth",
+    "text": "Seth leitet zusammen mit seinen Söhnen Samuel und Joseph das Bankhaus Pilaster, das zweitgrößte Bankhaus Englands. Nach innen ist die Familie jedoch zerstritten. Sein dritter Sohn, Thomas Pilaster gründete die Textilfabrik Thomas Pilaster & Co. Als das Unternehmen während der Wirtschaftskrise Bankrott geht, sieht er keinen andern Ausweg und nimmt sich das Leben.  Seth verurteilt den Tod seines Sohnes als unehrenhaft, obgleich er ihn schmerzt. Jahrelang meidet er daher den Kontakt zu seinem Enkel Hugh, Thomas' Sohn. Wie sein Vetter Edward arbeitet Hugh in der Bank. Als Seth Hughs Talent entdeckt, befördert er ihn – sehr zum Ärger von Edward und dessen Mutter Augusta.",
+    "image": "seth.png",
+    "relations": [
+      {
+        "slug": "samuel",
+        "name": "Samuel Pilaster",
+        "text": "Seths erster Sohn"
+      },
+      {
+        "slug": "joseph",
+        "name": "Joseph Pilaster",
+        "text": "Seths zweiter Sohn"
+      },
+      {
+        "slug": "thomas",
+        "name": "Thomas Pilaster",
+        "text": "Seths dritter, verstorbener Sohn"
+      },
+      {
+        "slug": "hugh",
+        "name": "Hugh Pilaster",
+        "text": "Seths Enkel"
+      },
+      {
+        "slug": "edward",
+        "name": "Edward Pilaster",
+        "text": "Seths Enkel"
+      },
+      {
+        "slug": "clara",
+        "name": "Clara Pilaster",
+        "text": "Seths Enkelin"
+      },
+      {
+        "slug": "augusta",
+        "name": "Augusta Pilaster",
+        "text": "Schwiegertochter von Seth"
+      }
+    ]
+  },
+  "samuel": {
+    "name": "Samuel Pilaster",
+    "realname": "(Axel Milberg)",
+    "slug": "samuel",
+    "text": "Direktor des Bankhauses Pilaster",
+    "longText": "Auch wenn Samuel zusammen mit seinem Vater Seth und seinem Bruder Joseph das Bankhaus Pilaster leitet, bleibt er ein Außenseiter. Er führt eine heimliche Beziehung mit seinem jüngeren Privatsekretär Michael. Als Josephs Ehefrau Augusta gegen Samuel intrigiert, wird dessen Homosexualität öffentlich. Sein Ruf ist ruiniert und er wird vom eigenen Vater verstoßen. Er quittiert seinen Posten im Bankhaus, bleibt stiller Teilhaber und gründet das Maison des Secrets – ein Ort für die wohlhabende Oberschicht, an dem Dichtung und Gesang gehuldigt wird und verruchte Maskenbälle stattfinden.",
+    "image": "samuel.png",
+    "relations": [
+      {
+        "slug": "seth",
+        "name": "Seth Pilaster",
+        "text": "Samuels Vater"
+      },
+      {
+        "slug": "joseph",
+        "name": "Joseph Pilaster",
+        "text": "Samuels Bruder"
+      },
+      {
+        "slug": "augusta",
+        "name": "Augusta Pilaster",
+        "text": "Samuels Schwägerin"
+      },
+      {
+        "slug": "thomas",
+        "name": "Thomas Pilaster",
+        "text": "Samuels verstorbener Bruder"
+      },
+      {
+        "slug": "hugh",
+        "name": "Hugh Pilaster",
+        "text": "Samuels Neffe"
+      },
+      {
+        "slug": "nora",
+        "name": "Nora Pilaster",
+        "text": "Ehefrau von Hugh"
+      },
+      {
+        "slug": "edward",
+        "name": "Edward Pilaster",
+        "text": "Samuels Neffe"
+      },
+      {
+        "slug": "clara",
+        "name": "Clara Pilaster",
+        "text": "Samuels Nichte"
+      },
+      {
+        "slug": "michael",
+        "name": "Michael Merrit",
+        "text": "Privatsekretär von Samuel"
+      }
+    ]
+  },
+  "michael": {
+    "name": "Michael Merrit",
+    "realname": "(James Walmsley)",
+    "slug": "michael",
+    "text": "Privatsekretär von Samuel Pilaster",
+    "longText": "Michael ist der Privatsekretär und der Lebenspartner von Samuel.",
+    "image": "michael.png",
+    "relations": [
+      {
+        "slug": "samuel",
+        "name": "Samuel Pilaster",
+        "text": "Michaels Lebenspartner"
+      }
+    ]
+  },
+  "joseph": {
+    "name": "Joseph Pilaster",
+    "realname": "(Thorsten Merten)",
+    "slug": "joseph",
+    "text": "Direktor im Bankhaus Pilaster",
+    "longText": "Joseph ist der zweite Sohn von Seth Pilaster und leitet zusammen mit seinem Vater und seinem Bruder Samuel das Bankhaus Pilaster. Er ist streng gläubiger Methodist, ein Moralist, aber kein begnadeter Banker. Ganz im Gegensatz zu seinem Neffen Hugh, dem Sohn seines verstorbenen Bruders Thomas. Beeindruckt von dessen Begabung, fördert er Hugh mehr als seinen leiblichen Sohn Edward, dem jeglicher Ehrgeiz und Talent fehlen. Das führt zu Konflikten mit seiner machthungrigen Ehefrau Augusta, die Ehemann und Sohn an der Spitze des Bankhauses sehen will. Tochter Clara möchte unterdessen Musikerin werden; auch das sorgt für Spannungen in der Familie.",
+    "image": "joseph.png",
+    "relations": [
+      {
+        "slug": "augusta",
+        "name": "Augusta Pilaster",
+        "text": "Josephs Ehefrau"
+      },
+      {
+        "slug": "seth",
+        "name": "Seth Pilaster",
+        "text": "Josephs Vater"
+      },
+      {
+        "slug": "samuel",
+        "name": "Samuel Pilaster",
+        "text": "Josephs Bruder"
+      },
+      {
+        "slug": "thomas",
+        "name": "Thomas Pilaster",
+        "text": "Josephs verstorbener Bruder"
+      },
+      {
+        "slug": "hugh",
+        "name": "Hugh Pilaster",
+        "text": "Josephs Neffe"
+      },
+      {
+        "slug": "edward",
+        "name": "Edward Pilaster",
+        "text": "Josephs Sohn"
+      },
+      {
+        "slug": "clara",
+        "name": "Clara Pilaster",
+        "text": "Josephs Tochter"
+      },
+      {
+        "slug": "florence",
+        "name": "Florence Pilaster",
+        "text": "Josephs Schwiegertochter"
+      }
+    ]
+  },
+  "thomas": {
+    "name": "Thomas Pilaster",
+    "realname": "(Barry John O'Connor)",
+    "slug": "thomas",
+    "text": "Gründer von Thomas Pilaster & Co",
+    "longText": "Thomas gründet die Textilfabrik Thomas Pilaster & Co. Als das Unternehmen Konkurs anmeldenen muss und Thomas keinen Ausweg sieht, bringt er sich um. Zurück bleibt sein Sohn Hugh.",
+    "image": "thomas.png",
+    "relations": [
+      {
+        "slug": "hugh",
+        "name": "Hugh Pilaster",
+        "text": "Thomas' Sohn"
+      },
+      {
+        "slug": "seth",
+        "name": "Seth Pilaster",
+        "text": "Thomas' Vater"
+      },
+      {
+        "slug": "samuel",
+        "name": "Samuel Pilaster",
+        "text": "Thomas' Bruder"
+      },
+      {
+        "slug": "joseph",
+        "name": "Joseph Pilaster",
+        "text": "Thomas' Bruder"
+      },
+      {
+        "slug": "augusta",
+        "name": "Augusta Pilaster",
+        "text": "Thomas' Schwägerin"
+      },
+      {
+        "slug": "clara",
+        "name": "Clara Pilaster",
+        "text": "Thomas' Nichte"
+      },
+      {
+        "slug": "edward",
+        "name": "Edward Pilaster",
+        "text": "Thomas' Neffe"
+      }
+    ]
+  },
+  "augusta": {
+    "name": "Augusta Pilaster",
+    "realname": "(Jeanette Hein)",
+    "slug": "augusta",
+    "text": "Ehefrau von Joseph Pilaster, Mutter von Clara und Edward",
+    "longText": "Augusta ist ebenso schön wie intrigant – und gefährlich. Sie nimmt Hugh zwar zusammen mit ihrem Ehemann Joseph bei sich auf, ihm gegenüber ist sie jedoch missgünstig. Warum, das kann Hugh nicht ahnen. Auch das Verhältnis zu ihrer Tochter Clara ist schwierig, weil sie sich den Plänen ihrer Mutter nicht fügen möchte: statt zu heiraten strebt Clara eine Karriere als Musikerin an. Sohn Edward ist Augustas ein und alles. Sie zwingt ihn in eine Ehe mit Florence – nicht ahnend, dass er heimlich in seinen Freund Mickey verliebt ist. Denn mit dem charmanten Südamerikaner hat Augusta selbst eine Affäre. In Mickey hat Augusta jedoch ihren Meister gefunden – er benutzt die Pilasters nur für seine eigenen machthungrigen Pläne.",
+    "image": "augusta.png",
+    "relations": [
+      {
+        "slug": "joseph",
+        "name": "Joseph Pilaster",
+        "text": "Augustas Ehemann"
+      },
+      {
+        "slug": "edward",
+        "name": "Edward Pilaster",
+        "text": "Augustas Sohn"
+      },
+      {
+        "slug": "clara",
+        "name": "Clara Pilaster",
+        "text": "Augustas Tochter"
+      },
+      {
+        "slug": "hugh",
+        "name": "Hugh Pilaster",
+        "text": "Augustas Neffe"
+      },
+      {
+        "slug": "seth",
+        "name": "Seth Pilaster",
+        "text": "Augustas Schwiegervater"
+      },
+      {
+        "slug": "samuel",
+        "name": "Samuel Pilaster",
+        "text": "Augustas Schwager"
+      },
+      {
+        "slug": "thomas",
+        "name": "Thomas Pilaster",
+        "text": "Augustas verstorbener Schwager"
+      },
+      {
+        "slug": "mickey",
+        "name": "Mickey Miranda",
+        "text": "Augustas Liebhaber"
+      },
+      {
+        "slug": "amish",
+        "name": "Amish Bowles",
+        "text": "Augustas Wunschschwiegersohn"
+      },
+      {
+        "slug": "florence",
+        "name": "Florence Pilaster",
+        "text": "Augustas Schwiegertochter"
+      },
+      {
+        "slug": "nora",
+        "name": "Nora Pilaster",
+        "text": "Ehefrau von Hugh"
+      },
+      {
+        "slug": "lady",
+        "name": "Lady Stallworthy",
+        "text": "Mutter von Florence"
+      }
+    ]
+  },
+  "clara": {
+    "name": "Clara Pilaster",
+    "realname": "(Maria Dragus)",
+    "slug": "clara",
+    "text": "Tochter von Jospeh und Augusta Pilaster",
+    "longText": "Clara ist das \"Aschenputtel\" der Familie – pummelig, von der Mutter ungeliebt und für nichts anderes als die Ehe vorgesehen. Sofern sie überhaupt jemand nimmt, woran ihre Mutter zweifelt. Doch Clara ist eine begabte Pianistin und sie will Musikerin werden. Als Hugh ihr eröffnet das er London Richtung Amerika verlassen will schließt sie sich ihm kurzerhand an und haut ab. Nach ihrer Rückkehr nach England sieht sie sich jedoch mit alten und neuen Problemen konfrontiert.",
+    "image": "clara.png",
+    "relations": [
+      {
+        "slug": "joseph",
+        "name": "Joseph Pilaster",
+        "text": "Claras Vater"
+      },
+      {
+        "slug": "augusta",
+        "name": "Augusta Pilaster",
+        "text": "Claras Mutter"
+      },
+      {
+        "slug": "edward",
+        "name": "Edward Pilaster",
+        "text": "Claras Bruder"
+      },
+      {
+        "slug": "hugh",
+        "name": "Hugh Pilaster",
+        "text": "Claras Cousin"
+      },
+      {
+        "slug": "seth",
+        "name": "Seth Pilaster",
+        "text": "Claras Großvater"
+      },
+      {
+        "slug": "samuel",
+        "name": "Samuel Pilaster",
+        "text": "Claras Onkel"
+      },
+      {
+        "slug": "thomas",
+        "name": "Thomas Pilaster",
+        "text": "Claras verstorbener Onkel"
+      },
+      {
+        "slug": "amish",
+        "name": "Amish Bowles",
+        "text": "Times-Journalist"
+      },
+      {
+        "slug": "florence",
+        "name": "Florence Pilaster",
+        "text": "Claras Schwägerin"
+      },
+      {
+        "slug": "nora",
+        "name": "Nora Pilaster",
+        "text": "Ehefrau von Hugh"
+      }
+    ]
+  },
+  "amish": {
+    "name": "Amish Bowles",
+    "realname": "(David Bennent)",
+    "slug": "amish",
+    "text": "Journalist",
+    "longText": "Amish ist ein sehr einflussreicher Journalist bei der \"Times\", was ihn für die machtgierige Augusta interessant macht. Sie möchte Amish mit ihrer Tochter Clara verheiraten. Auch Amish ist von Clara angetan und umwirbt sie. Clara jedoch möchte nicht heiraten.",
+    "image": "amish.png",
+    "relations": [
+      {
+        "slug": "clara",
+        "name": "Clara Pilaster",
+        "text": "Augustas Tochter"
+      },
+      {
+        "slug": "augusta",
+        "name": "Augusta Pilaster",
+        "text": "Claras Mutter"
+      }
+    ]
+  },
+  "edward": {
+    "name": "Edward Pilaster",
+    "realname": "(Daniel Sträßler)",
+    "slug": "edward",
+    "text": "Leiblicher Sohn von Joseph und Augusta",
+    "longText": "Edward soll, wenn es nach dem Willen seiner Mutter Augusta gehen würde, eigentlich die Leitung des Familienbankhauses Pilaster übernehmen. Jedoch ist er weder so fleißig noch so talentiert wie sein Cousin Hugh und gibt sich dem privaten Vergnügen hin als der Arbeit. Edward liebt seinen besten Freund Mickey – was dieser ahnt und für seine Zwecke ausnutzt. In seiner romantischen Hörigkeit zu Mickey führt Edward führ ihn betrügerische Bankgeschäfte durch, was die Pilaster-Bank nach und nach in eine Schieflage bringt. Auf die Hochzeit mit Florence hat er sich nur eingelassen um im Schein der bürgerlichen Ehe sein wahres Leben weiterleben zu können. ",
+    "image": "edward.png",
+    "relations": [
+      {
+        "slug": "augusta",
+        "name": "Augusta Pilaster",
+        "text": "Edwards Mutter"
+      },
+      {
+        "slug": "joseph",
+        "name": "Joseph Pilaster",
+        "text": "Edwards Vater"
+      },
+      {
+        "slug": "clara",
+        "name": "Clara Pilaster",
+        "text": "Edwards Schwester"
+      },
+      {
+        "slug": "hugh",
+        "name": "Hugh Pilaster",
+        "text": "Edwards Cousin"
+      },
+      {
+        "slug": "florence",
+        "name": "Florence Pilaster",
+        "text": "Edwards Ehefrau"
+      },
+      {
+        "slug": "mickey",
+        "name": "Mickey Miranda",
+        "text": "Alter Schulfreund"
+      },
+      {
+        "slug": "seth",
+        "name": "Seth Pilaster",
+        "text": "Edwards Großvater"
+      },
+      {
+        "slug": "samuel",
+        "name": "Samuel Pilaster",
+        "text": "Edwards Onkel"
+      },
+      {
+        "slug": "thomas",
+        "name": "Thomas Pilaster",
+        "text": "Edwards verstorbener Onkel"
+      },
+      {
+        "slug": "lady",
+        "name": "Lady Stallworthy",
+        "text": "Edwards Schwiegermutter"
+      },
+      {
+        "slug": "carlos",
+        "name": "Carlos Xavier Raul Miranda",
+        "text": "Vater von Mickey"
+      }
+    ]
+  },
+  "florence": {
+    "name": "Florence Pilaster",
+    "realname": "(Gloria Endres de Oliveira)",
+    "slug": "florence",
+    "text": "Ehefrau von Edward Pilaster",
+    "longText": "Florence träumt von der Liebe, Kindern, einer Familie. Doch ihre Mutter gibt die Hand ihrer Tochter aus finanziellen Gründen an Augusta bzw. an deren Sohn Edward. Da sich Edward aber weniger für seine junge schöne Frau sondern mehr für seinen Freund Mickey interessiert, sucht sie ihr Glück zunehmend in der Religion. Bis sich Mickey auch noch an sie heranmacht...",
+    "image": "florence.png",
+    "relations": [
+      {
+        "slug": "edward",
+        "name": "Edward Pilaster",
+        "text": "Florences Ehemann"
+      },
+      {
+        "slug": "augusta",
+        "name": "Augusta Pilaster",
+        "text": "Florences Schwiegermutter"
+      },
+      {
+        "slug": "joseph",
+        "name": "Joseph Pilaster",
+        "text": "Florences Schwiegervater"
+      },
+      {
+        "slug": "clara",
+        "name": "Clara Pilaster",
+        "text": "Florences Schwägerin"
+      },
+      {
+        "slug": "mickey",
+        "name": "Mickey Miranda",
+        "text": "Freund der Familie"
+      },
+      {
+        "slug": "lady",
+        "name": "Lady Stallworthy",
+        "text": "Florences Mutter"
+      }
+    ]
+  },
+  "lady": {
+    "name": "Lady Stallworthy",
+    "realname": "(Marion O’Dwyer)",
+    "slug": "lady",
+    "text": "Mutter von Florence",
+    "longText": "Lady Stallworthy gehört dem englischen Adel an. Sie wettet auf Pferde und hat sich deshalb bei der Pilasterbank verschuldet. Augusta sagt ihr eine großzügige Kontoführung zu, die sie jedoch an eine bestimmte Bedingung knüpft: Lady Stallworthys Tochter Florence soll Augustas Sohn Edward heiraten.",
+    "image": "lady.png",
+    "relations": [
+      {
+        "slug": "florence",
+        "name": "Florence Pilaster",
+        "text": "Lady Stallworthys Tochter"
+      },
+      {
+        "slug": "edward",
+        "name": "Edward Pilaster",
+        "text": "Schwiegersohn"
+      },
+      {
+        "slug": "augusta",
+        "name": "Augusta Pilaster",
+        "text": "Mutter des Schwiegersohnes Edward"
+      }
+    ]
+  },
+  "mickey": {
+    "name": "Mickey Miranda",
+    "realname": "(Luca Marinelli)",
+    "slug": "mickey",
+    "text": "Verführer",
+    "longText": "Mickey ist charmant und gutaussehend...und ebenso brutal, berechnend, skrupellos und intrigant. Im Auftrag seines Vaters befindet er sich in London um Geld für dessen Umsturzpläne in seinem Heimatland zu besorgen. Dazu spielt er seinen verführerischen Einfluss auf Edward und dessen Mutter Augusta aus. Um seine Ziele zu erreichen ist ihm jedes Mittel recht, zur Not geht er auch über Leichen.",
+    "image": "mickey.png",
+    "relations": [
+      {
+        "slug": "edward",
+        "name": "Edward Pilaster",
+        "text": "Alter Schulfreund und Liebhaber"
+      },
+      {
+        "slug": "augusta",
+        "name": "Augusta Pilaster",
+        "text": "Geliebte und Komplizin"
+      },
+      {
+        "slug": "florence",
+        "name": "Florence Pilaster",
+        "text": "Edwards Ehefrau"
+      },
+      {
+        "slug": "carlos",
+        "name": "Carlos Xavier Raul Miranda",
+        "text": "Vater von Mickey"
+      }
+    ]
+  },
+  "carlos": {
+    "name": "Carlos Xavier Raul Miranda",
+    "realname": "(Malcolm Adams)",
+    "slug": "carlos",
+    "text": "Vater von Mickey ",
+    "longText": "Carlos möchte in seiner südamerikanischen Heimat die Regierung stürzen, um selbst an die  Macht zu kommen. Um an das nötige Geld zu kommen, will er die Verbindung seines Sohnes Mickey zu Edward und zum Bankhaus Pilaster nutzen.",
+    "image": "carlos.png",
+    "relations": [
+      {
+        "slug": "mickey",
+        "name": "Mickey Miranda",
+        "text": "Sohn von Carlos"
+      },
+      {
+        "slug": "edward",
+        "name": "Edward Pilaster",
+        "text": "Alter Schulfreund von Mickey"
+      }
+    ]
+  },
+  "hugh": {
+    "name": "Hugh Pilaster",
+    "realname": "(Dominic Thorburn)",
+    "slug": "hugh",
+    "text": "Jüngster Spross der Pilaster-Dynastie",
+    "longText": "Hugh wächst ohne Mutter mit seinem Vater Thomas auf, bis dieser sich umbringt. Als Kind kommt Hugh deshalb zu seinem Onkel Joseph und dessen intriganten Ehefrau Augusta. Zusammen mit deren Kindern Edward und Clara wächst er im Familienanwesen Whitehaven auf. Hugh ist intelligent, gutaussehend, gewitzt - und ein talentierter Banker, was ihm in der Pilaster-Bank Vorteile gegenüber seinem Cousin Edward verschafft. Weil er aber nie das Gefühl hat, irgendwo hinzuzugehören, bleibt er ein Außenseiter. Ebenso wie sein bester Freund Solly verliebt sich Hugh in Maisie, einer junge Frau aus dem Arbeitermilieu. Er sieht jedoch in der Verbindung keine Zukunft und verlässt England – zusammen mit seiner Cousine Clara – um in den USA sein Glück zu finden. Dort heiratet er die amerikanische Sängerin Nora, doch das Kapitel mit Maisie scheint noch nicht abgeschlossen – was beide nach Hughs Rückkehr schmerzlich feststellen müssen.",
+    "image": "hugh.png",
+    "relations": [
+      {
+        "slug": "maisie",
+        "name": "Maisie Robinson",
+        "text": "Hughs Jugendliebe"
+      },
+      {
+        "slug": "nora",
+        "name": "Nora Pilaster",
+        "text": "Ehefrau von Hugh"
+      },
+      {
+        "slug": "augusta",
+        "name": "Augusta Pilaster",
+        "text": "Hughs Tante"
+      },
+      {
+        "slug": "joseph",
+        "name": "Joseph Pilaster",
+        "text": "Hughs Onkel"
+      },
+      {
+        "slug": "clara",
+        "name": "Clara Pilaster",
+        "text": "Hughs Cousine"
+      },
+      {
+        "slug": "edward",
+        "name": "Edward Pilaster",
+        "text": "Hughs Cousin"
+      },
+      {
+        "slug": "seth",
+        "name": "Seth Pilaster",
+        "text": "Hughs Großvater"
+      },
+      {
+        "slug": "samuel",
+        "name": "Samuel Pilaster",
+        "text": "Hughs Onkel"
+      },
+      {
+        "slug": "Thomas",
+        "name": "Thomas Pilaster",
+        "text": "Hughs verstorbener Vater"
+      },
+      {
+        "slug": "solly",
+        "name": "Solly Greenbourne",
+        "text": "Hughs bester Freund"
+      },
+      {
+        "slug": "david",
+        "name": "David Greenbourne",
+        "text": "Maisies Sohn"
+      },
+      {
+        "slug": "april",
+        "name": "April Tinsely",
+        "text": "Freundin von Hugh"
+      }
+    ]
+  },
+  "nora": {
+    "name": "Nora Pilaster",
+    "realname": "(Yvonne Catterfeld)",
+    "slug": "nora",
+    "text": "Ehefrau von Hugh",
+    "longText": "Nora ist eine amerikanische Sängerin, sie ist weltoffen und humorvoll. Nora lernt Hugh während seines USA-Aufenthalts kennen und lieben. Die beiden heiraten und zunächst scheint es, als hätten sie ihr gemeinsames Glück gefunden. Doch dann kommt der \"Besuch\" in England.",
+    "image": "nora.png",
+    "relations": [
+      {
+        "slug": "hugh",
+        "name": "Hugh Pilaster",
+        "text": "Ehefrau von Hugh"
+      },
+      {
+        "slug": "clara",
+        "name": "Clara Pilaster",
+        "text": "Hughs Cousine"
+      },
+      {
+        "slug": "augusta",
+        "name": "Augusta Pilaster",
+        "text": "Hughs Tante"
+      }
+    ]
+  },
+  "maisie": {
+    "name": "Maisie Robinson",
+    "realname": "(Laura de Boer)",
+    "slug": "maisie",
+    "text": "Ehefrau von Solly",
+    "longText": "Maisie ist das Kind der Strassen, in denen sie aufgewachsen ist. Im Angesicht von Armut, Hunger und Schmutz hat sie sich zu einer jungen Frau entwickelt, die weiß wir man sich durchschlägt und dabei Mensch bleibt. Sie hat einen ausgeprägten Gerechtigkeitssinn und Humor. Sie wächst in sehr armen Verhältnissen auf. Als die Textilfabrik Thomas Pilaster in Konkurs geht, verliert Maisies Vater seinen Job und wandert alleine nach Amerika aus. Maisie bleibt mit ihren zwei Schwestern Rose und Nellie in England zurück. Beide sterben noch im Kindesalter, auch Maisies Tochter Rachel stirbt sehr jung. Das Schicksal sorgt dafür, dass sich die Wege von Maisie und Hugh kreuzen – und sich beide ineinander verlieben. Doch auch Solly Greenbourne, Hughs bester Freund, hat sich unsterblich in Maisie verliebt. Was folgt ist eine Liebesnacht zwischen Hugh und Maisie an deren Ende der Bruch der Freunde und die Flucht Hughs in die USA steht. Und eine schwangere Maisie, die sich doch noch für eine Hochzeit mit Solly entscheidet. All das weiß Hugh natürlich nicht... und als er es heraus findet wirft es erneut das Leben aller durcheinander.",
+    "image": "maisie.png",
+    "relations": [
+      {
+        "slug": "solly",
+        "name": "Solly Greenbourne",
+        "text": "Ehemann von Maisie"
+      },
+      {
+        "slug": "hugh",
+        "name": "Hugh Pilaster",
+        "text": "Maisies Jugendliebe"
+      },
+      {
+        "slug": "nora",
+        "name": "Nora Pilaster",
+        "text": "Ehefrau von Hugh"
+      },
+      {
+        "slug": "rachel",
+        "name": "Rachel Robinson",
+        "text": "Maisies Tochter"
+      },
+      {
+        "slug": "david",
+        "name": "David Greenbourne",
+        "text": "Maisies Sohn"
+      },
+      {
+        "slug": "april",
+        "name": "April Tinsely",
+        "text": "Maisies beste Freundin"
+      },
+      {
+        "slug": "robinson",
+        "name": "Mr. Robinson",
+        "text": "Maisies Vater"
+      }
+    ]
+  },
+  "robinson": {
+    "name": "Mr. Robinson",
+    "realname": "(Michael Kinsella)",
+    "slug": "robinson",
+    "text": "Vater von Maisie",
+    "longText": "Maisies Vater ist bei der Textilfabrik Thomas Pilaster und Co. angestellt. Als diese Konkurs meldet und er kein Gehalt mehr ausgezahlt bekommt, entscheidet er sich in die USA auszuwandern. Seine Töchter Maisie, Nellie und Rose lässt er alleine zurück.",
+    "image": "robinson.png",
+    "relations": [
+      {
+        "slug": "maisie",
+        "name": "Maisie Robinson",
+        "text": "Älteste Tochter"
+      },
+      {
+        "slug": "thomas",
+        "name": "Thomas Pilaster",
+        "text": "Gründer der Textilfabrik"
+      }
+    ]
+  },
+  "david": {
+    "name": "David Greenbourne",
+    "realname": "(Cormac Melia)",
+    "slug": "david",
+    "text": "Sohn von Maisie",
+    "longText": "David spielt gerne Cricket. Er ist der Sohn von Maisie.",
+    "image": "david.png",
+    "relations": [
+      {
+        "slug": "maisie",
+        "name": "Maisie Robinson",
+        "text": "Mutter von David"
+      },
+      {
+        "slug": "solly",
+        "name": "Solly Greenbourne",
+        "text": "Ehemann von Maisie"
+      },
+      {
+        "slug": "rachel",
+        "name": "Rachel Robinson",
+        "text": "Davids verstorbene Halbschwester"
+      }
+    ]
+  },
+  "rachel": {
+    "name": "Rachel Robinson",
+    "realname": "(Blathnaid Corcoran)",
+    "slug": "rachel",
+    "text": "Maisies Tochter",
+    "longText": "Rachel ist krank und weiß, dass sie nicht mehr lange leben wird und ihrer Mutter Maisie fehlt das Geld für Medikamente.",
+    "image": "rachel.png",
+    "relations": [
+      {
+        "slug": "maisie",
+        "name": "Maisie Robinson",
+        "text": "Rachels Mutter"
+      }
+    ]
+  },
+  "april": {
+    "name": "April Tinsely",
+    "realname": "(Stephanie Stumph)",
+    "slug": "april",
+    "text": "Maisies beste Freundin",
+    "longText": "April ist Maisies beste Freundin und stammt ebenfalls aus sehr armen Verhältnissen. Sie rät Maisie zur Heirat mit Solly Greenbourne, weil sie sich wünscht, dass wenigstens eine der Freundinnen ein besseres Leben führen kann.",
+    "image": "april.png",
+    "relations": [
+      {
+        "slug": "maisie",
+        "name": "Maisie Robinson",
+        "text": "Aprils beste Freundin"
+      },
+      {
+        "slug": "hugh",
+        "name": "Hugh Pilaster",
+        "text": "Freund von April"
+      }
+    ]
+  },
+  "solly": {
+    "name": "Solly Greenbourne",
+    "realname": "(Albrecht Abraham Schuch)",
+    "slug": "solly",
+    "text": "Erbe des Bankhauses Greenbourne",
+    "longText": "Solly ist gutmütig und romantisch. Wie sein Vorbild Oscar Wilde will auch er Schriftsteller werden – stattdessen arbeitet er jedoch im Bankhaus seines Vaters, der größten Bank Englands. Er verliebt sich in Maisie – genauso wie sein bester Freund Hugh. Aus Freunden werden Rivalen. Als Hugh nach Amerika geht, heiraten Solly und Maisie. Zusammen ziehen sie ihren Sohn David groß. Als Hugh später wieder auftaucht, brechen die alten Konflikte wieder auf.",
+    "image": "solly.png",
+    "relations": [
+      {
+        "slug": "maisie",
+        "name": "Maisie Robinson",
+        "text": "Sollys Ehefrau"
+      },
+      {
+        "slug": "david",
+        "name": "David Greenbourne",
+        "text": "Sohn von Maisie"
+      },
+      {
+        "slug": "hugh",
+        "name": "Hugh Pilaster",
+        "text": "Sollys bester Freund"
+      },
+      {
+        "slug": "nora",
+        "name": "Nora Pilaster",
+        "text": "Ehefrau von Hugh"
+      }
+    ]
+  }
 }
