@@ -37,7 +37,7 @@ module.exports = (grunt) ->
         #Watch
         watch:
             coffee:
-                files: ['coffee/**/*.coffee']
+                files: ['coffee/**/*.coffee', 'js/config.js']
                 tasks: ['coffee', 'concat', 'shell:kansopush']
 
             styles:
@@ -58,7 +58,11 @@ module.exports = (grunt) ->
                 command:
                   if "dev" in grunt.cli.tasks
                       "kanso push"
+                  else if "push:dev" in grunt.cli.tasks
+                      "kanso push live"
                   else if "live" in grunt.cli.tasks
+                      "kanso push live"
+                  else if "push:live" in grunt.cli.tasks
                       "kanso push live"
                   else
                       "kanso push"
@@ -82,6 +86,8 @@ module.exports = (grunt) ->
     #Register tasks
     grunt.registerTask 'dev', ['coffee', 'less', 'concat', 'shell:kansopush', 'watch']
     grunt.registerTask 'live', ['coffee', 'less', 'concat', 'shell:kansopush', 'watch']
+    grunt.registerTask 'push:dev', ['coffee', 'less', 'concat', 'shell:kansopush']
+    grunt.registerTask 'push:live', ['coffee', 'less', 'concat', 'shell:kansopush']
     
     
     

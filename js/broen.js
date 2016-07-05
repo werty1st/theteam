@@ -2,7 +2,7 @@ var DR = DR || {};
 DR.BroenGallery = {};
 
 DR.BroenGallery.config = {
-    jsonDataUrl: '/pfeiler/_design/b3/_list/getDatajsonPersonwithMedia/personwithmedia/',
+    jsonDataUrl: '/nightmanager/_design/b3/_list/getDatajsonPersonwithMedia/personwithmedia/',
 
     votingEnabled: false,
     voteEndpoint: 'Quickpoll/front/vote',
@@ -794,7 +794,7 @@ PersonInfoView = (function() {
   PersonInfoView.prototype.html = function(person) {
     var html, ude;
     ude = (person.ude ? "ude" : "");
-    html = "<div id=\"broen-gallery-person-info-inner\">\n    <div class=\"" + ude + "\" >" + (DR.BroenGallery.getFaceImg(person.image, 90)) + "</div>\n    <h2>" + person.name + " " + person.realname + "</h2>\n    <p id=\"broen-gallery-person-text\" data-maxlines=\"5\" data-readmore=\"true\" >" + person.longText + "</p>";
+    html = "<div id=\"broen-gallery-person-info-inner\">\n    <div class=\"" + ude + "\" >" + (DR.BroenGallery.getFaceImg(person.image, 90)) + "</div>\n    <h2>" + person.name + "</h2>\n    <p id=\"broen-gallery-person-text\" data-maxlines=\"5\" data-readmore=\"true\" >" + person.longText + "</p>";
     if (DR.BroenGallery.config.votingEnabled) {
       html += "<div class=\"vote\">Glauben Sie, dass " + person.name + " hinter den Anschlägen steckt?<br /><button class=\"vote-btn\">ja!</button></div>";
     }

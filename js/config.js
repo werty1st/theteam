@@ -2,7 +2,7 @@ var DR = DR || {};
 DR.BroenGallery = {};
 
 DR.BroenGallery.config = {
-    jsonDataUrl: '/pfeiler/_design/b3/_list/getDatajsonPersonwithMedia/personwithmedia/',
+    jsonDataUrl: '/nightmanager/_design/b3/_list/getDatajsonPersonwithMedia/personwithmedia/',
 
     votingEnabled: false,
     voteEndpoint: 'Quickpoll/front/vote',

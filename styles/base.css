@@ -11518,7 +11518,7 @@ body:before .visually-hidden {
   color: white;
 }
 .container-green-light {
-  background-color: #843c3c;
+  background-color: #202020;
   /*background-color: rgba(54, 62, 42, 0.8);*/
   color: #ffffff;
 }
@@ -11591,7 +11591,7 @@ body {
 @media only screen and (min-width: 721px) {
   body {
     /*background-image: url("../img/bg-body-large-ny.jpg");*/
-    background-color: #843c3c;
+    background-color: #202020;
   }
 }
 .site-id a:link,
