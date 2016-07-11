@@ -1,418 +1,419 @@
 {
-    "pine": {
+    "apine": {
         "name": "Jonathan Pine",
-        "slug": "pine",
+        "slug": "apine",
         "text": "Nachtmanager",
-        "longText": "Jonathan Pine ist ein ehemaliger Soldat der britischen Armee. Nach seiner Dienstzeit, in der er unter anderem im Irak im Einsatz war, sucht sich der Hobbykoch einen ruhigeren Job als Nachtmanager des Luxushotels Nefertiti in Kairo. Dort trifft er eines Abends auf Sophie Alekan, der Geliebten des ägyptischen Geschäftsmanns Freddie Hamid. Pine verliebt sich in Sophie, die ihm vertrauliche Dokumente eines Waffendeals zwischen Freddie Hamid und einem britischen Geschäftsmann namens Richard Roper übergibt. Von der Brisanz dieser Dokumente alarmiert, informiert Pine die britische Botschaft in Kairo. Doch irgendwo im Außenministerium sitzt ein Verräter und bringt damit Sophie in höchste Lebensgefahr.",
+        "longText": "Jonathan Pine ist ein ehemaliger Soldat der britischen Armee. Nach seiner Dienstzeit, in der er unter anderem im Irak im Einsatz war, sucht sich der Hobbykoch einen ruhigeren Job als Nachtmanager des Luxushotels Nefertiti in Kairo. Dort trifft er eines Abends auf Sophie Alekan, der Geliebten des ägyptischen Geschäftsmanns Freddie Hamid. Pine verliebt sich in Sophie, die ihm vertrauliche Dokumente eines Waffendeals zwischen Freddie Hamid und einem britischen Geschäftsmann namens Richard Roper übergibt. Von der Brisanz dieser Dokumente alarmiert, informiert Pine die britische Botschaft in Kairo. Doch irgendwo in der britischen Regierung sitzt ein Verräter und bringt damit Sophie in höchste Lebensgefahr.",
         "image": "pine.jpg",
         "relations": [
             {
-                "slug": "roper",
+                "slug": "broper",
                 "name": "Richard Onslow Roper",
                 "text": "Waffenhändler"
             },
             {
-                "slug": "burr",
+                "slug": "cburr",
                 "name": "Angela Burr",
                 "text": "Leiterin der IEA"
             },
             {
-                "slug": "jed",
+                "slug": "djed",
                 "name": "Jed Marshall",
                 "text": "Ropers Geliebte"
             },
             {
-                "slug": "sophie",
+                "slug": "fsophie",
                 "name": "Sophie Alekan",
                 "text": "Freddie Hamids Geliebte"
             },
             {
-                "slug": "simon",
+                "slug": "osimon",
                 "name": "Simon Ogilvey",
                 "text": "Pines Freund bei der Botschaft in Kairo"
             }
         ]
     },
-    "roper": {
+    "broper": {
         "name": "Richard Onslow Roper",
-        "slug": "roper",
+        "slug": "broper",
         "text": "Waffenhändler",
         "longText": "Richard \"Dickie\" Onslow Roper ist vorgeblich ein reicher Geschäftsmann, der einen Teil seines Vermögens für humanitäre Zwecke einsetzt. Sein Image als selbstloser Philantrop dient ihm jedoch lediglich als ausgesprochen zynische Fassade für seine illegalen Waffengeschäfte, die er mit verschiedenen Tarn- und Briefkastenfirmen von Mallorca aus steuert. Zur Verschleierung seiner Deals benutzt er zudem gefälschte Ausfuhrgenehmigungen, die er sich von einem geschmierten Mitarbeiter des britischen Außenministeriums anfertigen lässt. Auf seiner Residenz, eine modern und exklusiv gestaltete historische Festung, genießt Roper das Leben mit seiner jungen Geliebten Jed und seinem Sohn Daniel, während seine Entourage - allen voran Leibwächter Frisky und sein Handlanger und Strohmann Lance \"Corky\" Corkoran - ihm den Rücken frei hält.",
         "image": "roper.jpg",
         "relations": [
             {
-                "slug": "jed",
+                "slug": "djed",
                 "name": "Jed Marshall",
                 "text": "Ropers Geliebte"
             },
             {
-                "slug": "corky",
+                "slug": "ecorky",
                 "name": "Major Lance Corkoran",
                 "text": "Ropers Handlanger"
             },
             {
-                "slug": "sandy",
+                "slug": "gsandy",
                 "name": "Lord Sandy Langbourne",
                 "text": "Ropers Finanzmanager"
             },
             {
-                "slug": "apostol",
+                "slug": "kapostol",
                 "name": "Juan Apostol",
                 "text": "Ropers Anwalt in Madrid"
             },
             {
-                "slug": "caroline",
+                "slug": "hcaroline",
                 "name": "Lady Caroline Langbourne",
                 "text": "Sandys Ehefrau"
             },
             {
-                "slug": "pine",
+                "slug": "apine",
                 "name": "Jonathan Pine",
                 "text": "Undercover-Agent"
             }
         ]
     },
-    "burr": {
+    "cburr": {
         "name": "Angela Burr",
-        "slug": "burr",
+        "slug": "cburr",
         "text": "Leiterin der IEA",
         "longText": "Angela Burr ist die Leiterin der International Enforcement Agency (IEA), einer kleinen, unterbezahlten Ermittlungsbehörde der britischen Regierung, die sich mit internationalem Waffenhandel befasst. Seit zehn Jahren schon ist Burr, die gerade ihr erstes Kind erwartet, hinter Roper her, als ihr die brisanten Dokumente von Jonathan Pine in die Hände fallen. Gegen die Widerstände ihrer Vorgesetzten und unter deren Radar nimmt Burr Ropers Fährte auf und versucht, Pine in dessen Organisation einzuschleusen - wohl wissend, dass ein Verräter in den eigenen Reihen alles daran setzt, Pine zu enttarnen.",
         "image": "burr.jpg",
         "relations": [
             {
-                "slug": "joel",
+                "slug": "jjoel",
                 "name": "Joel Steadman",
                 "text": "US-Kollege aus Langley"
             },
             {
-                "slug": "pine",
+                "slug": "apine",
                 "name": "Jonathan Pine",
                 "text": "Nachtportier, später Agent"
             },
             {
-                "slug": "rex",
+                "slug": "lrex",
                 "name": "Rex Mayhew",
                 "text": "Burrs Vorgesetzter"
             },
             {
-                "slug": "dromgoole",
+                "slug": "idromgoole",
                 "name": "Geoffrey Dromgoole",
                 "text": "Beamter beim MI6"
             },
             {
-                "slug": "singhal",
+                "slug": "msinghal",
                 "name": "Rob Singhal",
                 "text": "Burrs Stellvertreter"
             },
             {
-                "slug": "simon",
+                "slug": "osimon",
                 "name": "Simon Ogilvey",
                 "text": "Britische Botschaft in Kairo"
             },            
             {
-                "slug": "harry",
+                "slug": "nharry",
                 "name": "Harry Palfrey",
                 "text": "Burrs Freund und Vertrauter beim MI6"
             }
         ]
     },
-    "jed": {
+    "djed": {
         "name": "Jed Marshall",
-        "slug": "jed",
+        "slug": "djed",
         "text": "Ropers Geliebte",
         "longText": "Jed Marshall ist Anfang 20, als Roper sie in New York kennen lernt und zu sich nach Mallorca mitnimmt. Jed stammt aus armen Verhältnissen und sieht Roper als Möglichkeit zur Flucht vor ihrem eigenen Leben. Ihr Kind aus einer früheren Beziehung lässt sie bei ihrer Schwester zurück.",
         "image": "jed.jpg",
         "relations": [
             {
-                "slug": "roper",
+                "slug": "broper",
                 "name": "Richard Roper",
                 "text": "Jeds Freund"
             },
             {
-                "slug": "corky",
+                "slug": "ecorky",
                 "name": "Major Lance Corkoran",
                 "text": "Ropers Handlanger"
             },
             {
-                "slug": "caroline",
+                "slug": "hcaroline",
                 "name": "Lady Caroline Langbourne",
                 "text": "Sandys Ehefrau"
             },
             {
-                "slug": "pine",
+                "slug": "apine",
                 "name": "Jonathan Pine",
                 "text": "Undercover-Agent"
             }
         ]
     },
-    "corky": {
+    "ecorky": {
         "name": "Major Lance \"Corky\" Corkoran",
-        "slug": "corky",
+        "slug": "ecorky",
         "text": "Ropers rechte Hand",
         "longText": "Major Lance Corkoran, gennant Corky, ist Richard Ropers rechte Hand und engster Vertrauter. Er kümmert sich um alle Reisevorbereitungen und ist Ropers Strohmann für dessen Waffendeals. Zudem ist er Jeds Vertrauter. Als Pine auf der Bildfläche erscheint, ist Corky sofort misstrauisch gegenüber dem Neuankömmling.",
         "image": "corky.jpg",
         "relations": [
             {
-                "slug": "roper",
+                "slug": "broper",
                 "name": "Richard Roper",
                 "text": "Waffenhändler"
             },
             {
-                "slug": "jed",
+                "slug": "djed",
                 "name": "Jed Marshall",
                 "text": "Ropers Freundin"
             },
             {
-                "slug": "sandy",
+                "slug": "gsandy",
                 "name": "Lord Sandy Langbourne",
                 "text": "Ropers Finanzmanager"
             },
             {
-                "slug": "pine",
+                "slug": "apine",
                 "name": "Jonathan Pine",
                 "text": "Undercover-Agent"
             }
         ]
     },
-    "sophie": {
+    "fsophie": {
         "name": "Sophie Alekan",
-        "slug": "sophie",
+        "slug": "fsophie",
         "text": "Freddie Hamids Geliebte",
-        "longText": "Die schöne Sophie hat in ihrem Leben sicher die eine oder andere falsche Entscheidung getroffen. Die schlimmste jedoch war es, sich mit Freddie Hamid einzulassen, Sprössling eines einflussreichen ägyptischen Familienclans. Sie lebt in einem goldenen Käfig, ist aber Freddies unberechenbaren Wutausbrüchen ausgesetzt.",
+        "longText": "Sophie hat in ihrem Leben die eine oder andere falsche Entscheidung getroffen. Die schlimmste jedoch war es, sich mit Freddie Hamid einzulassen, Sprössling eines einflussreichen ägyptischen Familienclans. Sie lebt in einem goldenen Käfigund ist Freddies unberechenbaren Wutausbrüchen ausgesetzt.",
         "image": "sophie.jpg",
         "relations": [
             {
-                "slug": "roper",
+                "slug": "broper",
                 "name": "Richard Roper",
                 "text": "Waffenhändler"
             },
             {
-                "slug": "pine",
+                "slug": "apine",
                 "name": "Jonathan Pine",
                 "text": "Nachtmanager in Kairo"
             },
             {
-                "slug": "hamid",
+                "slug": "phamid",
                 "name": "Freddie Hamid",
                 "text": "Sophies Geliebter"
             }
         ]
     },
-    "sandy": {
+    "gsandy": {
         "name": "Lord Sandy Langbourne",
-        "slug": "sandy",
+        "slug": "gsandy",
         "text": "Ropers Finanzmanager",
-        "longText": "Lord Sandy Langbourne ist Richard Ropers Finanzchef. Er hält den Kontakt zu Käufern und Verkäufern von Waffen. Sein illegales Engagement ermöglicht es ihm, seinen luxuriösen Lebensstil aufrechtzuerhalten. Dass er verheiratet ist, hält ihn nicht davon ab, ein Verhältnis mit dem Kindermädchen einzugehen.",
+        "longText": "Lord Sandy Langbourne ist Richard Ropers Finanzchef. Er hält den Kontakt zu Käufern und Verkäufern von Waffen. Sein illegales Engagement ermöglicht es ihm, seinen luxuriösen Lebensstil aufrechtzuerhalten. Er ist verheiratet mit Lady Caroline Langbourne und hat mit ihr zwei Kinder.",
         "image": "sandy.jpg",
         "relations": [
             {
-                "slug": "roper",
+                "slug": "broper",
                 "name": "Richard Roper",
                 "text": "Waffenhändler"
             },
             {
-                "slug": "corky",
+                "slug": "ecorky",
                 "name": "Major Lance Corkoran",
                 "text": "Ropers rechte Hand"
             },
             {
-                "slug": "jed",
+                "slug": "djed",
                 "name": "Jed Marshall",
                 "text": "Ropers Geliebte"
             },
             {
-                "slug": "apostol",
+                "slug": "kapostol",
                 "name": "Juan Apostol",
                 "text": "Ropers Anwalt"
             },
             {
-                "slug": "caroline",
+                "slug": "hcaroline",
                 "name": "Lady Caroline Langbourne",
                 "text": "Sandys Ehefrau"
             },
             {
-                "slug": "pine",
+                "slug": "apine",
                 "name": "Jonathan Pine",
                 "text": "Undercover-Agent"
             }
         ]
     },
-    "caroline": {
+    "hcaroline": {
         "name": "Lady Caroline Langbourne",
-        "slug": "caroline",
+        "slug": "hcaroline",
         "text": "Ehefrau von Lord Sandy",
-        "longText": "Lady Caroline Langbourne war in früheren Zeiten begnadete Skifahrerin, bis ihre Kniegelenke nicht mehr mitspielten. Als Ehefrau von Lord Sandy Langbourne erfährt sie für ihren Geschmack etwas zu viel über die Herkunft ihres Geldes und über die sexuellen Ausschweifungen ihres Mannes, mit dem sie zwei Kinder hat.",
-        "image": "caroline.jpg",
+        "longText": "Lady Caroline Langbourne war in früheren Zeiten begnadete Skifahrerin, bis ihre Kniegelenke nicht mehr mitspielten. Als Ehefrau von Lord Sandy Langbourne erfährt sie für ihren Geschmack etwas zu viel über die Arbeit und über die sexuellen Ausschweifungen ihres Mannes, mit dem sie zwei Kinder hat.",
+        "image": "simon.jpg",
         "relations": [
             {
-                "slug": "sandy",
+                "slug": "gsandy",
                 "name": "Lord Sandy Langbourne",
                 "text": "Carolines Ehemann"
             },
             {
-                "slug": "roper",
+                "slug": "broper",
                 "name": "Richard Roper",
                 "text": "Sandys Boss"
             },
             {
-                "slug": "jed",
+                "slug": "djed",
                 "name": "Jed",
                 "text": "Carolines Freundin"
             }
         ] 
    },
-    "simon": {
+    "osimon": {
         "name": "Simon Ogilvey",
-        "slug": "simon",
+        "slug": "osimon",
         "text": "Britische Botschaft Kairo",
         "longText": "Simon Ogilvey hatte seine diplomatische Karriere als Laufbursche von Angela Burr in Moskau begonnen. Er ist ein aufrechter, netter Brite, der in Kairo schnell Freundschaft mit Jonathan Pine, dem Nachtmanager eines Luxushotels, geschlossen hat.",
         "image": "simon.jpg",
         "relations": [
             {
-                "slug": "burr",
+                "slug": "cburr",
                 "name": "Angela Burr",
                 "text": "Leiterin der IEA"
             },
             {
-                "slug": "pine",
+                "slug": "apine",
                 "name": "Jonathan Pine",
                 "text": "Nachtmanager in Kairo"
             }
         ]
     },
-    "apostol": {
+    "kapostol": {
         "name": "Juan \"Apo\" Apostol",
-        "slug": "apostol",
+        "slug": "kapostol",
         "text": "Anwalt in Madrid",
-        "longText": "Juan \"Apo\" Apostol arbeitet als Anwalt in Madrid. Irgendwann erlag er den Verführungen des Gelades, das ihm Leute wie Richard Roper für seine Dienste gaben. So konnte er sich und seiner Tochter einen ausschweifenden Lebensstil ermöglichen. Doch das Gewissen nagt an ihm.",
+        "longText": "Juan \"Apo\" Apostol arbeitet als Anwalt in Madrid. Irgendwann erlag er den Verführungen des Geldes, das ihm Leute wie Richard Roper für seine Dienste gaben. So konnte er sich und seiner Tochter einen ausschweifenden Lebensstil ermöglichen.",
         "image": "apostol.jpg",
         "relations": [
             {
-                "slug": "roper",
+                "slug": "broper",
                 "name": "Richard Roper",
                 "text": "Waffenhändler"
             },
             {
-                "slug": "burr",
+                "slug": "cburr",
                 "name": "Angela Burr",
                 "text": "Leiterin der IEA"
             },
             {
-                "slug": "sandy",
+                "slug": "gsandy",
                 "name": "Lord Sandy Langbourne",
                 "text": "Ropers Finanzmanager"
             }
         ]
     },
-    "joel": {
+    "jjoel": {
         "name": "Joel Steadman",
-        "slug": "joel",
+        "slug": "jjoel",
         "text": "US-Ermittler der ATF",
         "longText": "Joel Steadman sagt von sich, er sei ein Vollstrecker. Er will Waffenhändler hinter Schloss und Riegel bringen, und sie nicht unter Beobachtung weiter machen lassen. Seit Jahren schon ist er hinter Richard Roper her und er pflegt nicht nur deswegen eine besondere Beziehung zu Angela Burr.",
         "image": "joel.jpg",
         "relations": [
             {
-                "slug": "burr",
+                "slug": "cburr",
                 "name": "Angela Burr",
                 "text": "Leiterin der IEA"
             }
         ]
     },
-    "rex": {
+    "lrex": {
         "name": "Rex Mayhew",
-        "slug": "rex",
+        "slug": "lrex",
         "text": "Angela Burrs Vorgesetzter",
-        "longText": "Rex Mayhew schätzt die Leiterin der IEA sehr und hält ihr gegenüber dem MI6 und dem Außenministerium den Rücken frei. Mayhew hat einen ausgeprägten Sinn für Gerechtigkeit. Versucht jemand ihn zu bestechen oder bedroht ihn gar, gilt für ihn \"Jetzt erst recht!\"",
+        "longText": "Rex Mayhew schätzt die Leiterin der IEA, Angela Burr, sehr und hält ihr gegenüber dem MI6 und dem Außenministerium den Rücken frei. Mayhew hat einen ausgeprägten Sinn für Gerechtigkeit. Versucht jemand ihn zu bestechen oder bedroht ihn gar, gilt für ihn das Motto \"Jetzt erst recht!\"",
         "image": "rex.jpg",
         "relations": [
             {
-                "slug": "burr",
+                "slug": "cburr",
                 "name": "Angela Burr",
                 "text": "Leiterin der IEA"
             },
             {
-                "slug": "dromgoole",
+                "slug": "idromgoole",
                 "name": "Geoffrey Dromgoole",
                 "text": "Beamter des MI6"
             }
         ]
     },
-    "dromgoole": {
+    "idromgoole": {
         "name": "Geoffrey Dromgoole",
-        "slug": "dromgoole",
+        "slug": "idromgoole",
         "text": "Beamter des MI6",
-        "longText": "Geoffrey Dromgoole ist durch und durch ein Karrierist. Es ärgert den Beamten des Auslandsgeheimdienstes MI6 sehr, dass ausgerechnet Angela Burr die Leitung des prestigeträchtigen Falls Richard Roper inne hat. Er versucht deshalb alles, um ihr den Fall zu entziehen.",
+        "longText": "Geoffrey Dromgoole ist durch und durch ein Karrierist. Dem Beamten des Auslandsgeheimdienstes MI6 sind die ehrgeizigen Ermittlungen Angela Burrs ein großer Dorn im Augw. Er versucht deshalb alles, um ihr den Fall zu entziehen.",
         "image": "dromgoole.jpg",
         "relations": [
             {
-                "slug": "burr",
+                "slug": "cburr",
                 "name": "Angela Burr",
                 "text": "Leiterin der IEA"
             },
             {
-                "slug": "rex",
+                "slug": "lrex",
                 "name": "Rex Mayhew",
                 "text": "Burrs Vorgesetzter"
             },
             {
-                "slug": "harry",
+                "slug": "nharry",
                 "name": "Harry Palfrey",
                 "text": "Mitarbeiter im MI6"
-            }
+            } 
+
         ]
     },
-    "singhal": {
+    "msinghal": {
         "name": "Rob Singhal",
-        "slug": "singhal",
+        "slug": "msinghal",
         "text": "Burrs engster Mitarbeiter",
         "longText": "Rob Singhal ist Burrs Stellvertreter in der kleinen Behörde IEA. Er ist analytisch sehr begabt und ausgesprochen loyal seiner Chefin gegenüber.",
         "image": "singhal.jpg",
         "relations": [
             {
-                "slug": "burr",
+                "slug": "cburr",
                 "name": "Angela Burr",
                 "text": "Robs Vorgesetzte"
             }
         ]
     },
-    "harry": {
+    "nharry": {
         "name": "Harry Palfrey",
-        "slug": "harry",
+        "slug": "nharry",
         "text": "Mitarbeiter im MI6",
-        "longText": "Harry Palfrey ist eigentlich Jurist, wurde jedoch für besondere Aufgaben in Geoffrey Dromgooles Abteilung abgestellt. Aus gemeinsamen Zeiten im Waterhouse verbindet Harry eine Freundschaft und Verbundenheit mit Angela Burr.",
+        "longText": "Harry Palfrey ist eigentlich Jurist, wurde jedoch für besondere Aufgaben in Geoffrey Dromgooles Abteilung abgestellt. Aus gemeinsamen Zeiten im Waterhouse, dem Hauptquartier des MI6 an der Themse, verbindet Harry eine Freundschaft und Verbundenheit mit Angela Burr.",
         "image": "harry.jpg",
         "relations": [
             {
-                "slug": "burr",
+                "slug": "cburr",
                 "name": "Angela Burr",
                 "text": "Ex-Kollegin"
             },
             {
-                "slug": "dromgoole",
+                "slug": "idromgoole",
                 "name": "Geoffrey Dromgoole",
                 "text": "Beamter im MI6"
             }
         ]
     },
-    "hamid": {
+    "phamid": {
         "name": "Freddie Hamid",
-        "slug": "hamid",
+        "slug": "phamid",
         "text": "Ägyptischer Geschäftsmann",
-        "longText": "Freddie Hamid ist Sprössling eines mächtigen ägyptischen Familienclans. Man sagt, der Familie Hamid gehöre halb Kairo. Obwohl er sein Vermögen nicht selbst verdient hat, führt sich Freddie auf wie ein Playboy. Zudem neigt er zu brutalen Wutausbrüchen.",
+        "longText": "Freddie Hamid ist Sprössling eines mächtigen ägyptischen Familienclans. Man sagt, der Familie Hamid gehöre halb Kairo. Freddei führt das Leben eines reichen Playboys und neigt zu brutalen Wutausbrüchen.",
         "image": "hamid.jpg",
         "relations": [
             {
-                "slug": "roper",
+                "slug": "broper",
                 "name": "Richard Roper",
                 "text": "Waffenhändler"
             },
             {
-                "slug": "sophie",
+                "slug": "fsophie",
                 "name": "Sophie Alekan",
                 "text": "Freddies Geliebte"
             },
             {
-                "slug": "pine",
+                "slug": "apine",
                 "name": "Jonathan Pine",
                 "text": "Nachtmanager in Kairo"
             }
